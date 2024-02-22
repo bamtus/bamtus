@@ -237,6 +237,7 @@ class Vc_Font_Container {
 		);
 
 		return apply_filters( 'vc_font_container_get_allowed_tags', $allowed_tags );
+
 	}
 
 	/**

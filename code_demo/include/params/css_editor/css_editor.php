@@ -3,11 +3,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 	die( '-1' );
 }
 
-if ( ! class_exists( 'WPBakeryCssEditor' ) ) {
+if ( ! class_exists( 'WPBakeryVisualComposerCssEditor' ) ) {
 	/**
-	 * Class WPBakeryCssEditor
+	 * Class WPBakeryVisualComposerCssEditor
 	 */
-	class WPBakeryCssEditor {
+	class WPBakeryVisualComposerCssEditor {
 		/**
 		 * @var array
 		 */
@@ -210,7 +210,7 @@ if ( ! class_exists( 'WPBakeryCssEditor' ) ) {
  * @return mixed
  */
 function vc_css_editor_form_field( $settings, $value ) {
-	$css_editor = new WPBakeryCssEditor();
+	$css_editor = new WPBakeryVisualComposerCssEditor();
 	$css_editor->settings( $settings );
 	$css_editor->value( $value );
 

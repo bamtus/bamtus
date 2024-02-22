@@ -4,7 +4,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /**
- * WPBakery Page Builder shortcodes
+ * WPBakery WPBakery Page Builder shortcodes
  *
  * @package WPBakeryPageBuilder
  *

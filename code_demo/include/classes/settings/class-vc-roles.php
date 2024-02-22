@@ -24,23 +24,14 @@ class Vc_Roles {
 		'grid_builder',
 		'presets',
 		'dragndrop',
-		'dragndrop',
-		'code_ai',
-		'text_ai',
 	);
-
-	protected static $parts_cache = null;
 
 	/**
 	 * Get list of parts
 	 * @return mixed
 	 */
 	public function getParts() {
-		if ( is_null( self::$parts_cache ) ) {
-			self::$parts_cache = apply_filters( 'vc_roles_parts_list', $this->parts );
-		}
-
-		return self::$parts_cache;
+		return apply_filters( 'vc_roles_parts_list', $this->parts );
 	}
 
 	/**

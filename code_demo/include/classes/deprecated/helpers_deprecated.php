@@ -52,7 +52,7 @@ function vc_generate_dependencies_attributes() {
  *
  * @deprecated since 5.8
  */
-function vcExtractDimensions( $dimensions ) { // phpcs:ignore
+function vcExtractDimensions( $dimensions ) {
 	_deprecated_function( 'vcExtractDimensions', '5.8', 'vc_extract_dimensions' );
 
 	return vc_extract_dimensions( $dimensions );
@@ -64,7 +64,7 @@ function vcExtractDimensions( $dimensions ) { // phpcs:ignore
  * @since 4.2
  * @deprecated since 2019, 5.8
  */
-function fieldAttachedImages( $images = array() ) { // phpcs:ignore
+function fieldAttachedImages( $images = array() ) {
 	_deprecated_function( 'fieldAttachedImages', '5.8', 'vc_field_attached_images' );
 
 	return vc_field_attached_images( $images );
@@ -76,7 +76,7 @@ function fieldAttachedImages( $images = array() ) { // phpcs:ignore
  * @return array|string
  * @deprecated
  */
-function getVcShared( $asset = '' ) { // phpcs:ignore
+function getVcShared( $asset = '' ) {
 
 	return vc_get_shared( $asset );
 }

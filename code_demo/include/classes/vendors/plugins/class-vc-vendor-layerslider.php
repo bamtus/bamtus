@@ -59,7 +59,6 @@ class Vc_Vendor_Layerslider {
 	 *
 	 */
 	public function setId( $output ) {
-        // phpcs:ignore
 		return preg_replace( '/(layerslider_\d+)/', '$1_' . $_SERVER['REQUEST_TIME'], $output );
 	}
 
@@ -72,7 +71,6 @@ class Vc_Vendor_Layerslider {
 	 * @since 4.3
 	 */
 	public function setMarkupId( $markup, $slider, $id ) {
-        // phpcs:ignore
 		return str_replace( $id, $id . '_' . $_SERVER['REQUEST_TIME'], $markup );
 	}
 
@@ -109,7 +107,7 @@ class Vc_Vendor_Layerslider {
 				$ls = $wpdb->get_results( '
   SELECT id, name, date_c
   FROM ' . $wpdb->prefix . "layerslider
-  WHERE flag_hidden = '0' AND flag_deleted = '0' AND flag_group = '0'
+  WHERE flag_hidden = '0' AND flag_deleted = '0'
   ORDER BY date_c ASC LIMIT 999
   " );
 				wp_cache_add( 'vc_vendor_layerslider_list', $ls );

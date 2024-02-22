@@ -8,24 +8,18 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 class WPBakeryShortCode_Vc_Tta_Accordion extends WPBakeryShortCodesContainer {
 	protected $controls_css_settings = 'out-tc vc_controls-content-widget';
-
 	protected $controls_list = array(
 		'add',
 		'edit',
 		'clone',
-		'copy',
-		'paste',
 		'delete',
 	);
-
 	protected $template_vars = array();
 
 	public $layout = 'accordion';
-
 	protected $content;
 
 	public $activeClass = 'vc_active';
-
 	/**
 	 * @var WPBakeryShortCode_Vc_Tta_Section
 	 */
@@ -63,7 +57,7 @@ class WPBakeryShortCode_Vc_Tta_Accordion extends WPBakeryShortCodesContainer {
 	 * @throws \Exception
 	 */
 	public function setGlobalTtaInfo() {
-		$sectionClass = wpbakery()->getShortCode( 'vc_tta_section' )->shortcodeClass();
+		$sectionClass = visual_composer()->getShortCode( 'vc_tta_section' )->shortcodeClass();
 		$this->sectionClass = $sectionClass;
 
 		/** @var WPBakeryShortCode_Vc_Tta_Section $sectionClass */
@@ -237,12 +231,7 @@ class WPBakeryShortCode_Vc_Tta_Accordion extends WPBakeryShortCodesContainer {
 	 */
 	public function getParamTitle( $atts, $content ) {
 		if ( isset( $atts['title'] ) && strlen( $atts['title'] ) > 0 ) {
-			$tag = 'h2';
-			if ( isset( $atts['title_tag'] ) ) {
-				$tag = $atts['title_tag'];
-			}
-
-			return '<' . $tag . '>' . esc_html( $atts['title'] ) . '</' . $tag . '>';
+			return '<h2>' . $atts['title'] . '</h2>';
 		}
 
 		return null;

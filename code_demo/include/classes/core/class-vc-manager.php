@@ -8,7 +8,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * Manager controls and access to all modules and classes of VC.
  *
- * @package WPBakery
+ * @package WPBakeryVisualComposer
  * @since   4.2
  */
 class Vc_Manager {
@@ -179,7 +179,7 @@ class Vc_Manager {
 	}
 
 	/**
-	 * Get the instance of VC_Manager
+	 * Get the instane of VC_Manager
 	 *
 	 * @return self
 	 */
@@ -189,6 +189,18 @@ class Vc_Manager {
 		}
 
 		return self::$instance;
+	}
+
+	/**
+	 * prevent the instance from being cloned (which would create a second instance of it)
+	 */
+	private function __clone() {
+	}
+
+	/**
+	 * prevent from being unserialized (which would create a second instance of it)
+	 */
+	private function __wakeup() {
 	}
 
 	/**
@@ -368,7 +380,7 @@ class Vc_Manager {
 		 * 3. admin_frontend_editor_ajax - set by request param
 		 * 4. admin_backend_editor_ajax - set by request param
 		 * 5. admin_updater - by vc_action
-		 * 6. page_editable - by vc_action or transient with vc_action param
+		 * 6. page_editable - by vc_action
 		 */
 		if ( is_admin() ) {
 			if ( 'vc_inline' === vc_action() ) {
@@ -387,17 +399,10 @@ class Vc_Manager {
 			}
 		} else {
 			if ( 'true' === vc_get_param( 'vc_editable' ) ) {
-				vc_user_access()->checkAdminNonce()->validateDie()->wpAny(array(
+				vc_user_access()->checkAdminNonce()->validateDie()->wpAny( array(
 					'edit_post',
 					(int) vc_request_param( 'vc_post_id' ),
-				))->validateDie()->part( 'frontend_editor' )->can()->validateDie();
-				$this->mode = 'page_editable';
-			} elseif (
-				get_transient( 'vc_action' ) === 'vc_editable'
-				&& isset( $_SERVER['HTTP_SEC_FETCH_DEST'] )
-				&& 'iframe' === $_SERVER['HTTP_SEC_FETCH_DEST'] ) {
-
-				delete_transient( 'vc_action' );
+				) )->validateDie()->part( 'frontend_editor' )->can()->validateDie();
 				$this->mode = 'page_editable';
 			} else {
 				$this->mode = 'page';

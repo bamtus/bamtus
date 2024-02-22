@@ -106,8 +106,8 @@ class Vc_Grid_Item_Preview {
 	}
 
 	public function enqueue() {
-		wpbakery()->frontCss();
-		wpbakery()->frontJsRegister();
+		visual_composer()->frontCss();
+		visual_composer()->frontJsRegister();
 		wp_enqueue_script( 'prettyphoto' );
 		wp_enqueue_style( 'prettyphoto' );
 		wp_enqueue_style( 'js_composer_front' );

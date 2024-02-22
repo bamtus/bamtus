@@ -38,13 +38,13 @@ $el_start = '';
 $el_end = '';
 $slides_wrap_start = '';
 $slides_wrap_end = '';
-$pretty_rand = 'link_image' === $onclick ? ' data-lightbox="lightbox[rel-' . get_the_ID() . '-' . wp_rand() . ']"' : '';
+$pretty_rand = 'link_image' === $onclick ? ' data-rel="prettyPhoto[rel-' . get_the_ID() . '-' . wp_rand() . ']"' : '';
 
 wp_enqueue_script( 'vc_carousel_js' );
 wp_enqueue_style( 'vc_carousel_css' );
 if ( 'link_image' === $onclick ) {
-	wp_enqueue_script( 'lightbox2' );
-	wp_enqueue_style( 'lightbox2' );
+	wp_enqueue_script( 'prettyphoto' );
+	wp_enqueue_style( 'prettyphoto' );
 }
 
 if ( '' === $images ) {
@@ -95,12 +95,7 @@ foreach ( $images as $attach_id ) {
 		) );
 	} else {
 		$post_thumbnail = array();
-		$attributes = array(
-			'src' => esc_url( vc_asset_url( 'vc/no_image.png' ) ),
-			'alt' => __( 'No image', 'js_composer' ),
-		);
-		$attributes = vc_add_lazy_loading_attribute( $attributes );
-		$post_thumbnail['thumbnail'] = '<img ' . vc_stringify_attributes( $attributes ) . ' />';
+		$post_thumbnail['thumbnail'] = '<img src="' . esc_url( vc_asset_url( 'vc/no_image.png' ) ) . '" />';
 		$post_thumbnail['p_img_large'][0] = vc_asset_url( 'vc/no_image.png' );
 	}
 	$thumbnail = $post_thumbnail['thumbnail'];
@@ -108,7 +103,7 @@ foreach ( $images as $attach_id ) {
 	$output .= '<div class="vc_item"><div class="vc_inner">';
 	if ( 'link_image' === $onclick ) {
 		$p_img_large = $post_thumbnail['p_img_large'];
-		$output .= '<a class="" href="' . esc_url( $p_img_large[0] ) . '"';
+		$output .= '<a class="prettyphoto" href="' . esc_url( $p_img_large[0] ) . '"';
 		$output .= $pretty_rand;
 		$output .= '>';
 		$output .= $thumbnail;

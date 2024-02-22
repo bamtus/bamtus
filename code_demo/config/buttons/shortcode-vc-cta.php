@@ -24,6 +24,20 @@ if ( is_array( $h2_custom_heading ) && ! empty( $h2_custom_heading ) ) {
 	foreach ( $h2_custom_heading as $key => $param ) {
 		if ( is_array( $param ) && isset( $param['type'] ) && 'font_container' === $param['type'] ) {
 			$h2_custom_heading[ $key ]['value'] = '';
+			if ( isset( $param['settings'] ) && is_array( $param['settings'] ) && isset( $param['settings']['fields'] ) ) {
+				$sub_key = array_search( 'tag', $param['settings']['fields'], true );
+				if ( false !== $sub_key ) {
+					unset( $h2_custom_heading[ $key ]['settings']['fields'][ $sub_key ] );
+				} elseif ( isset( $param['settings']['fields']['tag'] ) ) {
+					unset( $h2_custom_heading[ $key ]['settings']['fields']['tag'] );
+				}
+				$sub_key = array_search( 'text_align', $param['settings']['fields'], true );
+				if ( false !== $sub_key ) {
+					unset( $h2_custom_heading[ $key ]['settings']['fields'][ $sub_key ] );
+				} elseif ( isset( $param['settings']['fields']['text_align'] ) ) {
+					unset( $h2_custom_heading[ $key ]['settings']['fields']['text_align'] );
+				}
+			}
 		}
 	}
 }
@@ -42,7 +56,21 @@ $h4_custom_heading = vc_map_integrate_shortcode( vc_custom_heading_element_param
 if ( is_array( $h4_custom_heading ) && ! empty( $h4_custom_heading ) ) {
 	foreach ( $h4_custom_heading as $key => $param ) {
 		if ( is_array( $param ) && isset( $param['type'] ) && 'font_container' === $param['type'] ) {
-			$h4_custom_heading[ $key ]['value'] = 'tag:h4';
+			$h4_custom_heading[ $key ]['value'] = '';
+			if ( isset( $param['settings'] ) && is_array( $param['settings'] ) && isset( $param['settings']['fields'] ) ) {
+				$sub_key = array_search( 'tag', $param['settings']['fields'], true );
+				if ( false !== $sub_key ) {
+					unset( $h4_custom_heading[ $key ]['settings']['fields'][ $sub_key ] );
+				} elseif ( isset( $param['settings']['fields']['tag'] ) ) {
+					unset( $h4_custom_heading[ $key ]['settings']['fields']['tag'] );
+				}
+				$sub_key = array_search( 'text_align', $param['settings']['fields'], true );
+				if ( false !== $sub_key ) {
+					unset( $h4_custom_heading[ $key ]['settings']['fields'][ $sub_key ] );
+				} elseif ( isset( $param['settings']['fields']['text_align'] ) ) {
+					unset( $h4_custom_heading[ $key ]['settings']['fields']['text_align'] );
+				}
+			}
 		}
 	}
 }
@@ -63,6 +91,7 @@ $params = array_merge( array(
 		'description' => esc_html__( 'Enable Google fonts.', 'js_composer' ),
 		'edit_field_class' => 'vc_col-sm-3',
 	),
+
 ), $h2_custom_heading, array(
 	array(
 		'type' => 'textfield',
@@ -227,7 +256,7 @@ $params = array_merge( array(
 		'type' => 'el_id',
 		'heading' => esc_html__( 'Element ID', 'js_composer' ),
 		'param_name' => 'el_id',
-		'description' => sprintf( esc_html__( 'Enter element ID (Note: make sure it is unique and valid according to %1$sw3c specification%2$s).', 'js_composer' ), '<a href="https://www.w3schools.com/tags/att_global_id.asp" target="_blank">', '</a>' ),
+		'description' => sprintf( esc_html__( 'Enter element ID (Note: make sure it is unique and valid according to %sw3c specification%s).', 'js_composer' ), '<a href="https://www.w3schools.com/tags/att_global_id.asp" target="_blank">', '</a>' ),
 	),
 	array(
 		'type' => 'textfield',

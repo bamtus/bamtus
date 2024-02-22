@@ -183,7 +183,7 @@ class VcShortcodeAutoloader {
 
 				foreach ( $classes as $class => $extends ) {
 					$class = strtolower( $class );
-					$extends = is_string( $extends ) ? strtolower( $extends ) : $extends;
+					$extends = strtolower( $extends );
 					if ( in_array( $extends, array(
 						'wpbakeryshortcodescontainer',
 						'wpbakeryvisualcomposer',

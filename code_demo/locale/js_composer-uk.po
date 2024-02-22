@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WPBakery Page Builder\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-14 17:07+0200\n"
-"PO-Revision-Date: 2022-10-11 20:59+0300\n"
+"POT-Creation-Date: 2019-11-11 11:25+0200\n"
+"PO-Revision-Date: 2019-11-11 11:25+0200\n"
 "Last-Translator: \n"
 "Language-Team: WPBakery\n"
 "Language: uk\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-KeywordsList: __;_e;esc_attr__;esc_html__;esc_attr_e;esc_html_e\n"
 "X-Poedit-Basepath: ..\n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Poedit 2.2.1\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 "X-Poedit-SearchPath-0: ./config/.\n"
@@ -67,7 +67,7 @@ msgstr "Класичний чорний"
 
 #: config/./buttons/shortcode-vc-btn.php:50
 #: config/./buttons/shortcode-vc-btn.php:163
-#: config/./buttons/shortcode-vc-cta.php:154
+#: config/./buttons/shortcode-vc-cta.php:183
 #: config/./content/shortcode-vc-column-text.php:16
 #: config/./content/vc-custom-heading-element.php:28
 #: config/./deprecated/shortcode-vc-button.php:20
@@ -97,11 +97,11 @@ msgstr "Текст на кнопку"
 #: config/./deprecated/shortcode-vc-button2.php:19
 #: config/./deprecated/shortcode-vc-cta-button.php:35
 #: config/./deprecated/shortcode-vc-cta-button2.php:65
-#: include/./params/vc_grid_item/shortcodes.php:38
-#: include/./params/vc_grid_item/shortcodes.php:82
-#: include/./params/vc_grid_item/shortcodes.php:572
-#: include/./params/vc_grid_item/shortcodes.php:912
-#: include/./params/vc_grid_item/shortcodes.php:923
+#: include/./params/vc_grid_item/shortcodes.php:27
+#: include/./params/vc_grid_item/shortcodes.php:70
+#: include/./params/vc_grid_item/shortcodes.php:547
+#: include/./params/vc_grid_item/shortcodes.php:887
+#: include/./params/vc_grid_item/shortcodes.php:898
 msgid "URL (Link)"
 msgstr "URL (посилання)"
 
@@ -111,7 +111,7 @@ msgid "Add link to button."
 msgstr "Додати посилання на кнопку."
 
 #: config/./buttons/shortcode-vc-btn.php:64
-#: config/./buttons/shortcode-vc-cta.php:105
+#: config/./buttons/shortcode-vc-cta.php:134
 #: config/./content/shortcode-vc-line-chart.php:35
 #: config/./content/shortcode-vc-message.php:119
 #: config/./content/shortcode-vc-round-chart.php:34
@@ -119,10 +119,10 @@ msgstr "Додати посилання на кнопку."
 #: config/./content/shortcode-vc-text-separator.php:100
 #: config/./content/shortcode-vc-toggle.php:48
 #: config/./grids/class-vc-grids-common.php:415
-#: config/./tta/shortcode-vc-tta-accordion.php:65
-#: config/./tta/shortcode-vc-tta-tabs.php:65
-#: config/./tta/shortcode-vc-tta-tour.php:65
-#: include/./params/vc_grid_item/shortcodes.php:509
+#: config/./tta/shortcode-vc-tta-accordion.php:33
+#: config/./tta/shortcode-vc-tta-tabs.php:33
+#: config/./tta/shortcode-vc-tta-tour.php:33
+#: include/./params/vc_grid_item/shortcodes.php:485
 msgid "Style"
 msgstr "Стиль"
 
@@ -133,46 +133,46 @@ msgstr "Виберіть стиль відображення кнопки."
 #: config/./buttons/shortcode-vc-btn.php:69
 #: config/./content/shortcode-vc-line-chart.php:40
 #: config/./content/shortcode-vc-round-chart.php:39
-#: config/./tta/shortcode-vc-tta-accordion.php:61
-#: config/./tta/shortcode-vc-tta-tabs.php:61
-#: config/./tta/shortcode-vc-tta-tour.php:61
+#: config/./tta/shortcode-vc-tta-accordion.php:29
+#: config/./tta/shortcode-vc-tta-tabs.php:29
+#: config/./tta/shortcode-vc-tta-tour.php:29
 msgid "Modern"
 msgstr "Сучасний"
 
 #: config/./buttons/shortcode-vc-btn.php:70
-#: config/./buttons/shortcode-vc-cta.php:108
-#: config/./buttons/shortcode-vc-cta.php:143
-#: config/./tta/shortcode-vc-tta-accordion.php:60
-#: config/./tta/shortcode-vc-tta-tabs.php:60
-#: config/./tta/shortcode-vc-tta-tour.php:60
+#: config/./buttons/shortcode-vc-cta.php:137
+#: config/./buttons/shortcode-vc-cta.php:172
+#: config/./tta/shortcode-vc-tta-accordion.php:28
+#: config/./tta/shortcode-vc-tta-tabs.php:28
+#: config/./tta/shortcode-vc-tta-tour.php:28
 msgid "Classic"
 msgstr "Класичний"
 
 #: config/./buttons/shortcode-vc-btn.php:71
-#: config/./buttons/shortcode-vc-cta.php:109
+#: config/./buttons/shortcode-vc-cta.php:138
 #: config/./content/shortcode-vc-line-chart.php:39
 #: config/./content/shortcode-vc-round-chart.php:38
-#: config/./tta/shortcode-vc-tta-accordion.php:62
-#: config/./tta/shortcode-vc-tta-tabs.php:62
-#: config/./tta/shortcode-vc-tta-tour.php:62
+#: config/./tta/shortcode-vc-tta-accordion.php:30
+#: config/./tta/shortcode-vc-tta-tabs.php:30
+#: config/./tta/shortcode-vc-tta-tour.php:30
 msgid "Flat"
 msgstr "Плоска"
 
 #: config/./buttons/shortcode-vc-btn.php:72
-#: config/./buttons/shortcode-vc-cta.php:110
-#: config/./tta/shortcode-vc-tta-accordion.php:63
-#: config/./tta/shortcode-vc-tta-tabs.php:63
-#: config/./tta/shortcode-vc-tta-tour.php:63
+#: config/./buttons/shortcode-vc-cta.php:139
+#: config/./tta/shortcode-vc-tta-accordion.php:31
+#: config/./tta/shortcode-vc-tta-tabs.php:31
+#: config/./tta/shortcode-vc-tta-tour.php:31
 msgid "Outline"
 msgstr "Зовнішня"
 
 #: config/./buttons/shortcode-vc-btn.php:73
-#: config/./buttons/shortcode-vc-cta.php:111
+#: config/./buttons/shortcode-vc-cta.php:140
 msgid "3d"
 msgstr "3d"
 
 #: config/./buttons/shortcode-vc-btn.php:74
-#: config/./buttons/shortcode-vc-cta.php:112
+#: config/./buttons/shortcode-vc-cta.php:141
 #: config/./content/shortcode-vc-hoverbox.php:161
 #: config/./content/shortcode-vc-line-chart.php:41
 #: config/./content/shortcode-vc-message.php:33
@@ -180,8 +180,8 @@ msgstr "3d"
 #: config/./content/shortcode-vc-round-chart.php:40
 #: config/./content/shortcode-vc-round-chart.php:63
 #: include/./classes/shortcodes/vc-row.php:52
-#: include/./params/vc_grid_item/shortcodes.php:18
-#: include/./params/vc_grid_item/shortcodes.php:264
+#: include/./params/vc_grid_item/shortcodes.php:19
+#: include/./params/vc_grid_item/shortcodes.php:252
 #: include/./templates/pages/partials/vc-roles-parts/_post_types.tpl.php:15
 #: include/./templates/pages/partials/vc-roles-parts/_settings.tpl.php:18
 #: include/./templates/pages/partials/vc-roles-parts/_shortcodes.tpl.php:33
@@ -267,15 +267,15 @@ msgid "Select hover text color for your element."
 msgstr "Виберіть колір тексту наведення для вашого елемента."
 
 #: config/./buttons/shortcode-vc-btn.php:211
-#: config/./buttons/shortcode-vc-cta.php:93
+#: config/./buttons/shortcode-vc-cta.php:122
 #: config/./content/shortcode-vc-hoverbox.php:147
 #: config/./content/shortcode-vc-message.php:126
 #: config/./deprecated/shortcode-vc-button2.php:46
 #: config/./deprecated/shortcode-vc-cta-button2.php:32
 #: config/./deprecated/shortcode-vc-cta-button2.php:78
-#: config/./tta/shortcode-vc-tta-accordion.php:76
-#: config/./tta/shortcode-vc-tta-tabs.php:76
-#: config/./tta/shortcode-vc-tta-tour.php:76
+#: config/./tta/shortcode-vc-tta-accordion.php:44
+#: config/./tta/shortcode-vc-tta-tabs.php:44
+#: config/./tta/shortcode-vc-tta-tour.php:44
 msgid "Shape"
 msgstr "Форма"
 
@@ -284,43 +284,43 @@ msgid "Select button shape."
 msgstr "Виберіть кнопку вигляду."
 
 #: config/./buttons/shortcode-vc-btn.php:216
-#: config/./buttons/shortcode-vc-cta.php:98
+#: config/./buttons/shortcode-vc-cta.php:127
 #: config/./content/shortcode-vc-hoverbox.php:152
 #: config/./content/shortcode-vc-message.php:132
 #: config/./content/vc-icon-element.php:187
 #: config/./grids/class-vc-grids-common.php:418
 #: config/./grids/class-vc-grids-common.php:503
 #: config/./grids/class-vc-grids-common.php:876
-#: config/./tta/shortcode-vc-tta-accordion.php:72
-#: config/./tta/shortcode-vc-tta-tabs.php:72
-#: config/./tta/shortcode-vc-tta-tour.php:72
-#: include/./params/vc_grid_item/shortcodes.php:514
+#: config/./tta/shortcode-vc-tta-accordion.php:40
+#: config/./tta/shortcode-vc-tta-tabs.php:40
+#: config/./tta/shortcode-vc-tta-tour.php:40
+#: include/./params/vc_grid_item/shortcodes.php:490
 msgid "Rounded"
 msgstr "Закруглений"
 
 #: config/./buttons/shortcode-vc-btn.php:217
-#: config/./buttons/shortcode-vc-cta.php:97
+#: config/./buttons/shortcode-vc-cta.php:126
 #: config/./content/shortcode-vc-hoverbox.php:151
 #: config/./content/shortcode-vc-message.php:131
 #: config/./content/vc-icon-element.php:186
-#: config/./tta/shortcode-vc-tta-accordion.php:73
-#: config/./tta/shortcode-vc-tta-tabs.php:73
-#: config/./tta/shortcode-vc-tta-tour.php:73
+#: config/./tta/shortcode-vc-tta-accordion.php:41
+#: config/./tta/shortcode-vc-tta-tabs.php:41
+#: config/./tta/shortcode-vc-tta-tour.php:41
 msgid "Square"
 msgstr "Квадрат"
 
 #: config/./buttons/shortcode-vc-btn.php:218
-#: config/./buttons/shortcode-vc-cta.php:99
+#: config/./buttons/shortcode-vc-cta.php:128
 #: config/./content/shortcode-vc-hoverbox.php:153
 #: config/./content/shortcode-vc-message.php:133
-#: config/./tta/shortcode-vc-tta-accordion.php:74
-#: config/./tta/shortcode-vc-tta-tabs.php:74
-#: config/./tta/shortcode-vc-tta-tour.php:74
+#: config/./tta/shortcode-vc-tta-accordion.php:42
+#: config/./tta/shortcode-vc-tta-tabs.php:42
+#: config/./tta/shortcode-vc-tta-tour.php:42
 msgid "Round"
 msgstr "Округла"
 
 #: config/./buttons/shortcode-vc-btn.php:223
-#: config/./buttons/shortcode-vc-cta.php:141
+#: config/./buttons/shortcode-vc-cta.php:170
 #: config/./content/shortcode-vc-line-chart.php:102
 #: config/./content/shortcode-vc-message.php:139
 #: config/./content/shortcode-vc-pie.php:44
@@ -335,10 +335,10 @@ msgstr "Округла"
 #: config/./deprecated/shortcode-vc-cta-button.php:52
 #: config/./deprecated/shortcode-vc-cta-button2.php:85
 #: config/./grids/class-vc-grids-common.php:464
-#: config/./tta/shortcode-vc-tta-accordion.php:84
-#: config/./tta/shortcode-vc-tta-tabs.php:82
-#: config/./tta/shortcode-vc-tta-tour.php:82
-#: include/./params/vc_grid_item/shortcodes.php:524
+#: config/./tta/shortcode-vc-tta-accordion.php:52
+#: config/./tta/shortcode-vc-tta-tabs.php:50
+#: config/./tta/shortcode-vc-tta-tour.php:50
+#: include/./params/vc_grid_item/shortcodes.php:500
 msgid "Color"
 msgstr "Колір"
 
@@ -370,15 +370,14 @@ msgstr "Розмір кнопки відображення."
 #: config/./buttons/shortcode-vc-btn.php:252
 #: config/./content/shortcode-vc-hoverbox.php:199
 #: config/./content/shortcode-vc-separator.php:25
-#: config/./content/shortcode-vc-video.php:61
+#: config/./content/shortcode-vc-video.php:58
 #: config/./content/shortcode-vc-zigzag.php:34
 #: config/./deprecated/shortcode-vc-button2.php:34
 #: config/./grids/class-vc-grids-common.php:448
-#: config/./tta/shortcode-vc-tta-accordion.php:142
-#: config/./tta/shortcode-vc-tta-tabs.php:153
-#: config/./tta/shortcode-vc-tta-tour.php:153
-#: include/./params/vc_grid_item/shortcodes.php:497
-#: include/./params/vc_grid_item/shortcodes.php:677
+#: config/./tta/shortcode-vc-tta-accordion.php:110
+#: config/./tta/shortcode-vc-tta-tabs.php:121
+#: config/./tta/shortcode-vc-tta-tour.php:121
+#: include/./params/vc_grid_item/shortcodes.php:652
 msgid "Alignment"
 msgstr "Вирівнювання"
 
@@ -397,59 +396,57 @@ msgstr "В лінію"
 
 #: config/./buttons/shortcode-vc-btn.php:259
 #: config/./buttons/shortcode-vc-btn.php:285
-#: config/./buttons/shortcode-vc-cta.php:181
-#: config/./buttons/shortcode-vc-cta.php:200
+#: config/./buttons/shortcode-vc-cta.php:210
+#: config/./buttons/shortcode-vc-cta.php:229
 #: config/./content/shortcode-vc-hoverbox.php:203
 #: config/./content/shortcode-vc-separator.php:29
 #: config/./content/shortcode-vc-single-image.php:108
 #: config/./content/shortcode-vc-text-separator.php:63
 #: config/./content/shortcode-vc-text-separator.php:74
-#: config/./content/shortcode-vc-video.php:65
+#: config/./content/shortcode-vc-video.php:62
 #: config/./content/shortcode-vc-zigzag.php:38
 #: config/./content/vc-icon-element.php:230
 #: config/./deprecated/shortcode-vc-button2.php:38
 #: config/./deprecated/shortcode-vc-cta-button.php:78
 #: config/./deprecated/shortcode-vc-cta-button2.php:105
 #: config/./grids/class-vc-grids-common.php:452
-#: config/./tta/shortcode-vc-tta-accordion.php:138
-#: config/./tta/shortcode-vc-tta-accordion.php:190
-#: config/./tta/shortcode-vc-tta-tabs.php:149
-#: config/./tta/shortcode-vc-tta-tour.php:139
-#: config/./tta/shortcode-vc-tta-tour.php:149
+#: config/./tta/shortcode-vc-tta-accordion.php:106
+#: config/./tta/shortcode-vc-tta-accordion.php:158
+#: config/./tta/shortcode-vc-tta-tabs.php:117
+#: config/./tta/shortcode-vc-tta-tour.php:107
+#: config/./tta/shortcode-vc-tta-tour.php:117
 #: include/./classes/shortcodes/vc-gitem-col.php:33
-#: include/./params/vc_grid_item/shortcodes.php:500
-#: include/./params/vc_grid_item/shortcodes.php:591
-#: include/./params/vc_grid_item/shortcodes.php:680
-#: include/./params/vc_grid_item/shortcodes.php:799
+#: include/./params/vc_grid_item/shortcodes.php:566
+#: include/./params/vc_grid_item/shortcodes.php:655
+#: include/./params/vc_grid_item/shortcodes.php:774
 msgid "Left"
 msgstr "Ліворуч"
 
 #: config/./buttons/shortcode-vc-btn.php:261
 #: config/./buttons/shortcode-vc-btn.php:287
-#: config/./buttons/shortcode-vc-cta.php:182
-#: config/./buttons/shortcode-vc-cta.php:201
+#: config/./buttons/shortcode-vc-cta.php:211
+#: config/./buttons/shortcode-vc-cta.php:230
 #: config/./content/shortcode-vc-hoverbox.php:204
 #: config/./content/shortcode-vc-separator.php:30
 #: config/./content/shortcode-vc-single-image.php:109
 #: config/./content/shortcode-vc-text-separator.php:64
 #: config/./content/shortcode-vc-text-separator.php:75
-#: config/./content/shortcode-vc-video.php:66
+#: config/./content/shortcode-vc-video.php:63
 #: config/./content/shortcode-vc-zigzag.php:39
 #: config/./content/vc-icon-element.php:231
 #: config/./deprecated/shortcode-vc-button2.php:40
 #: config/./deprecated/shortcode-vc-cta-button.php:77
 #: config/./deprecated/shortcode-vc-cta-button2.php:104
 #: config/./grids/class-vc-grids-common.php:453
-#: config/./tta/shortcode-vc-tta-accordion.php:139
-#: config/./tta/shortcode-vc-tta-accordion.php:191
-#: config/./tta/shortcode-vc-tta-tabs.php:150
-#: config/./tta/shortcode-vc-tta-tour.php:140
-#: config/./tta/shortcode-vc-tta-tour.php:150
+#: config/./tta/shortcode-vc-tta-accordion.php:107
+#: config/./tta/shortcode-vc-tta-accordion.php:159
+#: config/./tta/shortcode-vc-tta-tabs.php:118
+#: config/./tta/shortcode-vc-tta-tour.php:108
+#: config/./tta/shortcode-vc-tta-tour.php:118
 #: include/./classes/shortcodes/vc-gitem-col.php:41
-#: include/./params/vc_grid_item/shortcodes.php:501
-#: include/./params/vc_grid_item/shortcodes.php:592
-#: include/./params/vc_grid_item/shortcodes.php:681
-#: include/./params/vc_grid_item/shortcodes.php:800
+#: include/./params/vc_grid_item/shortcodes.php:567
+#: include/./params/vc_grid_item/shortcodes.php:656
+#: include/./params/vc_grid_item/shortcodes.php:775
 msgid "Right"
 msgstr "Праворуч"
 
@@ -459,19 +456,18 @@ msgstr "Праворуч"
 #: config/./content/shortcode-vc-single-image.php:110
 #: config/./content/shortcode-vc-text-separator.php:62
 #: config/./content/shortcode-vc-text-separator.php:73
-#: config/./content/shortcode-vc-video.php:67
+#: config/./content/shortcode-vc-video.php:64
 #: config/./content/shortcode-vc-zigzag.php:37
 #: config/./content/vc-icon-element.php:232
 #: config/./deprecated/shortcode-vc-button2.php:39
 #: config/./grids/class-vc-grids-common.php:451
-#: config/./tta/shortcode-vc-tta-accordion.php:140
-#: config/./tta/shortcode-vc-tta-tabs.php:151
-#: config/./tta/shortcode-vc-tta-tour.php:151
+#: config/./tta/shortcode-vc-tta-accordion.php:108
+#: config/./tta/shortcode-vc-tta-tabs.php:119
+#: config/./tta/shortcode-vc-tta-tour.php:119
 #: include/./classes/shortcodes/vc-gitem-col.php:37
-#: include/./params/vc_grid_item/shortcodes.php:502
-#: include/./params/vc_grid_item/shortcodes.php:593
-#: include/./params/vc_grid_item/shortcodes.php:682
-#: include/./params/vc_grid_item/shortcodes.php:801
+#: include/./params/vc_grid_item/shortcodes.php:568
+#: include/./params/vc_grid_item/shortcodes.php:657
+#: include/./params/vc_grid_item/shortcodes.php:776
 msgid "Center"
 msgstr "Посередині"
 
@@ -480,7 +476,7 @@ msgid "Set full width button?"
 msgstr "Встановити повну ширину кнопки?"
 
 #: config/./buttons/shortcode-vc-btn.php:276
-#: config/./buttons/shortcode-vc-cta.php:193
+#: config/./buttons/shortcode-vc-cta.php:222
 #: config/./content/shortcode-vc-text-separator.php:53
 #: config/./tta/shortcode-vc-tta-section.php:15
 msgid "Add icon?"
@@ -496,8 +492,8 @@ msgid "Select icon alignment."
 msgstr "Виберіть вирівнювання іконки."
 
 #: config/./buttons/shortcode-vc-btn.php:297
-#: config/./buttons/shortcode-vc-cta.php:209
-#: config/./buttons/shortcode-vc-cta.php:215
+#: config/./buttons/shortcode-vc-cta.php:238
+#: config/./buttons/shortcode-vc-cta.php:244
 #: config/./content/shortcode-vc-message.php:162
 #: config/./content/shortcode-vc-message.php:179
 #: config/./content/shortcode-vc-message.php:196
@@ -515,11 +511,17 @@ msgstr "Виберіть вирівнювання іконки."
 #: config/./content/vc-icon-element.php:125
 #: config/./content/vc-icon-element.php:144
 #: config/./deprecated/shortcode-vc-button.php:54
-#: config/./tta/shortcode-vc-tta-accordion.php:183
+#: config/./tta/shortcode-vc-tta-accordion.php:151
 msgid "Icon"
 msgstr "Іконка"
 
 #: config/./buttons/shortcode-vc-btn.php:310
+#: config/./content/shortcode-vc-message.php:175
+#: config/./content/shortcode-vc-message.php:192
+#: config/./content/shortcode-vc-message.php:209
+#: config/./content/shortcode-vc-message.php:242
+#: config/./content/shortcode-vc-message.php:258
+#: config/./content/shortcode-vc-message.php:277
 #: config/./content/vc-icon-element.php:46
 #: config/./content/vc-icon-element.php:65
 #: config/./content/vc-icon-element.php:84
@@ -530,12 +532,12 @@ msgid "Select icon from library."
 msgstr "Вибрати піктограму з бібліотеки."
 
 #: config/./buttons/shortcode-vc-btn.php:316
-#: config/./buttons/shortcode-vc-cta.php:228
+#: config/./buttons/shortcode-vc-cta.php:257
 #: config/./containers/shortcode-vc-column-inner.php:23
 #: config/./containers/shortcode-vc-column.php:101
 #: config/./content/shortcode-vc-column-text.php:23
 #: config/./content/shortcode-vc-empty-space.php:24
-#: config/./content/shortcode-vc-flickr.php:79
+#: config/./content/shortcode-vc-flickr.php:67
 #: config/./content/shortcode-vc-gallery.php:146
 #: config/./content/shortcode-vc-gmaps.php:37
 #: config/./content/shortcode-vc-hoverbox.php:231
@@ -550,7 +552,7 @@ msgstr "Вибрати піктограму з бібліотеки."
 #: config/./content/shortcode-vc-single-image.php:217
 #: config/./content/shortcode-vc-text-separator.php:122
 #: config/./content/shortcode-vc-toggle.php:82
-#: config/./content/shortcode-vc-video.php:73
+#: config/./content/shortcode-vc-video.php:70
 #: config/./content/shortcode-vc-zigzag.php:78
 #: config/./content/vc-custom-heading-element.php:90
 #: config/./content/vc-icon-element.php:245
@@ -563,10 +565,10 @@ msgstr "Вибрати піктограму з бібліотеки."
 #: config/./structure/shortcode-vc-raw-html.php:25
 #: config/./structure/shortcode-vc-raw-js.php:26
 #: config/./structure/shortcode-vc-widget-sidebar.php:29
-#: config/./tta/shortcode-vc-tta-accordion.php:211
+#: config/./tta/shortcode-vc-tta-accordion.php:179
 #: config/./tta/shortcode-vc-tta-pageable.php:99
-#: config/./tta/shortcode-vc-tta-tabs.php:214
-#: config/./tta/shortcode-vc-tta-tour.php:228
+#: config/./tta/shortcode-vc-tta-tabs.php:182
+#: config/./tta/shortcode-vc-tta-tour.php:196
 #: config/./wp/shortcode-vc-wp-archives.php:34
 #: config/./wp/shortcode-vc-wp-calendar.php:23
 #: config/./wp/shortcode-vc-wp-categories.php:35
@@ -585,14 +587,14 @@ msgid "Element ID"
 msgstr "ID елемента"
 
 #: config/./buttons/shortcode-vc-btn.php:318
-#: config/./buttons/shortcode-vc-cta.php:230
+#: config/./buttons/shortcode-vc-cta.php:259
 #: config/./containers/shortcode-vc-column-inner.php:25
 #: config/./containers/shortcode-vc-column.php:103
 #: config/./containers/shortcode-vc-row.php:184
 #: config/./containers/shortcode-vc-section.php:138
 #: config/./content/shortcode-vc-column-text.php:25
 #: config/./content/shortcode-vc-empty-space.php:26
-#: config/./content/shortcode-vc-flickr.php:81
+#: config/./content/shortcode-vc-flickr.php:69
 #: config/./content/shortcode-vc-gallery.php:148
 #: config/./content/shortcode-vc-gmaps.php:39
 #: config/./content/shortcode-vc-hoverbox.php:233
@@ -607,7 +609,7 @@ msgstr "ID елемента"
 #: config/./content/shortcode-vc-single-image.php:219
 #: config/./content/shortcode-vc-text-separator.php:124
 #: config/./content/shortcode-vc-toggle.php:84
-#: config/./content/shortcode-vc-video.php:75
+#: config/./content/shortcode-vc-video.php:72
 #: config/./content/shortcode-vc-zigzag.php:80
 #: config/./content/vc-custom-heading-element.php:92
 #: config/./content/vc-icon-element.php:247
@@ -620,10 +622,10 @@ msgstr "ID елемента"
 #: config/./structure/shortcode-vc-raw-html.php:27
 #: config/./structure/shortcode-vc-raw-js.php:28
 #: config/./structure/shortcode-vc-widget-sidebar.php:31
-#: config/./tta/shortcode-vc-tta-accordion.php:213
+#: config/./tta/shortcode-vc-tta-accordion.php:181
 #: config/./tta/shortcode-vc-tta-pageable.php:101
-#: config/./tta/shortcode-vc-tta-tabs.php:216
-#: config/./tta/shortcode-vc-tta-tour.php:230
+#: config/./tta/shortcode-vc-tta-tabs.php:184
+#: config/./tta/shortcode-vc-tta-tour.php:198
 #: config/./wp/shortcode-vc-wp-archives.php:36
 #: config/./wp/shortcode-vc-wp-calendar.php:25
 #: config/./wp/shortcode-vc-wp-categories.php:37
@@ -638,16 +640,19 @@ msgstr "ID елемента"
 #: config/./wp/shortcode-vc-wp-tagcloud.php:48
 #: config/./wp/shortcode-vc-wp-text.php:31
 #: include/./autoload/vendors/shortcode-vc-gutenberg.php:26
-#, php-format
+#, fuzzy, php-format
+#| msgid ""
+#| "Enter element ID (Note: make sure it is unique and valid according to <a "
+#| "href=\"%s\" target=\"_blank\">w3c specification</a>)."
 msgid ""
 "Enter element ID (Note: make sure it is unique and valid according to %sw3c "
 "specification%s)."
 msgstr ""
 "Введіть ID елемента (Примітка: переконайтеся, що він є унікальний та дійсно "
-"відповідно до %sспецифікації w3c%s)."
+"відповідно до <a href=\"%s\" target=\"_blank\">специфікації w3c</a>)."
 
 #: config/./buttons/shortcode-vc-btn.php:322
-#: config/./buttons/shortcode-vc-cta.php:234
+#: config/./buttons/shortcode-vc-cta.php:263
 #: config/./containers/shortcode-vc-column-inner.php:29
 #: config/./containers/shortcode-vc-column.php:107
 #: config/./containers/shortcode-vc-row-inner.php:78
@@ -655,7 +660,7 @@ msgstr ""
 #: config/./containers/shortcode-vc-section.php:150
 #: config/./content/shortcode-vc-column-text.php:29
 #: config/./content/shortcode-vc-empty-space.php:30
-#: config/./content/shortcode-vc-flickr.php:85
+#: config/./content/shortcode-vc-flickr.php:73
 #: config/./content/shortcode-vc-gallery.php:152
 #: config/./content/shortcode-vc-gmaps.php:43
 #: config/./content/shortcode-vc-hoverbox.php:237
@@ -670,7 +675,7 @@ msgstr ""
 #: config/./content/shortcode-vc-single-image.php:223
 #: config/./content/shortcode-vc-text-separator.php:128
 #: config/./content/shortcode-vc-toggle.php:88
-#: config/./content/shortcode-vc-video.php:79
+#: config/./content/shortcode-vc-video.php:76
 #: config/./content/shortcode-vc-zigzag.php:84
 #: config/./content/vc-custom-heading-element.php:96
 #: config/./content/vc-icon-element.php:251
@@ -690,11 +695,11 @@ msgstr ""
 #: config/./structure/shortcode-vc-raw-html.php:31
 #: config/./structure/shortcode-vc-raw-js.php:32
 #: config/./structure/shortcode-vc-widget-sidebar.php:35
-#: config/./tta/shortcode-vc-tta-accordion.php:217
+#: config/./tta/shortcode-vc-tta-accordion.php:185
 #: config/./tta/shortcode-vc-tta-pageable.php:105
 #: config/./tta/shortcode-vc-tta-section.php:63
-#: config/./tta/shortcode-vc-tta-tabs.php:220
-#: config/./tta/shortcode-vc-tta-tour.php:234
+#: config/./tta/shortcode-vc-tta-tabs.php:188
+#: config/./tta/shortcode-vc-tta-tour.php:202
 #: config/./wp/shortcode-vc-wp-archives.php:40
 #: config/./wp/shortcode-vc-wp-calendar.php:29
 #: config/./wp/shortcode-vc-wp-categories.php:41
@@ -715,24 +720,24 @@ msgstr ""
 #: include/./classes/vendors/plugins/class-vc-vendor-revslider.php:79
 #: include/./classes/vendors/plugins/class-vc-vendor-revslider.php:149
 #: include/./classes/vendors/plugins/woocommerce/grid-item-shortcodes.php:93
-#: include/./params/vc_grid_item/shortcodes.php:72
-#: include/./params/vc_grid_item/shortcodes.php:193
-#: include/./params/vc_grid_item/shortcodes.php:318
-#: include/./params/vc_grid_item/shortcodes.php:343
-#: include/./params/vc_grid_item/shortcodes.php:409
-#: include/./params/vc_grid_item/shortcodes.php:426
-#: include/./params/vc_grid_item/shortcodes.php:442
-#: include/./params/vc_grid_item/shortcodes.php:473
-#: include/./params/vc_grid_item/shortcodes.php:548
-#: include/./params/vc_grid_item/shortcodes.php:625
-#: include/./params/vc_grid_item/shortcodes.php:647
-#: include/./params/vc_grid_item/shortcodes.php:689
-#: include/./params/vc_grid_item/shortcodes.php:832
+#: include/./params/vc_grid_item/shortcodes.php:61
+#: include/./params/vc_grid_item/shortcodes.php:181
+#: include/./params/vc_grid_item/shortcodes.php:306
+#: include/./params/vc_grid_item/shortcodes.php:331
+#: include/./params/vc_grid_item/shortcodes.php:397
+#: include/./params/vc_grid_item/shortcodes.php:414
+#: include/./params/vc_grid_item/shortcodes.php:430
+#: include/./params/vc_grid_item/shortcodes.php:461
+#: include/./params/vc_grid_item/shortcodes.php:524
+#: include/./params/vc_grid_item/shortcodes.php:600
+#: include/./params/vc_grid_item/shortcodes.php:622
+#: include/./params/vc_grid_item/shortcodes.php:664
+#: include/./params/vc_grid_item/shortcodes.php:807
 msgid "Extra class name"
 msgstr "Назва додаткового класу"
 
 #: config/./buttons/shortcode-vc-btn.php:324
-#: config/./buttons/shortcode-vc-cta.php:236
+#: config/./buttons/shortcode-vc-cta.php:265
 #: config/./containers/shortcode-vc-column-inner.php:32
 #: config/./containers/shortcode-vc-column.php:109
 #: config/./containers/shortcode-vc-row-inner.php:80
@@ -740,7 +745,7 @@ msgstr "Назва додаткового класу"
 #: config/./containers/shortcode-vc-section.php:152
 #: config/./content/shortcode-vc-column-text.php:31
 #: config/./content/shortcode-vc-empty-space.php:32
-#: config/./content/shortcode-vc-flickr.php:87
+#: config/./content/shortcode-vc-flickr.php:75
 #: config/./content/shortcode-vc-gallery.php:154
 #: config/./content/shortcode-vc-gmaps.php:45
 #: config/./content/shortcode-vc-hoverbox.php:239
@@ -755,7 +760,7 @@ msgstr "Назва додаткового класу"
 #: config/./content/shortcode-vc-single-image.php:225
 #: config/./content/shortcode-vc-text-separator.php:130
 #: config/./content/shortcode-vc-toggle.php:90
-#: config/./content/shortcode-vc-video.php:81
+#: config/./content/shortcode-vc-video.php:78
 #: config/./content/shortcode-vc-zigzag.php:86
 #: config/./content/vc-custom-heading-element.php:98
 #: config/./content/vc-icon-element.php:253
@@ -795,19 +800,19 @@ msgstr "Назва додаткового класу"
 #: include/./classes/vendors/plugins/class-vc-vendor-revslider.php:81
 #: include/./classes/vendors/plugins/class-vc-vendor-revslider.php:151
 #: include/./classes/vendors/plugins/woocommerce/grid-item-shortcodes.php:95
-#: include/./params/vc_grid_item/shortcodes.php:74
-#: include/./params/vc_grid_item/shortcodes.php:195
-#: include/./params/vc_grid_item/shortcodes.php:320
-#: include/./params/vc_grid_item/shortcodes.php:345
-#: include/./params/vc_grid_item/shortcodes.php:411
-#: include/./params/vc_grid_item/shortcodes.php:428
-#: include/./params/vc_grid_item/shortcodes.php:444
-#: include/./params/vc_grid_item/shortcodes.php:475
-#: include/./params/vc_grid_item/shortcodes.php:550
-#: include/./params/vc_grid_item/shortcodes.php:627
-#: include/./params/vc_grid_item/shortcodes.php:649
-#: include/./params/vc_grid_item/shortcodes.php:691
-#: include/./params/vc_grid_item/shortcodes.php:834
+#: include/./params/vc_grid_item/shortcodes.php:63
+#: include/./params/vc_grid_item/shortcodes.php:183
+#: include/./params/vc_grid_item/shortcodes.php:308
+#: include/./params/vc_grid_item/shortcodes.php:333
+#: include/./params/vc_grid_item/shortcodes.php:399
+#: include/./params/vc_grid_item/shortcodes.php:416
+#: include/./params/vc_grid_item/shortcodes.php:432
+#: include/./params/vc_grid_item/shortcodes.php:463
+#: include/./params/vc_grid_item/shortcodes.php:526
+#: include/./params/vc_grid_item/shortcodes.php:602
+#: include/./params/vc_grid_item/shortcodes.php:624
+#: include/./params/vc_grid_item/shortcodes.php:666
+#: include/./params/vc_grid_item/shortcodes.php:809
 msgid ""
 "Style particular content element differently - add a class name and refer to "
 "it in custom CSS."
@@ -832,7 +837,7 @@ msgid "Enter onclick action code."
 msgstr "Введіть onclick код дії."
 
 #: config/./buttons/shortcode-vc-btn.php:344
-#: config/./buttons/shortcode-vc-cta.php:240
+#: config/./buttons/shortcode-vc-cta.php:269
 #: config/./containers/shortcode-vc-column-inner.php:36
 #: config/./containers/shortcode-vc-column.php:113
 #: config/./containers/shortcode-vc-row-inner.php:84
@@ -840,7 +845,7 @@ msgstr "Введіть onclick код дії."
 #: config/./containers/shortcode-vc-section.php:156
 #: config/./content/shortcode-vc-column-text.php:35
 #: config/./content/shortcode-vc-empty-space.php:36
-#: config/./content/shortcode-vc-flickr.php:91
+#: config/./content/shortcode-vc-flickr.php:79
 #: config/./content/shortcode-vc-gallery.php:158
 #: config/./content/shortcode-vc-gmaps.php:49
 #: config/./content/shortcode-vc-hoverbox.php:243
@@ -855,7 +860,7 @@ msgstr "Введіть onclick код дії."
 #: config/./content/shortcode-vc-single-image.php:229
 #: config/./content/shortcode-vc-text-separator.php:139
 #: config/./content/shortcode-vc-toggle.php:95
-#: config/./content/shortcode-vc-video.php:85
+#: config/./content/shortcode-vc-video.php:82
 #: config/./content/shortcode-vc-zigzag.php:90
 #: config/./content/vc-custom-heading-element.php:102
 #: config/./content/vc-icon-element.php:257
@@ -866,25 +871,25 @@ msgstr "Введіть onclick код дії."
 #: config/./social/shortcode-vc-pinterest.php:40
 #: config/./social/shortcode-vc-tweetmeme.php:356
 #: config/./structure/shortcode-vc-raw-html.php:37
-#: config/./tta/shortcode-vc-tta-accordion.php:223
+#: config/./tta/shortcode-vc-tta-accordion.php:191
 #: config/./tta/shortcode-vc-tta-pageable.php:111
-#: config/./tta/shortcode-vc-tta-tabs.php:226
-#: config/./tta/shortcode-vc-tta-tour.php:240
+#: config/./tta/shortcode-vc-tta-tabs.php:194
+#: config/./tta/shortcode-vc-tta-tour.php:208
 #: include/./autoload/vendors/shortcode-vc-gutenberg.php:36
-#: include/./params/vc_grid_item/shortcodes.php:66
-#: include/./params/vc_grid_item/shortcodes.php:92
-#: include/./params/vc_grid_item/shortcodes.php:188
-#: include/./params/vc_grid_item/shortcodes.php:313
-#: include/./params/vc_grid_item/shortcodes.php:403
-#: include/./params/vc_grid_item/shortcodes.php:466
-#: include/./params/vc_grid_item/shortcodes.php:554
-#: include/./params/vc_grid_item/shortcodes.php:631
-#: include/./params/vc_grid_item/shortcodes.php:838
+#: include/./params/vc_grid_item/shortcodes.php:55
+#: include/./params/vc_grid_item/shortcodes.php:80
+#: include/./params/vc_grid_item/shortcodes.php:176
+#: include/./params/vc_grid_item/shortcodes.php:301
+#: include/./params/vc_grid_item/shortcodes.php:391
+#: include/./params/vc_grid_item/shortcodes.php:454
+#: include/./params/vc_grid_item/shortcodes.php:530
+#: include/./params/vc_grid_item/shortcodes.php:606
+#: include/./params/vc_grid_item/shortcodes.php:813
 msgid "CSS box"
 msgstr "СSS box"
 
 #: config/./buttons/shortcode-vc-btn.php:346
-#: config/./buttons/shortcode-vc-cta.php:242
+#: config/./buttons/shortcode-vc-cta.php:271
 #: config/./containers/shortcode-vc-column-inner.php:38
 #: config/./containers/shortcode-vc-column.php:115
 #: config/./containers/shortcode-vc-row-inner.php:86
@@ -892,7 +897,7 @@ msgstr "СSS box"
 #: config/./containers/shortcode-vc-section.php:158
 #: config/./content/shortcode-vc-column-text.php:37
 #: config/./content/shortcode-vc-empty-space.php:38
-#: config/./content/shortcode-vc-flickr.php:93
+#: config/./content/shortcode-vc-flickr.php:81
 #: config/./content/shortcode-vc-gallery.php:160
 #: config/./content/shortcode-vc-gmaps.php:51
 #: config/./content/shortcode-vc-hoverbox.php:245
@@ -907,7 +912,7 @@ msgstr "СSS box"
 #: config/./content/shortcode-vc-single-image.php:231
 #: config/./content/shortcode-vc-text-separator.php:141
 #: config/./content/shortcode-vc-toggle.php:97
-#: config/./content/shortcode-vc-video.php:87
+#: config/./content/shortcode-vc-video.php:84
 #: config/./content/shortcode-vc-zigzag.php:92
 #: config/./content/vc-custom-heading-element.php:104
 #: config/./content/vc-icon-element.php:259
@@ -918,29 +923,29 @@ msgstr "СSS box"
 #: config/./social/shortcode-vc-pinterest.php:42
 #: config/./social/shortcode-vc-tweetmeme.php:358
 #: config/./structure/shortcode-vc-raw-html.php:39
-#: config/./tta/shortcode-vc-tta-accordion.php:225
+#: config/./tta/shortcode-vc-tta-accordion.php:193
 #: config/./tta/shortcode-vc-tta-pageable.php:113
-#: config/./tta/shortcode-vc-tta-tabs.php:228
-#: config/./tta/shortcode-vc-tta-tour.php:242
+#: config/./tta/shortcode-vc-tta-tabs.php:196
+#: config/./tta/shortcode-vc-tta-tour.php:210
 #: include/./autoload/vendors/shortcode-vc-gutenberg.php:38
 #: include/./classes/settings/class-vc-settings.php:121
-#: include/./params/vc_grid_item/shortcodes.php:68
-#: include/./params/vc_grid_item/shortcodes.php:94
-#: include/./params/vc_grid_item/shortcodes.php:405
-#: include/./params/vc_grid_item/shortcodes.php:468
-#: include/./params/vc_grid_item/shortcodes.php:556
-#: include/./params/vc_grid_item/shortcodes.php:633
-#: include/./params/vc_grid_item/shortcodes.php:840
+#: include/./params/vc_grid_item/shortcodes.php:57
+#: include/./params/vc_grid_item/shortcodes.php:82
+#: include/./params/vc_grid_item/shortcodes.php:393
+#: include/./params/vc_grid_item/shortcodes.php:456
+#: include/./params/vc_grid_item/shortcodes.php:532
+#: include/./params/vc_grid_item/shortcodes.php:608
+#: include/./params/vc_grid_item/shortcodes.php:815
 msgid "Design Options"
 msgstr "Параметри дизайну"
 
 #: config/./buttons/shortcode-vc-btn.php:354
-#: config/./buttons/shortcode-vc-cta.php:185
+#: config/./buttons/shortcode-vc-cta.php:214
 msgid "Button"
 msgstr "Кнопка"
 
 #: config/./buttons/shortcode-vc-btn.php:358
-#: config/./buttons/shortcode-vc-cta.php:250
+#: config/./buttons/shortcode-vc-cta.php:279
 #: config/./containers/shortcode-vc-row.php:11
 #: config/./containers/shortcode-vc-section.php:11
 #: config/./content/shortcode-vc-column-text.php:10
@@ -980,7 +985,7 @@ msgstr "Кнопка"
 #: config/./tta/shortcode-vc-tta-section.php:79
 #: config/./tta/shortcode-vc-tta-tabs.php:15
 #: config/./tta/shortcode-vc-tta-tour.php:15
-#: include/./autoload/vendors/gravity_forms.php:37
+#: include/./autoload/vendors/gravity_forms.php:36
 #: include/./autoload/vendors/shortcode-vc-gutenberg.php:10
 #: include/./classes/settings/automapper/class-vc-automapper.php:186
 #: include/./classes/vendors/plugins/acf/grid-item-shortcodes.php:35
@@ -991,14 +996,14 @@ msgstr "Кнопка"
 #: include/./classes/vendors/plugins/class-vc-vendor-revslider.php:59
 #: include/./classes/vendors/plugins/class-vc-vendor-revslider.php:129
 #: include/./classes/vendors/plugins/woocommerce/grid-item-shortcodes.php:11
-#: include/./params/vc_grid_item/shortcodes.php:183
-#: include/./params/vc_grid_item/shortcodes.php:208
-#: include/./params/vc_grid_item/shortcodes.php:234
-#: include/./params/vc_grid_item/shortcodes.php:248
-#: include/./params/vc_grid_item/shortcodes.php:288
-#: include/./params/vc_grid_item/shortcodes.php:302
-#: include/./params/vc_grid_item/shortcodes.php:338
-#: include/./params/vc_grid_item/shortcodes.php:746
+#: include/./params/vc_grid_item/shortcodes.php:171
+#: include/./params/vc_grid_item/shortcodes.php:196
+#: include/./params/vc_grid_item/shortcodes.php:222
+#: include/./params/vc_grid_item/shortcodes.php:236
+#: include/./params/vc_grid_item/shortcodes.php:276
+#: include/./params/vc_grid_item/shortcodes.php:290
+#: include/./params/vc_grid_item/shortcodes.php:326
+#: include/./params/vc_grid_item/shortcodes.php:721
 msgid "Content"
 msgstr "Контент"
 
@@ -1009,100 +1014,100 @@ msgid "Eye catching button"
 msgstr "Кнопка очікування"
 
 #: config/./buttons/shortcode-vc-cta.php:11
-#: config/./buttons/shortcode-vc-cta.php:52
+#: config/./buttons/shortcode-vc-cta.php:80
 #: config/./content/shortcode-vc-toggle.php:7
 #: config/./deprecated/shortcode-vc-cta-button2.php:17
 #: include/./classes/settings/automapper/class-vc-automapper.php:203
 msgid "Heading"
 msgstr "Заголовок"
 
-#: config/./buttons/shortcode-vc-cta.php:30
-#: config/./buttons/shortcode-vc-cta.php:69
+#: config/./buttons/shortcode-vc-cta.php:44
+#: config/./buttons/shortcode-vc-cta.php:98
 #: config/./deprecated/shortcode-vc-cta-button2.php:25
 msgid "Subheading"
 msgstr "Підзаголовок"
 
-#: config/./buttons/shortcode-vc-cta.php:55
+#: config/./buttons/shortcode-vc-cta.php:83
 #: config/./deprecated/shortcode-vc-cta-button2.php:20
 msgid "Hey! I am first heading line feel free to change me"
 msgstr "Привіт! Я в першу чергу заголовок лінії, не соромтеся змінити мене"
 
-#: config/./buttons/shortcode-vc-cta.php:56
+#: config/./buttons/shortcode-vc-cta.php:84
 #: config/./content/shortcode-vc-hoverbox.php:91
 #: config/./deprecated/shortcode-vc-cta-button2.php:21
 msgid "Enter text for heading line."
 msgstr "Введіть текст для заголовка."
 
-#: config/./buttons/shortcode-vc-cta.php:61
-#: config/./buttons/shortcode-vc-cta.php:77
+#: config/./buttons/shortcode-vc-cta.php:89
+#: config/./buttons/shortcode-vc-cta.php:106
 #: config/./content/shortcode-vc-hoverbox.php:96
 #: config/./content/shortcode-vc-hoverbox.php:121
 #: config/./content/shortcode-vc-toggle.php:32
 msgid "Use custom font?"
 msgstr "Використати власний шрифт?"
 
-#: config/./buttons/shortcode-vc-cta.php:63
+#: config/./buttons/shortcode-vc-cta.php:91
 #: config/./content/shortcode-vc-hoverbox.php:98
 #: config/./content/shortcode-vc-toggle.php:34
-#: include/./params/vc_grid_item/shortcodes.php:120
+#: include/./params/vc_grid_item/shortcodes.php:108
 msgid "Enable Google fonts."
 msgstr "Увімкнути шрифти Google."
 
-#: config/./buttons/shortcode-vc-cta.php:72
+#: config/./buttons/shortcode-vc-cta.php:101
 #: config/./deprecated/shortcode-vc-cta-button2.php:28
 msgid "Enter text for subheading line."
 msgstr "Введіть текст для рядка підзаголовка ."
 
-#: config/./buttons/shortcode-vc-cta.php:79
+#: config/./buttons/shortcode-vc-cta.php:108
 #: config/./content/shortcode-vc-hoverbox.php:123
 msgid "Enable custom font option."
 msgstr "Включити опцію користувальницького шрифту."
 
-#: config/./buttons/shortcode-vc-cta.php:85
+#: config/./buttons/shortcode-vc-cta.php:114
 #: config/./deprecated/shortcode-vc-cta-button2.php:46
 msgid "Text alignment"
 msgstr "Вирівнювання тексту"
 
-#: config/./buttons/shortcode-vc-cta.php:89
+#: config/./buttons/shortcode-vc-cta.php:118
 #: config/./deprecated/shortcode-vc-cta-button2.php:49
 msgid "Select text alignment in \"Call to Action\" block."
 msgstr "Виберіть вирівнювання тексту в блоці \"Дзвоник до дії\"."
 
-#: config/./buttons/shortcode-vc-cta.php:101
+#: config/./buttons/shortcode-vc-cta.php:130
 msgid "Select call to action shape."
 msgstr "Виберіть форму дзвінка до дії."
 
-#: config/./buttons/shortcode-vc-cta.php:115
+#: config/./buttons/shortcode-vc-cta.php:144
 msgid "Select call to action display style."
 msgstr "Виберіть стиль відображення дзвінка до дії."
 
-#: config/./buttons/shortcode-vc-cta.php:119
+#: config/./buttons/shortcode-vc-cta.php:148
 #: config/./content/shortcode-vc-hoverbox.php:169
 #: config/./content/vc-icon-element.php:196
 #: config/./deprecated/shortcode-vc-cta-button2.php:53
 msgid "Background color"
 msgstr "Колір фону"
 
-#: config/./buttons/shortcode-vc-cta.php:121
+#: config/./buttons/shortcode-vc-cta.php:150
 #: config/./content/shortcode-vc-hoverbox.php:171
 msgid "Select custom background color."
 msgstr "Виберіть власний колір фону."
 
-#: config/./buttons/shortcode-vc-cta.php:130
+#: config/./buttons/shortcode-vc-cta.php:159
 #: include/./params/font_container/font_container.php:121
 msgid "Text color"
 msgstr "Колір Тексту"
 
-#: config/./buttons/shortcode-vc-cta.php:132
+#: config/./buttons/shortcode-vc-cta.php:161
 msgid "Select custom text color."
 msgstr "Виберіть власний колір тексту."
 
-#: config/./buttons/shortcode-vc-cta.php:145
+#: config/./buttons/shortcode-vc-cta.php:174
 #: config/./content/shortcode-vc-hoverbox.php:162
 msgid "Select color schema."
 msgstr "Виберіть схему кольору."
 
-#: config/./buttons/shortcode-vc-cta.php:156
+#: config/./buttons/shortcode-vc-cta.php:185
 #: config/./deprecated/shortcode-vc-cta-button2.php:61
 msgid ""
 "I am promo text. Click edit button to change this text. Lorem ipsum dolor "
@@ -1113,52 +1118,52 @@ msgstr ""
 "ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus "
 "nec ullamcorper mattis, pulvinar dapibus leo."
 
-#: config/./buttons/shortcode-vc-cta.php:160
+#: config/./buttons/shortcode-vc-cta.php:189
 #: config/./containers/shortcode-vc-column-inner.php:42
 #: config/./containers/shortcode-vc-column.php:119
 #: config/./content/shortcode-vc-hoverbox.php:181
 #: config/./deprecated/shortcode-vc-cta-button2.php:39
 #: config/./deprecated/shortcode-vc-googleplus.php:42
-#: include/./params/vc_grid_item/shortcodes.php:364
+#: include/./params/vc_grid_item/shortcodes.php:352
 #: include/./templates/params/column_offset/template.tpl.php:37
 msgid "Width"
 msgstr "Ширина"
 
-#: config/./buttons/shortcode-vc-cta.php:170
+#: config/./buttons/shortcode-vc-cta.php:199
 msgid "Select call to action width (percentage)."
 msgstr "Виберіть ширину заклику до дії (у відсотках)."
 
-#: config/./buttons/shortcode-vc-cta.php:174
+#: config/./buttons/shortcode-vc-cta.php:203
 #: config/./content/shortcode-vc-hoverbox.php:211
 msgid "Add button"
 msgstr "Додати кнопку"
 
-#: config/./buttons/shortcode-vc-cta.php:175
+#: config/./buttons/shortcode-vc-cta.php:204
 #: config/./content/shortcode-vc-hoverbox.php:212
 msgid "Add button for call to action."
 msgstr "Додати кнопку для виклику дії."
 
-#: config/./buttons/shortcode-vc-cta.php:178
-#: config/./buttons/shortcode-vc-cta.php:197
-#: include/./autoload/vendors/gravity_forms.php:54
-#: include/./autoload/vendors/gravity_forms.php:69
-#: include/./autoload/vendors/gravity_forms.php:84
+#: config/./buttons/shortcode-vc-cta.php:207
+#: config/./buttons/shortcode-vc-cta.php:226
+#: include/./autoload/vendors/gravity_forms.php:53
+#: include/./autoload/vendors/gravity_forms.php:68
+#: include/./autoload/vendors/gravity_forms.php:83
 msgid "No"
 msgstr "Ні"
 
-#: config/./buttons/shortcode-vc-cta.php:179
-#: config/./buttons/shortcode-vc-cta.php:198
+#: config/./buttons/shortcode-vc-cta.php:208
+#: config/./buttons/shortcode-vc-cta.php:227
 #: config/./containers/shortcode-vc-row-inner.php:41
 #: config/./containers/shortcode-vc-row.php:61
 #: config/./containers/shortcode-vc-row.php:91
 #: config/./containers/shortcode-vc-section.php:45
 #: config/./tta/shortcode-vc-tta-pageable.php:89
-#: config/./tta/shortcode-vc-tta-tabs.php:139
+#: config/./tta/shortcode-vc-tta-tabs.php:107
 msgid "Top"
 msgstr "Угорі"
 
-#: config/./buttons/shortcode-vc-cta.php:180
-#: config/./buttons/shortcode-vc-cta.php:199
+#: config/./buttons/shortcode-vc-cta.php:209
+#: config/./buttons/shortcode-vc-cta.php:228
 #: config/./containers/shortcode-vc-row-inner.php:43
 #: config/./containers/shortcode-vc-row.php:62
 #: config/./containers/shortcode-vc-row.php:93
@@ -1166,27 +1171,27 @@ msgstr "Угорі"
 #: config/./deprecated/shortcode-vc-cta-button.php:79
 #: config/./deprecated/shortcode-vc-cta-button2.php:106
 #: config/./tta/shortcode-vc-tta-pageable.php:90
-#: config/./tta/shortcode-vc-tta-tabs.php:140
+#: config/./tta/shortcode-vc-tta-tabs.php:108
 msgid "Bottom"
 msgstr "Унизу"
 
-#: config/./buttons/shortcode-vc-cta.php:194
+#: config/./buttons/shortcode-vc-cta.php:223
 msgid "Add icon for call to action."
 msgstr "Додати іконку для виклику дії."
 
-#: config/./buttons/shortcode-vc-cta.php:207
+#: config/./buttons/shortcode-vc-cta.php:236
 msgid "Place icon on border?"
 msgstr "Розташувати значок на рамці?"
 
-#: config/./buttons/shortcode-vc-cta.php:208
+#: config/./buttons/shortcode-vc-cta.php:237
 msgid "Display icon on call to action element border."
 msgstr "Відображати іконку на рамці заклику до дії."
 
-#: config/./buttons/shortcode-vc-cta.php:247
+#: config/./buttons/shortcode-vc-cta.php:276
 msgid "Call to Action"
 msgstr "Заклик до дії"
 
-#: config/./buttons/shortcode-vc-cta.php:251
+#: config/./buttons/shortcode-vc-cta.php:280
 #: config/./deprecated/shortcode-vc-cta-button.php:16
 #: config/./deprecated/shortcode-vc-cta-button2.php:13
 msgid "Catch visitors attention with CTA block"
@@ -1203,84 +1208,84 @@ msgstr "Помістіть елементи вмісту всередині вн
 #: config/./containers/shortcode-vc-column-inner.php:45
 #: config/./containers/shortcode-vc-column.php:122
 #: include/./params/column_offset/column_offset.php:41
-#: include/./params/vc_grid_item/shortcodes.php:367
+#: include/./params/vc_grid_item/shortcodes.php:355
 msgid "1 column - 1/12"
 msgstr "1 колонка - 1/12"
 
 #: config/./containers/shortcode-vc-column-inner.php:46
 #: config/./containers/shortcode-vc-column.php:123
 #: include/./params/column_offset/column_offset.php:42
-#: include/./params/vc_grid_item/shortcodes.php:368
+#: include/./params/vc_grid_item/shortcodes.php:356
 msgid "2 columns - 1/6"
 msgstr "2 колонки  - 1/6"
 
 #: config/./containers/shortcode-vc-column-inner.php:47
 #: config/./containers/shortcode-vc-column.php:124
 #: include/./params/column_offset/column_offset.php:43
-#: include/./params/vc_grid_item/shortcodes.php:369
+#: include/./params/vc_grid_item/shortcodes.php:357
 msgid "3 columns - 1/4"
 msgstr "3 колонки - 1/4"
 
 #: config/./containers/shortcode-vc-column-inner.php:48
 #: config/./containers/shortcode-vc-column.php:125
 #: include/./params/column_offset/column_offset.php:44
-#: include/./params/vc_grid_item/shortcodes.php:370
+#: include/./params/vc_grid_item/shortcodes.php:358
 msgid "4 columns - 1/3"
 msgstr "4 колонки - 1/3"
 
 #: config/./containers/shortcode-vc-column-inner.php:49
 #: config/./containers/shortcode-vc-column.php:126
 #: include/./params/column_offset/column_offset.php:45
-#: include/./params/vc_grid_item/shortcodes.php:371
+#: include/./params/vc_grid_item/shortcodes.php:359
 msgid "5 columns - 5/12"
 msgstr "5 колонок - 5/12"
 
 #: config/./containers/shortcode-vc-column-inner.php:50
 #: config/./containers/shortcode-vc-column.php:127
 #: include/./params/column_offset/column_offset.php:46
-#: include/./params/vc_grid_item/shortcodes.php:372
+#: include/./params/vc_grid_item/shortcodes.php:360
 msgid "6 columns - 1/2"
 msgstr "6 колонок - 1/2"
 
 #: config/./containers/shortcode-vc-column-inner.php:51
 #: config/./containers/shortcode-vc-column.php:128
 #: include/./params/column_offset/column_offset.php:47
-#: include/./params/vc_grid_item/shortcodes.php:373
+#: include/./params/vc_grid_item/shortcodes.php:361
 msgid "7 columns - 7/12"
 msgstr "7 колонок - 7/12"
 
 #: config/./containers/shortcode-vc-column-inner.php:52
 #: config/./containers/shortcode-vc-column.php:129
 #: include/./params/column_offset/column_offset.php:48
-#: include/./params/vc_grid_item/shortcodes.php:374
+#: include/./params/vc_grid_item/shortcodes.php:362
 msgid "8 columns - 2/3"
 msgstr "8 колонок - 2/3"
 
 #: config/./containers/shortcode-vc-column-inner.php:53
 #: config/./containers/shortcode-vc-column.php:130
 #: include/./params/column_offset/column_offset.php:49
-#: include/./params/vc_grid_item/shortcodes.php:375
+#: include/./params/vc_grid_item/shortcodes.php:363
 msgid "9 columns - 3/4"
 msgstr "9 колонок - 3/4"
 
 #: config/./containers/shortcode-vc-column-inner.php:54
 #: config/./containers/shortcode-vc-column.php:131
 #: include/./params/column_offset/column_offset.php:50
-#: include/./params/vc_grid_item/shortcodes.php:376
+#: include/./params/vc_grid_item/shortcodes.php:364
 msgid "10 columns - 5/6"
 msgstr "10 колонок - 5/6"
 
 #: config/./containers/shortcode-vc-column-inner.php:55
 #: config/./containers/shortcode-vc-column.php:132
 #: include/./params/column_offset/column_offset.php:51
-#: include/./params/vc_grid_item/shortcodes.php:377
+#: include/./params/vc_grid_item/shortcodes.php:365
 msgid "11 columns - 11/12"
 msgstr "11 колонок - 11/12"
 
 #: config/./containers/shortcode-vc-column-inner.php:56
 #: config/./containers/shortcode-vc-column.php:133
 #: include/./params/column_offset/column_offset.php:52
-#: include/./params/vc_grid_item/shortcodes.php:378
+#: include/./params/vc_grid_item/shortcodes.php:366
 msgid "12 columns - 1/1"
 msgstr "12 колонок - 1/1"
 
@@ -1317,7 +1322,7 @@ msgstr "Адаптивні параметри"
 
 #: config/./containers/shortcode-vc-column-inner.php:63
 #: config/./containers/shortcode-vc-column.php:140
-#: include/./params/vc_grid_item/shortcodes.php:380
+#: include/./params/vc_grid_item/shortcodes.php:368
 msgid "Select column width."
 msgstr "Виберіть ширину колонки."
 
@@ -1336,12 +1341,12 @@ msgstr ""
 "та налаштування видимості."
 
 #: config/./containers/shortcode-vc-column.php:10
-#: include/./params/vc_grid_item/shortcodes.php:352
+#: include/./params/vc_grid_item/shortcodes.php:340
 msgid "Column"
 msgstr "Колонка"
 
 #: config/./containers/shortcode-vc-column.php:14
-#: include/./params/vc_grid_item/shortcodes.php:360
+#: include/./params/vc_grid_item/shortcodes.php:348
 msgid "Place content elements inside the column"
 msgstr "Помістіть елементи вмісту всередині колонки"
 
@@ -1393,17 +1398,17 @@ msgstr ""
 #: config/./social/shortcode-vc-tweetmeme.php:210
 #: config/./social/shortcode-vc-tweetmeme.php:247
 #: config/./wp/shortcode-vc-wp-posts.php:34
-#: include/./autoload/vendors/gravity_forms.php:55
-#: include/./autoload/vendors/gravity_forms.php:70
-#: include/./autoload/vendors/gravity_forms.php:85
+#: include/./autoload/vendors/gravity_forms.php:54
+#: include/./autoload/vendors/gravity_forms.php:69
+#: include/./autoload/vendors/gravity_forms.php:84
 #: include/./classes/vendors/plugins/acf/grid-item-shortcodes.php:52
 #: include/./classes/vendors/plugins/acf/shortcode.php:50
 #: include/./classes/vendors/plugins/woocommerce/grid-item-shortcodes.php:74
 #: include/./params/default_params.php:85
-#: include/./params/vc_grid_item/shortcodes.php:50
-#: include/./params/vc_grid_item/shortcodes.php:119
-#: include/./params/vc_grid_item/shortcodes.php:148
-#: include/./params/vc_grid_item/shortcodes.php:387
+#: include/./params/vc_grid_item/shortcodes.php:39
+#: include/./params/vc_grid_item/shortcodes.php:107
+#: include/./params/vc_grid_item/shortcodes.php:136
+#: include/./params/vc_grid_item/shortcodes.php:375
 msgid "Yes"
 msgstr "Так"
 
@@ -1445,25 +1450,25 @@ msgstr "Паралакс"
 #: config/./grids/class-vc-grids-common.php:926
 #: config/./grids/class-vc-grids-common.php:1133
 #: config/./grids/class-vc-grids-common.php:1183 config/./lean-map.php:205
-#: config/./tta/shortcode-vc-tta-accordion.php:98
-#: config/./tta/shortcode-vc-tta-accordion.php:118
-#: config/./tta/shortcode-vc-tta-accordion.php:149
-#: config/./tta/shortcode-vc-tta-accordion.php:177
+#: config/./tta/shortcode-vc-tta-accordion.php:66
+#: config/./tta/shortcode-vc-tta-accordion.php:86
+#: config/./tta/shortcode-vc-tta-accordion.php:117
+#: config/./tta/shortcode-vc-tta-accordion.php:145
 #: config/./tta/shortcode-vc-tta-pageable.php:33
 #: config/./tta/shortcode-vc-tta-pageable.php:61
-#: config/./tta/shortcode-vc-tta-tabs.php:98
-#: config/./tta/shortcode-vc-tta-tabs.php:119
-#: config/./tta/shortcode-vc-tta-tabs.php:160
-#: config/./tta/shortcode-vc-tta-tabs.php:188
-#: config/./tta/shortcode-vc-tta-tour.php:98
-#: config/./tta/shortcode-vc-tta-tour.php:119
-#: config/./tta/shortcode-vc-tta-tour.php:174
-#: config/./tta/shortcode-vc-tta-tour.php:202
+#: config/./tta/shortcode-vc-tta-tabs.php:66
+#: config/./tta/shortcode-vc-tta-tabs.php:87
+#: config/./tta/shortcode-vc-tta-tabs.php:128
+#: config/./tta/shortcode-vc-tta-tabs.php:156
+#: config/./tta/shortcode-vc-tta-tour.php:66
+#: config/./tta/shortcode-vc-tta-tour.php:87
+#: config/./tta/shortcode-vc-tta-tour.php:142
+#: config/./tta/shortcode-vc-tta-tour.php:170
 #: include/./autoload/vc-image-filters.php:56
 #: include/./params/animation_style/animation_style.php:41
 #: include/./params/css_editor/css_editor.php:114
-#: include/./params/vc_grid_item/shortcodes.php:13
-#: include/./params/vc_grid_item/shortcodes.php:512
+#: include/./params/vc_grid_item/shortcodes.php:14
+#: include/./params/vc_grid_item/shortcodes.php:488
 #: include/./templates/pages/vc-settings/default-template-post-type.tpl.php:27
 msgid "None"
 msgstr "Немає"
@@ -1507,7 +1512,7 @@ msgstr ""
 #: config/./containers/shortcode-vc-section.php:102
 #: config/./content/shortcode-vc-hoverbox.php:79
 #: config/./content/shortcode-vc-single-image.php:33
-#: include/./params/vc_grid_item/shortcodes.php:768
+#: include/./params/vc_grid_item/shortcodes.php:743
 msgid "Image"
 msgstr "Зображення"
 
@@ -1516,7 +1521,7 @@ msgstr "Зображення"
 #: config/./containers/shortcode-vc-section.php:105
 #: config/./content/shortcode-vc-hoverbox.php:82
 #: config/./content/shortcode-vc-single-image.php:36
-#: include/./params/vc_grid_item/shortcodes.php:771
+#: include/./params/vc_grid_item/shortcodes.php:746
 msgid "Select image from media library."
 msgstr "Виберіть зображення з медіатеки."
 
@@ -1605,7 +1610,7 @@ msgstr "Розміщення вмісту"
 #: config/./content/shortcode-vc-toggle.php:57
 #: config/./grids/class-vc-grids-common.php:1134
 #: config/./grids/class-vc-grids-common.php:1184
-#: include/./helpers/helpers_api.php:555
+#: include/./helpers/helpers_api.php:554
 msgid "Default"
 msgstr "Без обумовлення"
 
@@ -1646,12 +1651,12 @@ msgstr ""
 "вашого сайту. Ви можете переключити його назад будь-коли."
 
 #: config/./containers/shortcode-vc-row.php:7
-#: include/./params/vc_grid_item/shortcodes.php:326
+#: include/./params/vc_grid_item/shortcodes.php:314
 msgid "Row"
 msgstr "Рядок"
 
 #: config/./containers/shortcode-vc-row.php:13
-#: include/./params/vc_grid_item/shortcodes.php:339
+#: include/./params/vc_grid_item/shortcodes.php:327
 msgid "Place content elements inside the row"
 msgstr "Помістіть елементи в рядок"
 
@@ -1702,14 +1707,14 @@ msgstr "Виберіть позицію колонок в межах рядка.
 
 #: config/./containers/shortcode-vc-section.php:7
 #: config/./deprecated/shortcode-vc-accordion-tab.php:18
-#: config/./tta/shortcode-vc-tta-accordion.php:247
+#: config/./tta/shortcode-vc-tta-accordion.php:215
 #: config/./tta/shortcode-vc-tta-pageable.php:128
 #: config/./tta/shortcode-vc-tta-pageable.php:129
 #: config/./tta/shortcode-vc-tta-section.php:70
-#: config/./tta/shortcode-vc-tta-tour.php:257
-#: config/./tta/shortcode-vc-tta-tour.php:258
-#: include/./classes/core/class-vc-base.php:702
-#: include/./classes/core/class-vc-base.php:705
+#: config/./tta/shortcode-vc-tta-tour.php:225
+#: config/./tta/shortcode-vc-tta-tour.php:226
+#: include/./classes/core/class-vc-base.php:711
+#: include/./classes/core/class-vc-base.php:714
 msgid "Section"
 msgstr "Розділ"
 
@@ -1811,7 +1816,7 @@ msgid "Blank space with custom height"
 msgstr "Пробіл із користувальницькою висотою"
 
 #: config/./content/shortcode-vc-empty-space.php:16
-#: include/./params/vc_grid_item/shortcodes.php:270
+#: include/./params/vc_grid_item/shortcodes.php:258
 msgid "Height"
 msgstr "Висота"
 
@@ -1863,7 +1868,7 @@ msgstr "Подача зображення з Flickr акаунту"
 #: include/./classes/vendors/plugins/class-vc-vendor-layerslider.php:149
 #: include/./classes/vendors/plugins/class-vc-vendor-revslider.php:64
 #: include/./classes/vendors/plugins/class-vc-vendor-revslider.php:134
-#: include/./params/vc_grid_item/shortcodes.php:751
+#: include/./params/vc_grid_item/shortcodes.php:726
 msgid "Widget title"
 msgstr "Віджет заголовок"
 
@@ -1889,7 +1894,7 @@ msgstr "Віджет заголовок"
 #: include/./classes/vendors/plugins/class-vc-vendor-layerslider.php:151
 #: include/./classes/vendors/plugins/class-vc-vendor-revslider.php:66
 #: include/./classes/vendors/plugins/class-vc-vendor-revslider.php:136
-#: include/./params/vc_grid_item/shortcodes.php:753
+#: include/./params/vc_grid_item/shortcodes.php:728
 msgid "Enter text used as widget title (Note: located above content element)."
 msgstr ""
 "Введіть текст, який буде заголовком віджета (Примітка : розташований над "
@@ -1908,43 +1913,43 @@ msgstr "Щоб знайти ваш flickID відвідайте %s."
 msgid "Number of photos"
 msgstr "Кількість фотографій"
 
-#: config/./content/shortcode-vc-flickr.php:54
+#: config/./content/shortcode-vc-flickr.php:42
 msgid "Select number of photos to display."
 msgstr "Виберіть кількість фотографій для відображення."
 
-#: config/./content/shortcode-vc-flickr.php:58
+#: config/./content/shortcode-vc-flickr.php:46
 msgid "Type"
 msgstr "Тип"
 
-#: config/./content/shortcode-vc-flickr.php:61
+#: config/./content/shortcode-vc-flickr.php:49
 msgid "User"
 msgstr "Користувач"
 
-#: config/./content/shortcode-vc-flickr.php:62
+#: config/./content/shortcode-vc-flickr.php:50
 msgid "Group"
 msgstr "Група"
 
-#: config/./content/shortcode-vc-flickr.php:64
+#: config/./content/shortcode-vc-flickr.php:52
 msgid "Select photo stream type."
 msgstr "Виберіть тип фото потоку."
 
-#: config/./content/shortcode-vc-flickr.php:68
+#: config/./content/shortcode-vc-flickr.php:56
 msgid "Display order"
 msgstr "Порядок відображення"
 
-#: config/./content/shortcode-vc-flickr.php:71
+#: config/./content/shortcode-vc-flickr.php:59
 msgid "Latest first"
 msgstr "Останні перші"
 
-#: config/./content/shortcode-vc-flickr.php:72
+#: config/./content/shortcode-vc-flickr.php:60
 #: config/./content/shortcode-vc-posts-slider.php:138
 #: config/./wp/shortcode-vc-wp-links.php:45
 #: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:130
-#: include/./params/loop/loop.php:498
+#: include/./params/loop/loop.php:472
 msgid "Random"
 msgstr "Випадкова"
 
-#: config/./content/shortcode-vc-flickr.php:74
+#: config/./content/shortcode-vc-flickr.php:62
 msgid "Select photo display order."
 msgstr "Виберіть порядок відображення фото."
 
@@ -1994,7 +1999,7 @@ msgstr "Автоповорот"
 #: config/./deprecated/shortcode-vc-tabs.php:27
 #: config/./deprecated/shortcode-vc-tour.php:29
 #: include/./autoload/vendors/gutenberg.php:41
-#: include/./classes/settings/class-vc-settings.php:515
+#: include/./classes/settings/class-vc-settings.php:498
 msgid "Disable"
 msgstr "Відключити"
 
@@ -2006,13 +2011,13 @@ msgstr "Автоматичний поворот слайдів кожні X се
 
 #: config/./content/shortcode-vc-gallery.php:54
 #: config/./content/shortcode-vc-single-image.php:21
-#: include/./params/vc_grid_item/shortcodes.php:757
+#: include/./params/vc_grid_item/shortcodes.php:732
 msgid "Image source"
 msgstr "Джерело зображення"
 
 #: config/./content/shortcode-vc-gallery.php:57
 #: config/./content/shortcode-vc-single-image.php:24
-#: include/./params/vc_grid_item/shortcodes.php:760
+#: include/./params/vc_grid_item/shortcodes.php:735
 msgid "Media library"
 msgstr "Медіа бібліотека"
 
@@ -2023,7 +2028,7 @@ msgstr "Зовнішні посилання"
 
 #: config/./content/shortcode-vc-gallery.php:61
 #: config/./content/shortcode-vc-single-image.php:29
-#: include/./params/vc_grid_item/shortcodes.php:764
+#: include/./params/vc_grid_item/shortcodes.php:739
 msgid "Select image source."
 msgstr "Вибір джерела зображення."
 
@@ -2051,10 +2056,10 @@ msgstr ""
 #: config/./content/shortcode-vc-gallery.php:97
 #: config/./content/shortcode-vc-single-image.php:56
 #: config/./content/shortcode-vc-single-image.php:70
-#: include/./params/vc_grid_item/shortcodes.php:55
-#: include/./params/vc_grid_item/shortcodes.php:392
-#: include/./params/vc_grid_item/shortcodes.php:582
-#: include/./params/vc_grid_item/shortcodes.php:790
+#: include/./params/vc_grid_item/shortcodes.php:44
+#: include/./params/vc_grid_item/shortcodes.php:380
+#: include/./params/vc_grid_item/shortcodes.php:557
+#: include/./params/vc_grid_item/shortcodes.php:765
 msgid "Image size"
 msgstr "Розмір зображення"
 
@@ -2090,10 +2095,8 @@ msgstr "Посилання на велике зображення"
 #: config/./content/shortcode-vc-gallery.php:113
 #: config/./content/shortcode-vc-images-carousel.php:38
 #: config/./content/shortcode-vc-single-image.php:184
-#, fuzzy
-#| msgid "Stripes Light"
-msgid "Open Lightbox"
-msgstr "Світлі смуги"
+msgid "Open prettyPhoto"
+msgstr "Відкрити prettyPhoto"
 
 #: config/./content/shortcode-vc-gallery.php:114
 #: config/./content/shortcode-vc-single-image.php:185
@@ -2469,11 +2472,11 @@ msgstr "Два"
 #: config/./grids/class-vc-grids-common.php:283
 #: config/./tta/shortcode-vc-tta-section.php:48
 #: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:128
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1269
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1302
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1365
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1479
-#: include/./params/loop/loop.php:490 include/./params/vc_link/vc_link.php:16
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1268
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1301
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1364
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1478
+#: include/./params/loop/loop.php:464 include/./params/vc_link/vc_link.php:16
 msgid "Title"
 msgstr "Заголовок"
 
@@ -2508,7 +2511,7 @@ msgstr "Виберіть власний колір діаграми."
 
 #: config/./content/shortcode-vc-line-chart.php:121
 #: config/./content/shortcode-vc-round-chart.php:149
-#: include/./params/vc_grid_item/shortcodes.php:219
+#: include/./params/vc_grid_item/shortcodes.php:207
 msgid "Animation"
 msgstr "Анімація"
 
@@ -2595,9 +2598,7 @@ msgstr "Бібліотека іконок"
 
 #: config/./content/shortcode-vc-message.php:149
 #: config/./content/vc-icon-element.php:18
-#, fuzzy
-#| msgid "Font Awesome"
-msgid "Font Awesome 5"
+msgid "Font Awesome"
 msgstr "Font Awesome"
 
 #: config/./content/shortcode-vc-message.php:150
@@ -2626,21 +2627,9 @@ msgid "Mono Social"
 msgstr "Mono Social"
 
 #: config/./content/shortcode-vc-message.php:158
-#, fuzzy
-#| msgid "Select icon library."
-msgid "Choose icon library."
+#: config/./content/vc-icon-element.php:28
+msgid "Select icon library."
 msgstr "Виберіть бібліотеку значків."
-
-#: config/./content/shortcode-vc-message.php:175
-#: config/./content/shortcode-vc-message.php:192
-#: config/./content/shortcode-vc-message.php:209
-#: config/./content/shortcode-vc-message.php:242
-#: config/./content/shortcode-vc-message.php:258
-#: config/./content/shortcode-vc-message.php:277
-#, fuzzy
-#| msgid "Select icon from library."
-msgid "Choose icon from library."
-msgstr "Вибрати піктограму з бібліотеки."
 
 #: config/./content/shortcode-vc-message.php:283
 msgid "Message text"
@@ -2733,7 +2722,7 @@ msgstr ""
 "відобразити всі слайди ) ."
 
 #: config/./content/shortcode-vc-posts-slider.php:53
-#: include/./params/loop/loop.php:359
+#: include/./params/loop/loop.php:334
 #: include/./templates/pages/partials/vc-roles-parts/_post_types.tpl.php:18
 #: include/./templates/pages/partials/vc-roles-parts/_post_types.tpl.php:19
 msgid "Post types"
@@ -2828,8 +2817,8 @@ msgstr ""
 #: config/./content/shortcode-vc-posts-slider.php:123
 #: config/./wp/shortcode-vc-wp-categories.php:7
 #: config/./wp/shortcode-vc-wp-categories.php:20
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:619
-#: include/./params/loop/loop.php:362
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:618
+#: include/./params/loop/loop.php:336
 msgid "Categories"
 msgstr "Категорії"
 
@@ -2846,55 +2835,55 @@ msgstr ""
 #: config/./grids/class-vc-grids-common.php:277
 #: config/./wp/shortcode-vc-wp-links.php:39
 #: config/./wp/shortcode-vc-wp-pages.php:24
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:250
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:305
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:373
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:540
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:585
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:665
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:753
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:815
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:910
-#: include/./params/loop/loop.php:357
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:249
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:304
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:372
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:539
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:584
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:664
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:752
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:814
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:909
+#: include/./params/loop/loop.php:332
 msgid "Order by"
 msgstr "Сортувати за"
 
 #: config/./content/shortcode-vc-posts-slider.php:133
 #: config/./grids/class-vc-grids-common.php:280
 #: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:125
-#: include/./params/loop/loop.php:481
+#: include/./params/loop/loop.php:455
 msgid "Date"
 msgstr "Дата"
 
 #: config/./content/shortcode-vc-posts-slider.php:134
 #: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:126
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1500
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1539
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1499
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1538
 msgid "ID"
 msgstr "ID"
 
 #: config/./content/shortcode-vc-posts-slider.php:135
 #: config/./grids/class-vc-grids-common.php:282
 #: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:127
-#: include/./params/loop/loop.php:361 include/./params/loop/loop.php:486
+#: include/./params/loop/loop.php:335 include/./params/loop/loop.php:460
 msgid "Author"
 msgstr "Автор"
 
 #: config/./content/shortcode-vc-posts-slider.php:137
 #: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:129
-#: include/./params/loop/loop.php:494
+#: include/./params/loop/loop.php:468
 msgid "Modified"
 msgstr "Змінений"
 
 #: config/./content/shortcode-vc-posts-slider.php:139
 #: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:131
-#: include/./params/loop/loop.php:502
+#: include/./params/loop/loop.php:476
 msgid "Comment count"
 msgstr "Кількість коментарів"
 
 #: config/./content/shortcode-vc-posts-slider.php:140
 #: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:132
-#: include/./params/loop/loop.php:506
+#: include/./params/loop/loop.php:480
 msgid "Menu order"
 msgstr "Нове замовлення"
 
@@ -2905,30 +2894,30 @@ msgstr "Виберіть як сортувати отримані пости. Б
 
 #: config/./content/shortcode-vc-posts-slider.php:146
 #: config/./grids/class-vc-grids-common.php:305
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:260
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:315
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:383
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:550
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:595
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:675
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:763
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:825
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:920
-#: include/./params/loop/loop.php:358
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:259
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:314
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:382
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:549
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:594
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:674
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:762
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:824
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:919
+#: include/./params/loop/loop.php:333
 msgid "Sort order"
 msgstr "Порядок сортування"
 
 #: config/./content/shortcode-vc-posts-slider.php:149
 #: config/./grids/class-vc-grids-common.php:309
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:140
-#: include/./params/loop/loop.php:525
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:139
+#: include/./params/loop/loop.php:499
 msgid "Descending"
 msgstr "У порядку зменшення"
 
 #: config/./content/shortcode-vc-posts-slider.php:150
 #: config/./grids/class-vc-grids-common.php:310
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:141
-#: include/./params/loop/loop.php:521
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:140
+#: include/./params/loop/loop.php:495
 msgid "Ascending"
 msgstr "У порядку збільшення"
 
@@ -2965,7 +2954,7 @@ msgid "Marketing"
 msgstr "Маркетинг"
 
 #: config/./content/shortcode-vc-progress-bar.php:67
-#: include/./params/vc_grid_item/shortcodes.php:671
+#: include/./params/vc_grid_item/shortcodes.php:646
 msgid "Label"
 msgstr "Мітка"
 
@@ -2994,10 +2983,8 @@ msgid "Select custom single bar text color."
 msgstr "Виберіть колір тексту для користувальницького бару ."
 
 #: config/./content/shortcode-vc-progress-bar.php:121
-#, fuzzy
-#| msgid "Select area color."
-msgid "Select bar color."
-msgstr "Виберіть колір області ."
+msgid "Select bar background color."
+msgstr "Виберіть колір фону бару."
 
 #: config/./content/shortcode-vc-progress-bar.php:127
 msgid "Bar custom background color"
@@ -3048,9 +3035,9 @@ msgstr "Пончик"
 #: config/./content/shortcode-vc-round-chart.php:48
 #: config/./grids/class-vc-grids-common.php:254
 #: config/./grids/class-vc-grids-common.php:806
-#: config/./tta/shortcode-vc-tta-accordion.php:131
-#: config/./tta/shortcode-vc-tta-tabs.php:132
-#: config/./tta/shortcode-vc-tta-tour.php:132
+#: config/./tta/shortcode-vc-tta-accordion.php:99
+#: config/./tta/shortcode-vc-tta-tabs.php:100
+#: config/./tta/shortcode-vc-tta-tour.php:100
 msgid "Gap"
 msgstr "Відступи"
 
@@ -3146,19 +3133,19 @@ msgid "Select separator width (percentage)."
 msgstr "Виберіть ширину розділювача (у відсотках)."
 
 #: config/./content/shortcode-vc-single-image.php:7
-#: include/./params/vc_grid_item/shortcodes.php:743
+#: include/./params/vc_grid_item/shortcodes.php:718
 msgid "Single Image"
 msgstr "Одне Зображення"
 
 #: config/./content/shortcode-vc-single-image.php:11
-#: include/./params/vc_grid_item/shortcodes.php:747
+#: include/./params/vc_grid_item/shortcodes.php:722
 msgid "Simple image with CSS animation"
 msgstr "Просте зображення з CSS анімацією"
 
 #: config/./content/shortcode-vc-single-image.php:25
 #: config/./content/shortcode-vc-single-image.php:45
-#: include/./params/vc_grid_item/shortcodes.php:761
-#: include/./params/vc_grid_item/shortcodes.php:779
+#: include/./params/vc_grid_item/shortcodes.php:736
+#: include/./params/vc_grid_item/shortcodes.php:754
 msgid "External link"
 msgstr "Зовнішнє посилання"
 
@@ -3167,13 +3154,13 @@ msgid "Featured Image"
 msgstr "Зображення запису"
 
 #: config/./content/shortcode-vc-single-image.php:47
-#: include/./params/vc_grid_item/shortcodes.php:781
+#: include/./params/vc_grid_item/shortcodes.php:756
 msgid "Select external link."
 msgstr "Виберіть зовнішнє посилання."
 
 #: config/./content/shortcode-vc-single-image.php:59
-#: include/./params/vc_grid_item/shortcodes.php:58
-#: include/./params/vc_grid_item/shortcodes.php:395
+#: include/./params/vc_grid_item/shortcodes.php:47
+#: include/./params/vc_grid_item/shortcodes.php:383
 msgid ""
 "Enter image size (Example: \"thumbnail\", \"medium\", \"large\", \"full\" or "
 "other sizes defined by theme). Alternatively enter size in pixels (Example: "
@@ -3200,44 +3187,43 @@ msgid "Add image caption."
 msgstr "Додати напис зображення."
 
 #: config/./content/shortcode-vc-single-image.php:105
-#: include/./params/vc_grid_item/shortcodes.php:588
-#: include/./params/vc_grid_item/shortcodes.php:796
+#: include/./params/vc_grid_item/shortcodes.php:563
+#: include/./params/vc_grid_item/shortcodes.php:771
 msgid "Image alignment"
 msgstr "Вирівнювання"
 
 #: config/./content/shortcode-vc-single-image.php:112
-#: include/./params/vc_grid_item/shortcodes.php:505
-#: include/./params/vc_grid_item/shortcodes.php:595
-#: include/./params/vc_grid_item/shortcodes.php:803
+#: include/./params/vc_grid_item/shortcodes.php:570
+#: include/./params/vc_grid_item/shortcodes.php:778
 msgid "Select image alignment."
 msgstr "Виберіть вирівнювання зображення."
 
 #: config/./content/shortcode-vc-single-image.php:116
 #: config/./content/shortcode-vc-single-image.php:130
-#: include/./params/vc_grid_item/shortcodes.php:599
-#: include/./params/vc_grid_item/shortcodes.php:807
+#: include/./params/vc_grid_item/shortcodes.php:574
+#: include/./params/vc_grid_item/shortcodes.php:782
 msgid "Image style"
 msgstr "Стиль зображення"
 
 #: config/./content/shortcode-vc-single-image.php:119
 #: config/./content/shortcode-vc-single-image.php:133
-#: include/./params/vc_grid_item/shortcodes.php:602
-#: include/./params/vc_grid_item/shortcodes.php:810
+#: include/./params/vc_grid_item/shortcodes.php:577
+#: include/./params/vc_grid_item/shortcodes.php:785
 msgid "Select image display style."
 msgstr "Виберіть стиль відображення зображення."
 
 #: config/./content/shortcode-vc-single-image.php:141
 #: config/./content/shortcode-vc-single-image.php:161
 #: include/./params/css_editor/css_editor.php:89
-#: include/./params/vc_grid_item/shortcodes.php:606
-#: include/./params/vc_grid_item/shortcodes.php:814
+#: include/./params/vc_grid_item/shortcodes.php:581
+#: include/./params/vc_grid_item/shortcodes.php:789
 msgid "Border color"
 msgstr "Колір рамки"
 
 #: config/./content/shortcode-vc-single-image.php:156
 #: config/./content/shortcode-vc-single-image.php:174
-#: include/./params/vc_grid_item/shortcodes.php:619
-#: include/./params/vc_grid_item/shortcodes.php:827
+#: include/./params/vc_grid_item/shortcodes.php:594
+#: include/./params/vc_grid_item/shortcodes.php:802
 msgid "Border color."
 msgstr "Колір рамки."
 
@@ -3372,13 +3358,17 @@ msgid "Video link"
 msgstr "Відео посилання"
 
 #: config/./content/shortcode-vc-video.php:25
-#, php-format
+#, fuzzy, php-format
+#| msgid ""
+#| "Enter link to video (Note: read more about available formats at WordPress "
+#| "<a href=\"%s\" target=\"_blank\">codex page</a>)."
 msgid ""
 "Enter link to video (Note: read more about available formats at WordPress "
 "%scodex page%s)."
 msgstr ""
 "Введіть посилання на відео ( Примітка : Додаткову інформацію про доступних "
-"форматах на WordPress %sCodex сторінку%s) ."
+"форматах на WordPress <a href=\"%s\" target=\"_blank\"> Codex сторінку </"
+"a> ) ."
 
 #: config/./content/shortcode-vc-video.php:29
 msgid "Video width"
@@ -3389,16 +3379,14 @@ msgid "Select video width (percentage)."
 msgstr "Виберіть ширину відео (у відсотках)."
 
 #: config/./content/shortcode-vc-video.php:47
-#, fuzzy
-#| msgid "Video aspect ration"
-msgid "Video aspect ratio"
+msgid "Video aspect ration"
 msgstr "Пропорції відео"
 
-#: config/./content/shortcode-vc-video.php:57
+#: config/./content/shortcode-vc-video.php:54
 msgid "Select video aspect ratio."
 msgstr "Виберіть співвідношення сторін відео."
 
-#: config/./content/shortcode-vc-video.php:63
+#: config/./content/shortcode-vc-video.php:60
 msgid "Select video alignment."
 msgstr "Виберіть вирівнювання відео."
 
@@ -3411,35 +3399,35 @@ msgid "Horizontal zigzag separator line"
 msgstr "Горизонтальна лінія сепаратора зигзага"
 
 #: config/./content/shortcode-vc-zigzag.php:26
-#: include/./params/vc_grid_item/shortcodes.php:111
-#: include/./params/vc_grid_item/shortcodes.php:135
+#: include/./params/vc_grid_item/shortcodes.php:99
+#: include/./params/vc_grid_item/shortcodes.php:123
 msgid "Select color for your element."
 msgstr "Виберіть колір для вашого елемента."
 
 #: config/./content/shortcode-vc-zigzag.php:67
-#: config/./tta/shortcode-vc-tta-tour.php:165
+#: config/./tta/shortcode-vc-tta-tour.php:133
 msgid "Extra small"
 msgstr "Дуже малий"
 
 #: config/./content/shortcode-vc-zigzag.php:68
 #: config/./deprecated/shortcode-vc-googleplus.php:21 config/./lean-map.php:198
-#: config/./tta/shortcode-vc-tta-tour.php:164
+#: config/./tta/shortcode-vc-tta-tour.php:132
 msgid "Small"
 msgstr "Малий"
 
 #: config/./content/shortcode-vc-zigzag.php:69
 #: config/./deprecated/shortcode-vc-googleplus.php:22
-#: config/./tta/shortcode-vc-tta-tour.php:163
+#: config/./tta/shortcode-vc-tta-tour.php:131
 msgid "Medium"
 msgstr "Середній"
 
 #: config/./content/shortcode-vc-zigzag.php:70 config/./lean-map.php:197
-#: config/./tta/shortcode-vc-tta-tour.php:162
+#: config/./tta/shortcode-vc-tta-tour.php:130
 msgid "Large"
 msgstr "Великий"
 
 #: config/./content/shortcode-vc-zigzag.php:71
-#: config/./tta/shortcode-vc-tta-tour.php:161
+#: config/./tta/shortcode-vc-tta-tour.php:129
 msgid "Extra large"
 msgstr "Дуже великий"
 
@@ -3488,26 +3476,26 @@ msgid "Add link to custom heading."
 msgstr "Додати посилання на спеціальний заголовок."
 
 #: config/./content/vc-custom-heading-element.php:57
-#: include/./params/vc_grid_item/shortcodes.php:107
-#: include/./params/vc_grid_item/shortcodes.php:131
+#: include/./params/vc_grid_item/shortcodes.php:95
+#: include/./params/vc_grid_item/shortcodes.php:119
 msgid "Select element tag."
 msgstr "Виберіть елемент tag."
 
 #: config/./content/vc-custom-heading-element.php:58
-#: include/./params/vc_grid_item/shortcodes.php:108
-#: include/./params/vc_grid_item/shortcodes.php:132
+#: include/./params/vc_grid_item/shortcodes.php:96
+#: include/./params/vc_grid_item/shortcodes.php:120
 msgid "Select text alignment."
 msgstr "Виберіть вирівнювання тексту."
 
 #: config/./content/vc-custom-heading-element.php:59
-#: include/./params/vc_grid_item/shortcodes.php:109
-#: include/./params/vc_grid_item/shortcodes.php:133
+#: include/./params/vc_grid_item/shortcodes.php:97
+#: include/./params/vc_grid_item/shortcodes.php:121
 msgid "Enter font size."
 msgstr "Введіть розмір шрифту."
 
 #: config/./content/vc-custom-heading-element.php:60
-#: include/./params/vc_grid_item/shortcodes.php:110
-#: include/./params/vc_grid_item/shortcodes.php:134
+#: include/./params/vc_grid_item/shortcodes.php:98
+#: include/./params/vc_grid_item/shortcodes.php:122
 msgid "Enter line height."
 msgstr "Введіть висоту рядка ."
 
@@ -3524,12 +3512,12 @@ msgid "Use font family from the theme."
 msgstr "Використовуйте сімейство шрифтів до теми."
 
 #: config/./content/vc-custom-heading-element.php:78
-#: include/./params/vc_grid_item/shortcodes.php:164
+#: include/./params/vc_grid_item/shortcodes.php:152
 msgid "Select font family."
 msgstr "Виберіть сімейство шрифтів."
 
 #: config/./content/vc-custom-heading-element.php:79
-#: include/./params/vc_grid_item/shortcodes.php:165
+#: include/./params/vc_grid_item/shortcodes.php:153
 msgid "Select font styling."
 msgstr "Виберіть стиль шрифту."
 
@@ -3540,10 +3528,6 @@ msgstr "Eye catching іконки з бібліотек"
 #: config/./content/vc-icon-element.php:24
 msgid "Material"
 msgstr "Матеріал"
-
-#: config/./content/vc-icon-element.php:28
-msgid "Select icon library."
-msgstr "Виберіть бібліотеку значків."
 
 #: config/./content/vc-icon-element.php:173
 msgid "Select custom icon color."
@@ -3615,10 +3599,10 @@ msgid "Collapsible content panels"
 msgstr "Складні панелі контенту"
 
 #: config/./deprecated/shortcode-vc-accordion.php:24
-#: config/./tta/shortcode-vc-tta-accordion.php:204
+#: config/./tta/shortcode-vc-tta-accordion.php:172
 #: config/./tta/shortcode-vc-tta-pageable.php:53
-#: config/./tta/shortcode-vc-tta-tabs.php:180
-#: config/./tta/shortcode-vc-tta-tour.php:194
+#: config/./tta/shortcode-vc-tta-tabs.php:148
+#: config/./tta/shortcode-vc-tta-tour.php:162
 msgid "Active section"
 msgstr "Активна секція"
 
@@ -4096,7 +4080,7 @@ msgstr "Фільтрувати за"
 #: config/./grids/class-vc-grids-common.php:459
 #: config/./grids/class-vc-grids-common.php:473
 #: config/./grids/class-vc-grids-common.php:487
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:843
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:842
 msgid "Filter"
 msgstr "Фільтрувати"
 
@@ -4113,22 +4097,22 @@ msgid "Enter categories, tags won't be shown in the filters list"
 msgstr "Виберіть категорію, тєги які б ви не хотіли бачити в списку фільтрів"
 
 #: config/./grids/class-vc-grids-common.php:419
-#: include/./params/vc_grid_item/shortcodes.php:515
+#: include/./params/vc_grid_item/shortcodes.php:491
 msgid "Less Rounded"
 msgstr "Меньш округленна"
 
 #: config/./grids/class-vc-grids-common.php:420
-#: include/./params/vc_grid_item/shortcodes.php:516
+#: include/./params/vc_grid_item/shortcodes.php:492
 msgid "Border"
 msgstr "Рамка"
 
 #: config/./grids/class-vc-grids-common.php:421
-#: include/./params/vc_grid_item/shortcodes.php:517
+#: include/./params/vc_grid_item/shortcodes.php:493
 msgid "Rounded Border"
 msgstr "Округлена рамка"
 
 #: config/./grids/class-vc-grids-common.php:422
-#: include/./params/vc_grid_item/shortcodes.php:518
+#: include/./params/vc_grid_item/shortcodes.php:494
 msgid "Less Rounded Border"
 msgstr "Меньш округлена рамка"
 
@@ -4280,48 +4264,48 @@ msgstr "Виберіть колір для стрілок."
 #: config/./grids/class-vc-grids-common.php:550
 #: config/./grids/class-vc-grids-common.php:923
 #: config/./tta/shortcode-vc-tta-pageable.php:68
-#: config/./tta/shortcode-vc-tta-tabs.php:195
-#: config/./tta/shortcode-vc-tta-tour.php:209
+#: config/./tta/shortcode-vc-tta-tabs.php:163
+#: config/./tta/shortcode-vc-tta-tour.php:177
 msgid "Pagination style"
 msgstr "Стиль нумерації сторінок"
 
 #: config/./grids/class-vc-grids-common.php:554
 #: config/./grids/class-vc-grids-common.php:927
 #: config/./tta/shortcode-vc-tta-pageable.php:62
-#: config/./tta/shortcode-vc-tta-tabs.php:189
-#: config/./tta/shortcode-vc-tta-tour.php:203
+#: config/./tta/shortcode-vc-tta-tabs.php:157
+#: config/./tta/shortcode-vc-tta-tour.php:171
 msgid "Square Dots"
 msgstr "Квадратні точки"
 
 #: config/./grids/class-vc-grids-common.php:555
 #: config/./grids/class-vc-grids-common.php:928
 #: config/./tta/shortcode-vc-tta-pageable.php:63
-#: config/./tta/shortcode-vc-tta-tabs.php:190
-#: config/./tta/shortcode-vc-tta-tour.php:204
+#: config/./tta/shortcode-vc-tta-tabs.php:158
+#: config/./tta/shortcode-vc-tta-tour.php:172
 msgid "Radio Dots"
 msgstr "Радіо точки"
 
 #: config/./grids/class-vc-grids-common.php:556
 #: config/./grids/class-vc-grids-common.php:929
 #: config/./tta/shortcode-vc-tta-pageable.php:64
-#: config/./tta/shortcode-vc-tta-tabs.php:191
-#: config/./tta/shortcode-vc-tta-tour.php:205
+#: config/./tta/shortcode-vc-tta-tabs.php:159
+#: config/./tta/shortcode-vc-tta-tour.php:173
 msgid "Point Dots"
 msgstr "Пункт точки"
 
 #: config/./grids/class-vc-grids-common.php:557
 #: config/./grids/class-vc-grids-common.php:930
 #: config/./tta/shortcode-vc-tta-pageable.php:65
-#: config/./tta/shortcode-vc-tta-tabs.php:192
-#: config/./tta/shortcode-vc-tta-tour.php:206
+#: config/./tta/shortcode-vc-tta-tabs.php:160
+#: config/./tta/shortcode-vc-tta-tour.php:174
 msgid "Fill Square Dots"
 msgstr "Заповнені квадратні точки"
 
 #: config/./grids/class-vc-grids-common.php:558
 #: config/./grids/class-vc-grids-common.php:931
 #: config/./tta/shortcode-vc-tta-pageable.php:66
-#: config/./tta/shortcode-vc-tta-tabs.php:193
-#: config/./tta/shortcode-vc-tta-tour.php:207
+#: config/./tta/shortcode-vc-tta-tabs.php:161
+#: config/./tta/shortcode-vc-tta-tour.php:175
 msgid "Rounded Fill Square Dots"
 msgstr "Округлені заповнені квадратні точки"
 
@@ -4398,24 +4382,24 @@ msgstr "Світлі смуги"
 #: config/./grids/class-vc-grids-common.php:580
 #: config/./grids/class-vc-grids-common.php:953
 #: config/./tta/shortcode-vc-tta-pageable.php:69
-#: config/./tta/shortcode-vc-tta-tabs.php:196
-#: config/./tta/shortcode-vc-tta-tour.php:210
+#: config/./tta/shortcode-vc-tta-tabs.php:164
+#: config/./tta/shortcode-vc-tta-tour.php:178
 msgid "Select pagination style."
 msgstr "Виберіть стиль нумерації сторінок."
 
 #: config/./grids/class-vc-grids-common.php:584
 #: config/./grids/class-vc-grids-common.php:957
 #: config/./tta/shortcode-vc-tta-pageable.php:76
-#: config/./tta/shortcode-vc-tta-tabs.php:202
-#: config/./tta/shortcode-vc-tta-tour.php:216
+#: config/./tta/shortcode-vc-tta-tabs.php:170
+#: config/./tta/shortcode-vc-tta-tour.php:184
 msgid "Pagination color"
 msgstr "Колір  нумерації сторінок"
 
 #: config/./grids/class-vc-grids-common.php:595
 #: config/./grids/class-vc-grids-common.php:968
 #: config/./tta/shortcode-vc-tta-pageable.php:77
-#: config/./tta/shortcode-vc-tta-tabs.php:203
-#: config/./tta/shortcode-vc-tta-tour.php:217
+#: config/./tta/shortcode-vc-tta-tabs.php:171
+#: config/./tta/shortcode-vc-tta-tour.php:185
 msgid "Select pagination color."
 msgstr "Виберіть колір нумерації сторінок."
 
@@ -5492,132 +5476,100 @@ msgstr "Три зображення з статтею"
 msgid "Accordion"
 msgstr "Акордеон"
 
-#: config/./tta/shortcode-vc-tta-accordion.php:37
-#: config/./tta/shortcode-vc-tta-tabs.php:37
-#: config/./tta/shortcode-vc-tta-tour.php:37
-#, fuzzy
-#| msgid "Widget title"
-msgid "Widget title tag"
-msgstr "Віджет заголовок"
-
-#: config/./tta/shortcode-vc-tta-accordion.php:38
-#: config/./tta/shortcode-vc-tta-tabs.php:38
-#: config/./tta/shortcode-vc-tta-tour.php:38
-#, fuzzy
-#| msgid "Select widget area to display."
-msgid "Select widget title tag."
-msgstr "Виберіть місце відображення віджету."
-
-#: config/./tta/shortcode-vc-tta-accordion.php:53
-#: config/./tta/shortcode-vc-tta-tabs.php:53
-#: config/./tta/shortcode-vc-tta-tour.php:53
-#, fuzzy
-#| msgid "Section stretch"
-msgid "Section title tag"
-msgstr "Розтягнути розділ"
-
-#: config/./tta/shortcode-vc-tta-accordion.php:54
-#: config/./tta/shortcode-vc-tta-tabs.php:54
-#: config/./tta/shortcode-vc-tta-tour.php:54
-#, fuzzy
-#| msgid "Select tabs section title alignment."
-msgid "Select section title tag."
-msgstr "Вибрати розділ вирівнювання заголовка вкладок."
-
-#: config/./tta/shortcode-vc-tta-accordion.php:66
+#: config/./tta/shortcode-vc-tta-accordion.php:34
 msgid "Select accordion display style."
 msgstr "Вибрати акордеон відображення стилю."
 
-#: config/./tta/shortcode-vc-tta-accordion.php:77
+#: config/./tta/shortcode-vc-tta-accordion.php:45
 msgid "Select accordion shape."
 msgstr "Вибрати форми аккордеона."
 
-#: config/./tta/shortcode-vc-tta-accordion.php:85
+#: config/./tta/shortcode-vc-tta-accordion.php:53
 msgid "Select accordion color."
 msgstr "Вибрати колір аккордеона."
 
-#: config/./tta/shortcode-vc-tta-accordion.php:91
-#: config/./tta/shortcode-vc-tta-tabs.php:91
-#: config/./tta/shortcode-vc-tta-tour.php:91
+#: config/./tta/shortcode-vc-tta-accordion.php:59
+#: config/./tta/shortcode-vc-tta-tabs.php:59
+#: config/./tta/shortcode-vc-tta-tour.php:59
 msgid "Do not fill content area?"
 msgstr "Не заповнювати область вмісту?"
 
-#: config/./tta/shortcode-vc-tta-accordion.php:92
-#: config/./tta/shortcode-vc-tta-tabs.php:92
-#: config/./tta/shortcode-vc-tta-tour.php:92
+#: config/./tta/shortcode-vc-tta-accordion.php:60
+#: config/./tta/shortcode-vc-tta-tabs.php:60
+#: config/./tta/shortcode-vc-tta-tour.php:60
 msgid "Do not fill content area with color."
 msgstr "Не заповнювати область вмісту з кольором."
 
-#: config/./tta/shortcode-vc-tta-accordion.php:111
-#: config/./tta/shortcode-vc-tta-tabs.php:111
-#: config/./tta/shortcode-vc-tta-tour.php:111
+#: config/./tta/shortcode-vc-tta-accordion.php:79
+#: config/./tta/shortcode-vc-tta-tabs.php:79
+#: config/./tta/shortcode-vc-tta-tour.php:79
 msgid "Spacing"
 msgstr "Відступи"
 
-#: config/./tta/shortcode-vc-tta-accordion.php:112
+#: config/./tta/shortcode-vc-tta-accordion.php:80
 msgid "Select accordion spacing."
 msgstr "Вибрати відстань аккордеона."
 
-#: config/./tta/shortcode-vc-tta-accordion.php:132
+#: config/./tta/shortcode-vc-tta-accordion.php:100
 msgid "Select accordion gap."
 msgstr "Вибрати розрив аккордеона."
 
-#: config/./tta/shortcode-vc-tta-accordion.php:143
+#: config/./tta/shortcode-vc-tta-accordion.php:111
 msgid "Select accordion section title alignment."
 msgstr "Вибрати розділ акордеону з вирівнюванням заголовка."
 
-#: config/./tta/shortcode-vc-tta-accordion.php:163
+#: config/./tta/shortcode-vc-tta-accordion.php:131
 #: config/./tta/shortcode-vc-tta-pageable.php:47
-#: config/./tta/shortcode-vc-tta-tabs.php:174
-#: config/./tta/shortcode-vc-tta-tour.php:188
+#: config/./tta/shortcode-vc-tta-tabs.php:142
+#: config/./tta/shortcode-vc-tta-tour.php:156
 msgid "Autoplay"
 msgstr "Автозапуск"
 
-#: config/./tta/shortcode-vc-tta-accordion.php:164
+#: config/./tta/shortcode-vc-tta-accordion.php:132
 msgid ""
 "Select auto rotate for accordion in seconds (Note: disabled by default)."
 msgstr ""
 "Вибрати авто переміщення для акордеона в  секундах(Примітка: відключено за "
 "замовчуваням)"
 
-#: config/./tta/shortcode-vc-tta-accordion.php:169
+#: config/./tta/shortcode-vc-tta-accordion.php:137
 msgid "Allow collapse all?"
 msgstr "Дозволити згорнути все?"
 
-#: config/./tta/shortcode-vc-tta-accordion.php:170
+#: config/./tta/shortcode-vc-tta-accordion.php:138
 msgid "Allow collapse all accordion sections."
 msgstr "Дозволити згорнути все в розділі аккордеон."
 
-#: config/./tta/shortcode-vc-tta-accordion.php:178
+#: config/./tta/shortcode-vc-tta-accordion.php:146
 msgid "Chevron"
 msgstr "Шеврон"
 
-#: config/./tta/shortcode-vc-tta-accordion.php:179
+#: config/./tta/shortcode-vc-tta-accordion.php:147
 msgid "Plus"
 msgstr "Плюс"
 
-#: config/./tta/shortcode-vc-tta-accordion.php:180
+#: config/./tta/shortcode-vc-tta-accordion.php:148
 msgid "Triangle"
 msgstr "Трикутник"
 
-#: config/./tta/shortcode-vc-tta-accordion.php:184
+#: config/./tta/shortcode-vc-tta-accordion.php:152
 msgid "Select accordion navigation icon."
 msgstr "Вибрати значок навігації аккордеона."
 
-#: config/./tta/shortcode-vc-tta-accordion.php:197
-#: config/./tta/shortcode-vc-tta-tabs.php:142
-#: config/./tta/shortcode-vc-tta-tour.php:142
+#: config/./tta/shortcode-vc-tta-accordion.php:165
+#: config/./tta/shortcode-vc-tta-tabs.php:110
+#: config/./tta/shortcode-vc-tta-tour.php:110
 msgid "Position"
 msgstr "Положення"
 
-#: config/./tta/shortcode-vc-tta-accordion.php:198
+#: config/./tta/shortcode-vc-tta-accordion.php:166
 msgid "Select accordion navigation icon position."
 msgstr "Вибрати позицію значка навігації аккордеона."
 
-#: config/./tta/shortcode-vc-tta-accordion.php:206
+#: config/./tta/shortcode-vc-tta-accordion.php:174
 #: config/./tta/shortcode-vc-tta-pageable.php:55
-#: config/./tta/shortcode-vc-tta-tabs.php:182
-#: config/./tta/shortcode-vc-tta-tour.php:196
+#: config/./tta/shortcode-vc-tta-tabs.php:150
+#: config/./tta/shortcode-vc-tta-tour.php:164
 msgid ""
 "Enter active section number (Note: to have all sections closed on initial "
 "load enter non-existing number)."
@@ -5625,11 +5577,11 @@ msgstr ""
 "Ввести номер активного розділу(Примітка: щоб всі розділи були закриті "
 "введіть неіснуючий номер)."
 
-#: config/./tta/shortcode-vc-tta-accordion.php:219
+#: config/./tta/shortcode-vc-tta-accordion.php:187
 #: config/./tta/shortcode-vc-tta-pageable.php:107
 #: config/./tta/shortcode-vc-tta-section.php:65
-#: config/./tta/shortcode-vc-tta-tabs.php:222
-#: config/./tta/shortcode-vc-tta-tour.php:236
+#: config/./tta/shortcode-vc-tta-tabs.php:190
+#: config/./tta/shortcode-vc-tta-tour.php:204
 msgid ""
 "If you wish to style particular content element differently, then use this "
 "field to add a class name and then refer to it in your css file."
@@ -5637,7 +5589,7 @@ msgstr ""
 "Якщо ви хочете змінити стиль елемента контенту по-різному, використовуйте це "
 "поле, щоб додати ім'я класу, а потім надішліть його у ваш CSS-файл."
 
-#: config/./tta/shortcode-vc-tta-accordion.php:238
+#: config/./tta/shortcode-vc-tta-accordion.php:206
 msgid "Add Section"
 msgstr "Додати розділ"
 
@@ -5688,13 +5640,16 @@ msgid "Enter section title (Note: you can leave it empty)."
 msgstr "Виберіть розділ заголовка (примітка: не залишайте  це порожнім)"
 
 #: config/./tta/shortcode-vc-tta-section.php:58
-#, php-format
+#, fuzzy, php-format
+#| msgid ""
+#| "Enter section ID (Note: make sure it is unique and valid according to <a "
+#| "href=\"%s\" target=\"_blank\">w3c specification</a>)."
 msgid ""
 "Enter section ID (Note: make sure it is unique and valid according to %sw3c "
 "specification%s)."
 msgstr ""
 "Введіть ID розділу (Примітка: переконайтеся, що він унікальний і дійсний "
-"відповідно до %sспецифікації w3c%s )."
+"відповідно до <a href=\"%s\" target=\"_blank\">специфікації w3c</a> )."
 
 #: config/./tta/shortcode-vc-tta-section.php:80
 msgid "Section for Tabs, Tours, Accordions."
@@ -5704,43 +5659,43 @@ msgstr "Розділ для Вкладок, Турів, Акордеонів."
 msgid "Tabs"
 msgstr "Вкладки"
 
-#: config/./tta/shortcode-vc-tta-tabs.php:66
+#: config/./tta/shortcode-vc-tta-tabs.php:34
 msgid "Select tabs display style."
 msgstr "Вибрати відображення стилю вкладок."
 
-#: config/./tta/shortcode-vc-tta-tabs.php:77
+#: config/./tta/shortcode-vc-tta-tabs.php:45
 msgid "Select tabs shape."
 msgstr "Вибрати форму вкладок."
 
-#: config/./tta/shortcode-vc-tta-tabs.php:83
+#: config/./tta/shortcode-vc-tta-tabs.php:51
 msgid "Select tabs color."
 msgstr "Вибрати колір вкладок."
 
-#: config/./tta/shortcode-vc-tta-tabs.php:112
+#: config/./tta/shortcode-vc-tta-tabs.php:80
 msgid "Select tabs spacing."
 msgstr "Вибрати відстань вкладок."
 
-#: config/./tta/shortcode-vc-tta-tabs.php:133
+#: config/./tta/shortcode-vc-tta-tabs.php:101
 msgid "Select tabs gap."
 msgstr "Вибрати розрив вкладок."
 
-#: config/./tta/shortcode-vc-tta-tabs.php:143
+#: config/./tta/shortcode-vc-tta-tabs.php:111
 msgid "Select tabs navigation position."
 msgstr "Вибрати навігацію позиції вкладок."
 
-#: config/./tta/shortcode-vc-tta-tabs.php:154
+#: config/./tta/shortcode-vc-tta-tabs.php:122
 msgid "Select tabs section title alignment."
 msgstr "Вибрати розділ вирівнювання заголовка вкладок."
 
-#: config/./tta/shortcode-vc-tta-tabs.php:175
+#: config/./tta/shortcode-vc-tta-tabs.php:143
 msgid "Select auto rotate for tabs in seconds (Note: disabled by default)."
 msgstr ""
 "Вибрати авто переміщення для вкладок  в  секундах(Примітка: відключено за "
 "замовчуваням)"
 
-#: config/./tta/shortcode-vc-tta-tabs.php:243
-#: config/./tta/shortcode-vc-tta-tabs.php:244
-#: include/./classes/core/class-vc-base.php:701
+#: config/./tta/shortcode-vc-tta-tabs.php:211
+#: config/./tta/shortcode-vc-tta-tabs.php:212
+#: include/./classes/core/class-vc-base.php:710
 #: include/./classes/shortcodes/vc-tab.php:6
 msgid "Tab"
 msgstr "Вкладка"
@@ -5749,47 +5704,47 @@ msgstr "Вкладка"
 msgid "Tour"
 msgstr "Тур"
 
-#: config/./tta/shortcode-vc-tta-tour.php:66
+#: config/./tta/shortcode-vc-tta-tour.php:34
 msgid "Select tour display style."
 msgstr "Вибрати відображення стилю туру."
 
-#: config/./tta/shortcode-vc-tta-tour.php:77
+#: config/./tta/shortcode-vc-tta-tour.php:45
 msgid "Select tour shape."
 msgstr "Вибрати форму туру."
 
-#: config/./tta/shortcode-vc-tta-tour.php:83
+#: config/./tta/shortcode-vc-tta-tour.php:51
 msgid "Select tour color."
 msgstr "Вибрати колір туру."
 
-#: config/./tta/shortcode-vc-tta-tour.php:112
+#: config/./tta/shortcode-vc-tta-tour.php:80
 msgid "Select tour spacing."
 msgstr "Вибрати відстань туру."
 
-#: config/./tta/shortcode-vc-tta-tour.php:133
+#: config/./tta/shortcode-vc-tta-tour.php:101
 msgid "Select tour gap."
 msgstr "Вибрати розрив туру."
 
-#: config/./tta/shortcode-vc-tta-tour.php:143
+#: config/./tta/shortcode-vc-tta-tour.php:111
 msgid "Select tour navigation position."
 msgstr "Вибрати навігацію позиції туру."
 
-#: config/./tta/shortcode-vc-tta-tour.php:154
+#: config/./tta/shortcode-vc-tta-tour.php:122
 msgid "Select tour section title alignment."
 msgstr "Вибрати розділ вирівнювання заголовка туру."
 
-#: config/./tta/shortcode-vc-tta-tour.php:160
+#: config/./tta/shortcode-vc-tta-tour.php:128
 msgid "Auto"
 msgstr "Авто"
 
-#: config/./tta/shortcode-vc-tta-tour.php:167
+#: config/./tta/shortcode-vc-tta-tour.php:135
 msgid "Navigation width"
 msgstr "Ширина навігації"
 
-#: config/./tta/shortcode-vc-tta-tour.php:168
+#: config/./tta/shortcode-vc-tta-tour.php:136
 msgid "Select tour navigation width."
 msgstr "Вибрати ширину навігації туру."
 
-#: config/./tta/shortcode-vc-tta-tour.php:189
+#: config/./tta/shortcode-vc-tta-tour.php:157
 msgid "Select auto rotate for tour in seconds (Note: disabled by default)."
 msgstr ""
 "Вибрати авто переміщення для   туру в  секундах(Примітка: відключено за "
@@ -6089,7 +6044,7 @@ msgid "Your most used tags in cloud format"
 msgstr "Найбільш популярні теги у форматі хмари"
 
 #: config/./wp/shortcode-vc-wp-tagcloud.php:32
-#: include/./params/loop/loop.php:363
+#: include/./params/loop/loop.php:337
 msgid "Tags"
 msgstr "Позначки"
 
@@ -6301,15 +6256,14 @@ msgstr "Менеджер ролей"
 
 #: include/./autoload/vc-pages/pages.php:50
 #: include/./autoload/vc-pages/pages.php:63
-#: include/./classes/core/class-vc-base.php:690
-#: include/./classes/editors/class-vc-backend-editor.php:89
+#: include/./classes/core/class-vc-base.php:699
+#: include/./classes/editors/class-vc-backend-editor.php:92
 #: include/./classes/editors/navbar/class-vc-navbar.php:98
-#: include/./classes/updaters/class-vc-updater.php:129
 msgid "WPBakery Page Builder"
 msgstr "WPBakery Page Builder"
 
 #: include/./autoload/vc-pages/welcome-screen.php:38
-#: include/./classes/core/class-vc-base.php:567
+#: include/./classes/core/class-vc-base.php:566
 msgid "About"
 msgstr "Про"
 
@@ -6368,63 +6322,67 @@ msgstr ""
 
 #: include/./autoload/vc-pointers-backend-editor.php:75
 #: include/./autoload/vc-pointers-frontend-editor.php:53
-#, php-format
+#, fuzzy, php-format
+#| msgid ""
+#| "P.S. Learn more at our <a href=\"%s\" target=\"_blank\">Knowledge Base</"
+#| "a>."
 msgid "P.S. Learn more at our %sKnowledge Base%s."
-msgstr "P.S. Дізнайтесь більше %sБаза знань%s."
+msgstr ""
+"P.S. Дізнайтесь більше <a href=\"%s\" target=\"_blank\">База знань</a>."
 
 #: include/./autoload/vendors/gravity_forms.php:21
 msgid "No Gravity forms found."
 msgstr "Не знайдено Gravity форм."
 
-#: include/./autoload/vendors/gravity_forms.php:27
+#: include/./autoload/vendors/gravity_forms.php:26
 msgid "Select a form to display."
 msgstr "Вибреіть відображення форми."
 
-#: include/./autoload/vendors/gravity_forms.php:34
+#: include/./autoload/vendors/gravity_forms.php:33
 msgid "Gravity Form"
 msgstr "Gravity Форма"
 
-#: include/./autoload/vendors/gravity_forms.php:38
+#: include/./autoload/vendors/gravity_forms.php:37
 msgid "Place Gravity form"
 msgstr "Розмістіть форму Gravity"
 
-#: include/./autoload/vendors/gravity_forms.php:42
+#: include/./autoload/vendors/gravity_forms.php:41
 msgid "Form"
 msgstr "Форма"
 
-#: include/./autoload/vendors/gravity_forms.php:46
+#: include/./autoload/vendors/gravity_forms.php:45
 msgid "Select a form to add it to your post or page."
 msgstr "Виберіть форму щоб додати на сторінку."
 
-#: include/./autoload/vendors/gravity_forms.php:51
+#: include/./autoload/vendors/gravity_forms.php:50
 msgid "Display Form Title"
 msgstr "Показати заголовок форми"
 
-#: include/./autoload/vendors/gravity_forms.php:58
+#: include/./autoload/vendors/gravity_forms.php:57
 msgid "Would you like to display the forms title?"
 msgstr "Хочете відобразити заголовки форм ?"
 
-#: include/./autoload/vendors/gravity_forms.php:66
+#: include/./autoload/vendors/gravity_forms.php:65
 msgid "Display Form Description"
 msgstr "Показувати опис форми"
 
-#: include/./autoload/vendors/gravity_forms.php:73
+#: include/./autoload/vendors/gravity_forms.php:72
 msgid "Would you like to display the forms description?"
 msgstr "Ви хотіли б показати опис форми?"
 
-#: include/./autoload/vendors/gravity_forms.php:81
+#: include/./autoload/vendors/gravity_forms.php:80
 msgid "Enable AJAX?"
 msgstr "Включити AJAX?"
 
-#: include/./autoload/vendors/gravity_forms.php:88
+#: include/./autoload/vendors/gravity_forms.php:87
 msgid "Enable AJAX submission?"
 msgstr "Включити AJAX підтримку?"
 
-#: include/./autoload/vendors/gravity_forms.php:96
+#: include/./autoload/vendors/gravity_forms.php:95
 msgid "Tab Index"
 msgstr "Індекс таба"
 
-#: include/./autoload/vendors/gravity_forms.php:98
+#: include/./autoload/vendors/gravity_forms.php:97
 msgid ""
 "(Optional) Specify the starting tab index for the fields of this form. Leave "
 "blank if you're not sure what this is."
@@ -6443,7 +6401,7 @@ msgid "Disable Gutenberg Editor."
 msgstr ""
 
 #: include/./autoload/vendors/shortcode-vc-gutenberg.php:7
-#: include/./classes/core/class-vc-base.php:694
+#: include/./classes/core/class-vc-base.php:703
 #, fuzzy
 #| msgid "Frontend Editor"
 msgid "Gutenberg Editor"
@@ -6453,55 +6411,55 @@ msgstr "Frontend Редактор"
 msgid "Insert Gutenberg editor in your layout"
 msgstr ""
 
-#: include/./classes/core/class-vc-base.php:563
+#: include/./classes/core/class-vc-base.php:562
 #: include/./templates/pages/vc-settings/index.php:7
 msgid "WPBakery Page Builder Settings"
 msgstr "Налаштування конструктора сторінок WPBakery"
 
-#: include/./classes/core/class-vc-base.php:564
-#: include/./classes/core/class-vc-base.php:689
+#: include/./classes/core/class-vc-base.php:563
+#: include/./classes/core/class-vc-base.php:698
 #: include/./templates/pages/vc-welcome/index.php:27
 msgid "Settings"
 msgstr "Налаштування"
 
-#: include/./classes/core/class-vc-base.php:566
+#: include/./classes/core/class-vc-base.php:565
 msgid "About WPBakery Page Builder"
 msgstr "Про WPBakery Page Builder"
 
-#: include/./classes/core/class-vc-base.php:685
+#: include/./classes/core/class-vc-base.php:694
 msgid "Add/remove picture"
 msgstr "Додати/видалити зображення"
 
-#: include/./classes/core/class-vc-base.php:686
+#: include/./classes/core/class-vc-base.php:695
 msgid "Finish Adding Images"
 msgstr "Завершити додавання зображень"
 
-#: include/./classes/core/class-vc-base.php:687
+#: include/./classes/core/class-vc-base.php:696
 msgid "Add Image"
 msgstr "Додати зображення"
 
-#: include/./classes/core/class-vc-base.php:688
+#: include/./classes/core/class-vc-base.php:697
 msgid "Add Images"
 msgstr "Додати зображення"
 
-#: include/./classes/core/class-vc-base.php:691
+#: include/./classes/core/class-vc-base.php:700
 #: include/./classes/editors/navbar/class-vc-navbar-frontend.php:101
 msgid "Backend Editor"
 msgstr "Backend Редактор"
 
-#: include/./classes/core/class-vc-base.php:692
+#: include/./classes/core/class-vc-base.php:701
 msgid "Frontend Editor"
 msgstr "Frontend Редактор"
 
-#: include/./classes/core/class-vc-base.php:693
+#: include/./classes/core/class-vc-base.php:702
 msgid "Classic Mode"
 msgstr "Класичний Режим"
 
-#: include/./classes/core/class-vc-base.php:695
+#: include/./classes/core/class-vc-base.php:704
 msgid "Enter template name you want to save."
 msgstr "Введіть ім'я шаблону, який потрібно зберегти."
 
-#: include/./classes/core/class-vc-base.php:696
+#: include/./classes/core/class-vc-base.php:705
 msgid ""
 "Confirm deleting \"{template_name}\" template, press Cancel to leave. This "
 "action cannot be undone."
@@ -6509,41 +6467,41 @@ msgstr ""
 "Підтвердьте видалення шаблону \"{template_name}\", натисніть \"Скасувати\", "
 "щоб вийти. Цю дію не можна скасувати."
 
-#: include/./classes/core/class-vc-base.php:697
+#: include/./classes/core/class-vc-base.php:706
 msgid "Press OK to delete section, Cancel to leave"
 msgstr "Натисніть \"OK\", щоб видалити розділ, \"Скасувати\", щоб вийти"
 
-#: include/./classes/core/class-vc-base.php:698
+#: include/./classes/core/class-vc-base.php:707
 msgid "Drag and drop me in the column"
 msgstr "Перетягніть і киньте мене в колонку"
 
-#: include/./classes/core/class-vc-base.php:699
+#: include/./classes/core/class-vc-base.php:708
 msgid "Press OK to delete \"{tab_name}\" tab, Cancel to leave"
 msgstr "Натисніть \"OK\", щоб видалити\" {tab_name}\", Скасувати, щоб вийти"
 
-#: include/./classes/core/class-vc-base.php:700
+#: include/./classes/core/class-vc-base.php:709
 #: include/./classes/shortcodes/vc-tour.php:23
 msgid "Slide"
 msgstr "Ковзання"
 
-#: include/./classes/core/class-vc-base.php:703
+#: include/./classes/core/class-vc-base.php:712
 msgid "Please enter new tab title"
 msgstr "Введіть нову назву"
 
-#: include/./classes/core/class-vc-base.php:704
+#: include/./classes/core/class-vc-base.php:713
 msgid "Press OK to delete \"{tab_name}\" section, Cancel to leave"
 msgstr ""
 "Натисніть \"OK\", щоб видалити\" {tab_name}\" розділ , Скасувати, щоб вийти"
 
-#: include/./classes/core/class-vc-base.php:706
+#: include/./classes/core/class-vc-base.php:715
 msgid "Please enter new section title"
 msgstr "Введіть нову назву для розділу"
 
-#: include/./classes/core/class-vc-base.php:707
+#: include/./classes/core/class-vc-base.php:716
 msgid "Error. Please try again."
 msgstr "Помилка. Спробуйте ще раз."
 
-#: include/./classes/core/class-vc-base.php:708
+#: include/./classes/core/class-vc-base.php:717
 msgid ""
 "If you close this window all shortcode settings will be lost. Close this "
 "window?"
@@ -6551,84 +6509,84 @@ msgstr ""
 "Якщо ви закриєте це вікно, всі налаштування короткого коду будуть втрачені. "
 "Закрити це вікно?"
 
-#: include/./classes/core/class-vc-base.php:709
+#: include/./classes/core/class-vc-base.php:718
 msgid "Select element type"
 msgstr "Виберіть тип елемента"
 
-#: include/./classes/core/class-vc-base.php:710
+#: include/./classes/core/class-vc-base.php:719
 msgid "Media gallery"
 msgstr "Медіагалерея"
 
-#: include/./classes/core/class-vc-base.php:711
+#: include/./classes/core/class-vc-base.php:720
 msgid "Element settings"
 msgstr "Налаштування елемнета"
 
-#: include/./classes/core/class-vc-base.php:712
+#: include/./classes/core/class-vc-base.php:721
 msgid "Add tab"
 msgstr "Додати вкладку"
 
-#: include/./classes/core/class-vc-base.php:713
+#: include/./classes/core/class-vc-base.php:722
 msgid "Are you sure you want to convert to new version?"
 msgstr "Ви впевнені, що хочете перетворити в нову версію?"
 
-#: include/./classes/core/class-vc-base.php:714
+#: include/./classes/core/class-vc-base.php:723
 msgid "Loading..."
 msgstr "Завантаження…"
 
-#: include/./classes/core/class-vc-base.php:716
+#: include/./classes/core/class-vc-base.php:725
 msgid "Set Image"
 msgstr "Встановіть Зображення"
 
-#: include/./classes/core/class-vc-base.php:717
+#: include/./classes/core/class-vc-base.php:726
 msgid "Are you sure that you want to remove all your data?"
 msgstr "Ви впевнені, що хочете видалити всі свої дані?"
 
-#: include/./classes/core/class-vc-base.php:718
+#: include/./classes/core/class-vc-base.php:727
 msgid "Loop settings"
 msgstr "Налаштування циклу"
 
-#: include/./classes/core/class-vc-base.php:719
+#: include/./classes/core/class-vc-base.php:728
 msgid "Custom row layout"
 msgstr "Користувальницький макет рядка"
 
-#: include/./classes/core/class-vc-base.php:720
+#: include/./classes/core/class-vc-base.php:729
 msgid "Wrong row layout format! Example: 1/2 + 1/2 or span6 + span6."
 msgstr ""
 "Неправильний формат макета рядка! Приклад: 1/2 + 1/2 або span6 + span6."
 
-#: include/./classes/core/class-vc-base.php:721
+#: include/./classes/core/class-vc-base.php:730
 msgid "Row background color"
 msgstr "Колір фону рядка"
 
-#: include/./classes/core/class-vc-base.php:722
+#: include/./classes/core/class-vc-base.php:731
 msgid "Row background image"
 msgstr "Фонове зображення рядка"
 
-#: include/./classes/core/class-vc-base.php:723
+#: include/./classes/core/class-vc-base.php:732
 msgid "Column background color"
 msgstr "Колір фону колонки"
 
-#: include/./classes/core/class-vc-base.php:724
+#: include/./classes/core/class-vc-base.php:733
 msgid "Column background image"
 msgstr "Фонове зображення колонки"
 
-#: include/./classes/core/class-vc-base.php:725
+#: include/./classes/core/class-vc-base.php:734
 msgid "Guides ON"
 msgstr "Посібники ON"
 
-#: include/./classes/core/class-vc-base.php:726
+#: include/./classes/core/class-vc-base.php:735
 msgid "Guides OFF"
 msgstr "Посібники OFF"
 
-#: include/./classes/core/class-vc-base.php:727
+#: include/./classes/core/class-vc-base.php:736
 msgid "New template successfully saved."
 msgstr "Новий шаблон вдало збережено."
 
-#: include/./classes/core/class-vc-base.php:728
+#: include/./classes/core/class-vc-base.php:737
 msgid "Template added to the page."
 msgstr "Шаблон доданий до сторінки."
 
-#: include/./classes/core/class-vc-base.php:729
+#: include/./classes/core/class-vc-base.php:738
 msgid ""
 "Template added to the page. Template has ID attributes, make sure that they "
 "are not used more than once on the same page."
@@ -6636,62 +6594,62 @@ msgstr ""
 "Шаблон додано на сторінку. Шаблон має атрибути ID, переконайтеся, що вони не "
 "використовуються більше одного разу на тій же сторінці."
 
-#: include/./classes/core/class-vc-base.php:730
+#: include/./classes/core/class-vc-base.php:739
 msgid "Template successfully removed."
 msgstr "Шаблон вдало видалено."
 
-#: include/./classes/core/class-vc-base.php:731
+#: include/./classes/core/class-vc-base.php:740
 msgid "Template is empty: There is no content to be saved as a template."
 msgstr "Шаблон порожній. Тут немає контенту для збереження як шаблон."
 
-#: include/./classes/core/class-vc-base.php:732
+#: include/./classes/core/class-vc-base.php:741
 msgid "Error while saving template."
 msgstr "Помилка при збережені шаблона."
 
-#: include/./classes/core/class-vc-base.php:733
+#: include/./classes/core/class-vc-base.php:742
 msgid "Page settings updated!"
 msgstr "Налаштування сторінки оновлено!"
 
-#: include/./classes/core/class-vc-base.php:734
+#: include/./classes/core/class-vc-base.php:743
 msgid "Update all"
 msgstr "Оновити все"
 
-#: include/./classes/core/class-vc-base.php:735
+#: include/./classes/core/class-vc-base.php:744
 msgid "The changes you made will be lost if you navigate away from this page."
 msgstr "Внесені зміни буде втрачено, якщо ви підете з цієї сторінки."
 
-#: include/./classes/core/class-vc-base.php:736
+#: include/./classes/core/class-vc-base.php:745
 #, php-format
 msgid "%s saved!"
 msgstr "%s збережено!"
 
-#: include/./classes/core/class-vc-base.php:737
+#: include/./classes/core/class-vc-base.php:746
 #, php-format
 msgid "%s deleted!"
 msgstr "%s видалено!"
 
-#: include/./classes/core/class-vc-base.php:738
+#: include/./classes/core/class-vc-base.php:747
 #, php-format
 msgid "%%s cloned. %sEdit now?%s"
 msgstr ""
 
-#: include/./classes/core/class-vc-base.php:739
+#: include/./classes/core/class-vc-base.php:748
 msgid "Loading Google Font failed"
 msgstr "Не вдалося завантажити шрифт Google"
 
-#: include/./classes/core/class-vc-base.php:740
+#: include/./classes/core/class-vc-base.php:749
 msgid "Loading Font..."
 msgstr "Завантаження шрифта..."
 
-#: include/./classes/core/class-vc-base.php:741
+#: include/./classes/core/class-vc-base.php:750
 msgid "Unable to load Google Fonts"
 msgstr "Неможливо завантажити шрифти Google"
 
-#: include/./classes/core/class-vc-base.php:742
+#: include/./classes/core/class-vc-base.php:751
 msgid "no title"
 msgstr "немає заголовку"
 
-#: include/./classes/core/class-vc-base.php:743
+#: include/./classes/core/class-vc-base.php:752
 msgid ""
 "Error while applying filter to the image. Check your server and memory "
 "settings."
@@ -6699,53 +6657,47 @@ msgstr ""
 "Помилка при застосуванні фільтра до зображення. Перевірте налаштування "
 "сервера та пам'яті."
 
-#: include/./classes/core/class-vc-base.php:744
+#: include/./classes/core/class-vc-base.php:753
 msgid "Saved!"
 msgstr "Збережено!"
 
-#: include/./classes/core/class-vc-base.php:745
+#: include/./classes/core/class-vc-base.php:754
 msgid "Failed to Save!"
 msgstr "Не вдалося зберегти!"
 
-#: include/./classes/core/class-vc-base.php:746
+#: include/./classes/core/class-vc-base.php:755
 msgid "You are about to delete this preset. This action can not be undone."
 msgstr "Ви збираєтеся видалити цей пресет. Цю дію не можна скасувати."
 
-#: include/./classes/core/class-vc-base.php:747
+#: include/./classes/core/class-vc-base.php:756
 msgid "Downloaded"
 msgstr "Завантажено"
 
-#: include/./classes/core/class-vc-base.php:748
+#: include/./classes/core/class-vc-base.php:757
 #: include/./classes/editors/navbar/class-vc-navbar-frontend.php:132
-#: include/./classes/editors/navbar/class-vc-navbar.php:187
+#: include/./classes/editors/navbar/class-vc-navbar.php:177
 #: include/./params/vc_grid_item/editor/navbar/class-vc-navbar-grid-item.php:51
 #: include/./templates/editors/popups/vc_ui-panel-row-layout.tpl.php:34
 #: include/./templates/pages/vc-welcome/vc-faq.php:36
 msgid "Update"
 msgstr "Оновлення"
 
-#: include/./classes/core/class-vc-base.php:749
+#: include/./classes/core/class-vc-base.php:758
 msgid "Failed to download template"
 msgstr "Не вдалося завантажити шаблон"
 
-#: include/./classes/core/class-vc-base.php:750
+#: include/./classes/core/class-vc-base.php:759
 msgid "Element successfully removed."
 msgstr "Елемент видалено успішно."
 
-#: include/./classes/core/class-vc-base.php:751
+#: include/./classes/core/class-vc-base.php:760
 #, fuzzy
 #| msgid "Shortcode updated!"
 msgid "Successfully updated!"
 msgstr "Шорткод оновлено!"
 
-#: include/./classes/core/class-vc-base.php:752
+#: include/./classes/core/class-vc-base.php:761
 msgid "Gutenberg plugin doesn't work properly. Please check Gutenberg plugin."
-msgstr ""
-
-#: include/./classes/core/class-vc-base.php:753
-msgid ""
-"Custom HTML is disabled for your user role. Please contact your site "
-"Administrator to change your capabilities."
 msgstr ""
 
 #: include/./classes/core/class-vc-shared-library.php:331
@@ -6817,7 +6769,7 @@ msgid "Wrong setting_name for shortcode:%s. Base can't be modified."
 msgstr ""
 "Невірне ім'я_налаштування для короткого коду:% s. Базу неможливо змінити."
 
-#: include/./classes/core/shared-templates/class-vc-shared-templates.php:281
+#: include/./classes/core/shared-templates/class-vc-shared-templates.php:276
 #: include/./templates/editors/popups/shared-templates/category.tpl.php:100
 msgid "Template library"
 msgstr "Бібліотека шаблонів"
@@ -6923,18 +6875,18 @@ msgstr "Ви використовуєте застарілий елемент, �
 msgid "Edit"
 msgstr "Редагувати"
 
-#: include/./classes/editors/class-vc-frontend-editor.php:484
+#: include/./classes/editors/class-vc-frontend-editor.php:473
 #, php-format
 msgid "Edit %s with WPBakery Page Builder"
 msgstr "Редагувати %s в WPBakery Page Builder"
 
-#: include/./classes/editors/class-vc-frontend-editor.php:493
+#: include/./classes/editors/class-vc-frontend-editor.php:482
 msgid "(no title)"
 msgstr "(без назви)"
 
-#: include/./classes/editors/class-vc-frontend-editor.php:511
-#: include/./classes/editors/class-vc-frontend-editor.php:527
-#: include/./classes/editors/class-vc-frontend-editor.php:572
+#: include/./classes/editors/class-vc-frontend-editor.php:500
+#: include/./classes/editors/class-vc-frontend-editor.php:516
+#: include/./classes/editors/class-vc-frontend-editor.php:561
 msgid "Edit with WPBakery Page Builder"
 msgstr "Редагувати в WPBakery Page Builder"
 
@@ -6976,13 +6928,11 @@ msgstr "Зберегти як  висячий"
 
 #: include/./classes/editors/navbar/class-vc-navbar-frontend.php:122
 #: include/./classes/editors/navbar/class-vc-navbar-frontend.php:123
-#: include/./classes/editors/navbar/class-vc-navbar.php:189
 msgid "Publish"
 msgstr "Оприлюднити"
 
 #: include/./classes/editors/navbar/class-vc-navbar-frontend.php:126
 #: include/./classes/editors/navbar/class-vc-navbar-frontend.php:127
-#: include/./classes/editors/navbar/class-vc-navbar.php:191
 msgid "Submit for Review"
 msgstr "Подання на розгляд"
 
@@ -7032,7 +6982,7 @@ msgstr "Шаблони"
 msgid "Frontend"
 msgstr "Інтерфейс"
 
-#: include/./classes/editors/navbar/class-vc-navbar.php:194
+#: include/./classes/editors/navbar/class-vc-navbar.php:177
 #: include/./params/vc_grid_item/editor/class-vc-grid-item-editor.php:237
 #: include/./params/vc_grid_item/editor/navbar/class-vc-navbar-grid-item.php:37
 msgid "Preview"
@@ -7070,7 +7020,7 @@ msgstr "Переглянути Шаблон"
 
 #: include/./classes/editors/popups/class-vc-templates-panel-editor.php:190
 #: include/./classes/editors/popups/class-vc-templates-panel-editor.php:217
-#: include/./templates/editors/partials/vc_welcome_block.tpl.php:51
+#: include/./templates/editors/partials/vc_welcome_block.tpl.php:52
 #: include/./templates/editors/popups/shared-templates/category.tpl.php:121
 #: include/./templates/editors/popups/shared-templates/category.tpl.php:123
 msgid "Add template"
@@ -7187,7 +7137,7 @@ msgid "Add Param"
 msgstr "Додати параметр"
 
 #: include/./classes/settings/automapper/class-vc-automapper.php:165
-#: include/./classes/settings/class-vc-settings.php:465
+#: include/./classes/settings/class-vc-settings.php:447
 #: include/./templates/editors/popups/modal_edit_element.tpl.php:21
 #: include/./templates/editors/popups/panel_multi_shortcode_edit_form.tpl.php:17
 #: include/./templates/editors/popups/panel_shortcode_edit_form.tpl.php:22
@@ -7321,19 +7271,24 @@ msgid "Invalid license key"
 msgstr "Неправельний ліцензійний ключ"
 
 #: include/./classes/settings/class-vc-license.php:441
-#, php-format
+#, fuzzy, php-format
+#| msgid ""
+#| "Hola! Would you like to receive automatic updates and unlock premium "
+#| "support? Please <a href=\"%s\">activate your copy</a> of WPBakery Page "
+#| "Builder."
 msgid ""
 "Hola! Would you like to receive automatic updates and unlock premium "
 "support? Please %sactivate your copy%s of WPBakery Page Builder."
 msgstr ""
 "Hola! Хочете отримувати автоматичне оновлення та розблокувати преміальну "
-"підтримку? Будь ласка, %sактивуйте вашу копію%s WPBakery Page Builder."
+"підтримку? Будь ласка, <a href=\"%s\">активуйте вашу копію</a> WPBakery Page "
+"Builder."
 
 #: include/./classes/settings/class-vc-license.php:441
 msgid "Dismiss this notice."
 msgstr "Ігнорувати це повідомлення."
 
-#: include/./classes/settings/class-vc-roles.php:132
+#: include/./classes/settings/class-vc-roles.php:125
 msgid "Roles settings successfully saved."
 msgstr "Параметри ролей успішно збережені."
 
@@ -7387,125 +7342,115 @@ msgstr "Колір фону для навігації вкладок"
 msgid "Active tab background color"
 msgstr "Колір фону для активної вкладки"
 
-#: include/./classes/settings/class-vc-settings.php:255
+#: include/./classes/settings/class-vc-settings.php:253
 msgid "Disable responsive content elements"
 msgstr "Вимкнути адаптивні елементи вмісту"
 
-#: include/./classes/settings/class-vc-settings.php:263
+#: include/./classes/settings/class-vc-settings.php:261
 msgid "Google fonts subsets"
 msgstr "Підбірки шрифтів Google"
 
-#: include/./classes/settings/class-vc-settings.php:278
+#: include/./classes/settings/class-vc-settings.php:276
 msgid "Use custom design options"
 msgstr "Використовуйте спеціальні варіанти дизайну"
 
-#: include/./classes/settings/class-vc-settings.php:301
+#: include/./classes/settings/class-vc-settings.php:299
 msgid "Elements bottom margin"
 msgstr "Нижній вдіступ елементів"
 
-#: include/./classes/settings/class-vc-settings.php:310
+#: include/./classes/settings/class-vc-settings.php:308
 msgid "Grid gutter width"
 msgstr "Ширина стікання сітки"
 
-#: include/./classes/settings/class-vc-settings.php:319
-#, fuzzy
-#| msgid "Mobile screen width"
-msgid "Mobile breakpoint"
+#: include/./classes/settings/class-vc-settings.php:317
+msgid "Mobile screen width"
 msgstr "Ширина мобільного екрана"
 
-#: include/./classes/settings/class-vc-settings.php:326
-msgid "Desktop breakpoint"
-msgstr ""
-
-#: include/./classes/settings/class-vc-settings.php:333
-msgid "Large Desktop breakpoint"
-msgstr ""
-
-#: include/./classes/settings/class-vc-settings.php:353
+#: include/./classes/settings/class-vc-settings.php:337
 msgid "Paste your CSS code"
 msgstr "Вставте свій код CSS"
 
-#: include/./classes/settings/class-vc-settings.php:462
-#: include/./classes/settings/class-vc-settings.php:463
+#: include/./classes/settings/class-vc-settings.php:444
+#: include/./classes/settings/class-vc-settings.php:445
 msgid "Are you sure you want to reset to defaults?"
 msgstr "Ви дійсно бажаєте скинути значення за умовчанням?"
 
-#: include/./classes/settings/class-vc-settings.php:464
+#: include/./classes/settings/class-vc-settings.php:446
 msgid "Saving..."
 msgstr "Збереження..."
 
-#: include/./classes/settings/class-vc-settings.php:466
+#: include/./classes/settings/class-vc-settings.php:448
 msgid "Design Options successfully saved."
 msgstr "Параметри дизайну успішно збережені."
 
-#: include/./classes/settings/class-vc-settings.php:467
+#: include/./classes/settings/class-vc-settings.php:449
 msgid "Design Options could not be saved"
 msgstr "Налаштування неможливо зберігти"
 
-#: include/./classes/settings/class-vc-settings.php:468
+#: include/./classes/settings/class-vc-settings.php:450
 msgid ""
 "Problem with AJAX request execution, check internet connection and try again."
 msgstr ""
 "Проблема з виконанням запиту AJAX, перевірте підключення до Інтернету та "
 "повторіть спробу."
 
-#: include/./classes/settings/class-vc-settings.php:469
+#: include/./classes/settings/class-vc-settings.php:451
 msgid "Are you sure you want to delete this shortcode?"
 msgstr "Ви впевнені, що хочете видалити цей шорткод?"
 
-#: include/./classes/settings/class-vc-settings.php:470
+#: include/./classes/settings/class-vc-settings.php:452
 msgid "Are you sure you want to delete the shortcode's param?"
 msgstr "Ви впевнені, що хочете видалити  налаштування  шорткоду?"
 
-#: include/./classes/settings/class-vc-settings.php:471
+#: include/./classes/settings/class-vc-settings.php:453
 msgid "My shortcodes"
 msgstr "Мої шорткоди"
 
-#: include/./classes/settings/class-vc-settings.php:472
+#: include/./classes/settings/class-vc-settings.php:454
 msgid "Shortcode name is required."
 msgstr "Назва шорткоду обов'язкова."
 
-#: include/./classes/settings/class-vc-settings.php:473
+#: include/./classes/settings/class-vc-settings.php:455
 msgid "Please enter valid shortcode tag."
 msgstr "Будь ласка, введіть дійсний тєг шорткоду."
 
-#: include/./classes/settings/class-vc-settings.php:474
+#: include/./classes/settings/class-vc-settings.php:456
 msgid "Please enter all required fields for params."
 msgstr "Будь ласка заповнитіть всі обов'язкові поля для параметрів."
 
-#: include/./classes/settings/class-vc-settings.php:475
+#: include/./classes/settings/class-vc-settings.php:457
 msgid "New shortcode mapped from string!"
 msgstr "Новий шорткод знайдений в рядку!"
 
-#: include/./classes/settings/class-vc-settings.php:476
+#: include/./classes/settings/class-vc-settings.php:458
 msgid "Shortcode updated!"
 msgstr "Шорткод оновлено!"
 
-#: include/./classes/settings/class-vc-settings.php:477
+#: include/./classes/settings/class-vc-settings.php:459
 msgid "Content param can not be added manually, please use checkbox."
 msgstr ""
 "Параметр вмісту не можна додати вручну, будь ласка, поставте прапорець."
 
-#: include/./classes/settings/class-vc-settings.php:478
+#: include/./classes/settings/class-vc-settings.php:460
 #, php-format
 msgid "Param %s already exists. Param names must be unique."
 msgstr "Параметр% s вже існує. Параметри імен мають бути унікальними."
 
-#: include/./classes/settings/class-vc-settings.php:479
+#: include/./classes/settings/class-vc-settings.php:461
 msgid "Please use only letters, numbers and underscore for param name"
 msgstr ""
 "Будь ласка використовуйте тільки літери, цифри і символи підкреслення для "
 "імені параметру"
 
-#: include/./classes/settings/class-vc-settings.php:480
+#: include/./classes/settings/class-vc-settings.php:462
 msgid "Please enter valid shortcode to parse!"
 msgstr "Будь ласка, введіть дійсний шорткод для розбору!"
 
-#: include/./classes/settings/class-vc-settings.php:501
+#: include/./classes/settings/class-vc-settings.php:483
 msgid "Add custom CSS code to the plugin without modifying files."
 msgstr "Додайте спеціальний CSS-код до плагіна, не змінюючи файли."
 
-#: include/./classes/settings/class-vc-settings.php:518
+#: include/./classes/settings/class-vc-settings.php:501
 msgid ""
 "Disable content elements from \"stacking\" one on top other on small media "
 "screens (Example: mobile devices)."
@@ -7513,15 +7458,15 @@ msgstr ""
 "Вимкнути елементи вмісту зі \"складання\" одного на інший на маленьких медіа-"
 "екранах (Наприклад: на мобільних пристроях)."
 
-#: include/./classes/settings/class-vc-settings.php:542
+#: include/./classes/settings/class-vc-settings.php:525
 msgid "Select subsets for Google Fonts available to content elements."
 msgstr "Виберіть підбірки для шрифтів Google, доступні для елементів вмісту."
 
-#: include/./classes/settings/class-vc-settings.php:625
+#: include/./classes/settings/class-vc-settings.php:608
 msgid "Enable"
 msgstr "Включити"
 
-#: include/./classes/settings/class-vc-settings.php:627
+#: include/./classes/settings/class-vc-settings.php:610
 msgid ""
 "Enable the use of custom design options (Note: when checked - custom css "
 "file will be used)."
@@ -7529,37 +7474,30 @@ msgstr ""
 "Увімкнути використання спеціальних варіантів дизайну (Примітка: якщо буде "
 "позначено, буде використано власний файл css)."
 
-#: include/./classes/settings/class-vc-settings.php:649
+#: include/./classes/settings/class-vc-settings.php:632
 msgid ""
 "Change default vertical spacing between content elements (Example: 20px)."
 msgstr ""
 "Змінити вертикальний інтервал за умовчанням між елементами вмісту (Приклад: "
 "20 пікселів)."
 
-#: include/./classes/settings/class-vc-settings.php:660
+#: include/./classes/settings/class-vc-settings.php:643
 msgid ""
 "Change default horizontal spacing between columns, enter new value in pixels."
 msgstr ""
 "Змініть стандартний інтервал між стовпчиками, введіть нове значення в "
 "пікселях."
 
-#: include/./classes/settings/class-vc-settings.php:671
-#: include/./classes/settings/class-vc-settings.php:679
-#: include/./classes/settings/class-vc-settings.php:687
-#, fuzzy
-#| msgid ""
-#| "By default content elements \"stack\" one on top other when screen size "
-#| "is smaller than 768px. Change the value to change \"stacking\" size."
+#: include/./classes/settings/class-vc-settings.php:654
 msgid ""
-"Content elements stack one on top other when the screen size is smaller than "
-"entered value. Change it to control when your layout stacks and adopts to a "
-"particular viewport or device size."
+"By default content elements \"stack\" one on top other when screen size is "
+"smaller than 768px. Change the value to change \"stacking\" size."
 msgstr ""
 "За замовчуванням елементи вмісту \"стікають\" один над другим, якщо розмір "
 "екрана менше 768 пікселів. Змініть значення, щоб змінити розмір \"укладання"
 "\"."
 
-#: include/./classes/settings/class-vc-settings.php:715
+#: include/./classes/settings/class-vc-settings.php:682
 msgid ""
 "Here you can tweak default WPBakery Page Builder content elements visual "
 "appearance. By default WPBakery Page Builder is using neutral light-grey "
@@ -7572,42 +7510,28 @@ msgstr ""
 "\" вплине на всі елементи вмісту, якщо не встановлено відповідний колір "
 "\"блоку вмісту\"."
 
-#: include/./classes/settings/class-vc-settings.php:792
+#: include/./classes/settings/class-vc-settings.php:759
 msgid "Invalid Margin value."
 msgstr "Невірне значення відступу."
 
-#: include/./classes/settings/class-vc-settings.php:806
+#: include/./classes/settings/class-vc-settings.php:773
 msgid "Invalid Gutter value."
 msgstr "Невірне значення обтікання."
 
-#: include/./classes/settings/class-vc-settings.php:819
-#, fuzzy
-#| msgid "Invalid \"Responsive max\" value."
-msgid "Invalid \"Responsive mobile\" value."
+#: include/./classes/settings/class-vc-settings.php:786
+msgid "Invalid \"Responsive max\" value."
 msgstr "Невірне \"Максимальне\" значення."
 
-#: include/./classes/settings/class-vc-settings.php:832
-#, fuzzy
-#| msgid "Invalid \"Responsive max\" value."
-msgid "Invalid \"Responsive md\" value."
-msgstr "Невірне \"Максимальне\" значення."
-
-#: include/./classes/settings/class-vc-settings.php:845
-#, fuzzy
-#| msgid "Invalid \"Responsive max\" value."
-msgid "Invalid \"Responsive lg\" value."
-msgstr "Невірне \"Максимальне\" значення."
-
-#: include/./classes/settings/class-vc-settings.php:935
+#: include/./classes/settings/class-vc-settings.php:876
 msgid ""
 "Something went wrong: js_composer_front_custom.css could not be created."
 msgstr "Щось сталося не так: js_composer_front_custom.css неможливо створити."
 
-#: include/./classes/settings/class-vc-settings.php:937
+#: include/./classes/settings/class-vc-settings.php:878
 msgid "js_composer_front_custom.css could not be created. Connection error."
 msgstr "js_composer_front_custom.css неможливо створити. Помилка з'єднання."
 
-#: include/./classes/settings/class-vc-settings.php:939
+#: include/./classes/settings/class-vc-settings.php:880
 #, php-format
 msgid ""
 "js_composer_front_custom.css could not be created. Cannot write custom css "
@@ -7616,36 +7540,36 @@ msgstr ""
 "js_composer_front_custom.css неможливо створити. Неможливо записати власний "
 "css на \"% s\"."
 
-#: include/./classes/settings/class-vc-settings.php:941
+#: include/./classes/settings/class-vc-settings.php:882
 msgid "js_composer_front_custom.css could not be created. Problem with access."
 msgstr "js_composer_front_custom.css неможливо створити. Проблема з доступом."
 
-#: include/./classes/settings/class-vc-settings.php:981
+#: include/./classes/settings/class-vc-settings.php:922
 msgid "Something went wrong: custom.css could not be created."
 msgstr "Щось пішло не так: custom.css не вдалося створити."
 
-#: include/./classes/settings/class-vc-settings.php:983
+#: include/./classes/settings/class-vc-settings.php:924
 msgid "custom.css could not be created. Connection error."
 msgstr "custom.css неможливо створити. Помилка з'єднання."
 
-#: include/./classes/settings/class-vc-settings.php:985
+#: include/./classes/settings/class-vc-settings.php:926
 #, php-format
 msgid "custom.css could not be created. Cannot write custom css to %s."
 msgstr ""
 "custom.css неможливо створити. Неможливо записати користувацький css на %s."
 
-#: include/./classes/settings/class-vc-settings.php:987
+#: include/./classes/settings/class-vc-settings.php:928
 msgid "custom.css could not be created. Problem with access."
 msgstr "custom.css неможливо створити. Проблема з доступом."
 
-#: include/./classes/settings/class-vc-settings.php:1008
+#: include/./classes/settings/class-vc-settings.php:949
 #, php-format
 msgid ""
 "%s could not be created. Not available to create js_composer directory in "
 "uploads directory (%s)."
 msgstr ""
 
-#: include/./classes/shortcodes/core/class-wpbakeryshortcode.php:720
+#: include/./classes/shortcodes/core/class-wpbakeryshortcode.php:540
 #: include/./templates/editors/partials/backend_controls.tpl.php:31
 #: include/./templates/editors/partials/backend_controls_tab.tpl.php:24
 #: include/./templates/editors/partials/frontend_controls.tpl.php:18
@@ -7662,7 +7586,7 @@ msgstr ""
 msgid "Edit %s"
 msgstr "Редагувати %s"
 
-#: include/./classes/shortcodes/core/class-wpbakeryshortcode.php:721
+#: include/./classes/shortcodes/core/class-wpbakeryshortcode.php:541
 #: include/./templates/editors/partials/backend_controls.tpl.php:35
 #: include/./templates/editors/partials/backend_controls_tab.tpl.php:28
 #: include/./templates/editors/partials/frontend_controls.tpl.php:23
@@ -7677,7 +7601,7 @@ msgstr "Редагувати %s"
 msgid "Clone %s"
 msgstr "Клонувати %s"
 
-#: include/./classes/shortcodes/core/class-wpbakeryshortcode.php:721
+#: include/./classes/shortcodes/core/class-wpbakeryshortcode.php:541
 #: include/./templates/editors/partials/backend_controls.tpl.php:39
 #: include/./templates/editors/partials/backend_controls_tab.tpl.php:32
 #: include/./templates/editors/partials/frontend_controls.tpl.php:26
@@ -7739,6 +7663,11 @@ msgstr "Редагувати цю колонку"
 #: include/./classes/shortcodes/vc-column.php:56
 msgid "Delete this column"
 msgstr "Видалити цю колонку"
+
+#: include/./classes/shortcodes/vc-flickr.php:58
+#: include/./templates/shortcodes/vc_flickr.php:42
+msgid "View stream on flickr"
+msgstr "Подивитись стрім на  flickr"
 
 #: include/./classes/shortcodes/vc-gallery.php:73
 #: include/./classes/shortcodes/vc-media-grid.php:127
@@ -7855,11 +7784,11 @@ msgstr "Переключити рядок"
 msgid "Add image"
 msgstr "Додати зображення"
 
-#: include/./classes/updaters/class-vc-updater.php:136
+#: include/./classes/updaters/class-vc-updater.php:140
 msgid "Error! Can't connect to filesystem"
 msgstr "Помилка: не вдалося з’ єднатися з файлсистемою"
 
-#: include/./classes/updaters/class-vc-updater.php:145
+#: include/./classes/updaters/class-vc-updater.php:149
 #, fuzzy, php-format
 #| msgid ""
 #| "To receive automatic updates license activation is required. Please visit "
@@ -7871,20 +7800,20 @@ msgstr ""
 "Для отримання автоматичних оновлень необхідна активація ліцензії. Будь "
 "ласка, відвідайте %s, щоб активувати свій WPBakery Page Builder."
 
-#: include/./classes/updaters/class-vc-updater.php:145
+#: include/./classes/updaters/class-vc-updater.php:149
 #: include/./classes/updaters/class-vc-updating-manager.php:204
 msgid "Got WPBakery Page Builder in theme?"
 msgstr "Отримав WPBakery Page Builder в темі?"
 
-#: include/./classes/updaters/class-vc-updater.php:148
+#: include/./classes/updaters/class-vc-updater.php:152
 msgid "Getting download link..."
 msgstr "Отримання посилання для завантаження..."
 
-#: include/./classes/updaters/class-vc-updater.php:154
+#: include/./classes/updaters/class-vc-updater.php:158
 msgid "Download link could not be retrieved"
 msgstr "Скачати посилання неможливо"
 
-#: include/./classes/updaters/class-vc-updater.php:161
+#: include/./classes/updaters/class-vc-updater.php:165
 msgid "Downloading package..."
 msgstr "Завантаження пакету..."
 
@@ -7938,7 +7867,7 @@ msgstr "Показати мітку"
 #: include/./classes/vendors/plugins/acf/grid-item-shortcodes.php:53
 #: include/./classes/vendors/plugins/acf/shortcode.php:51
 #: include/./classes/vendors/plugins/woocommerce/grid-item-shortcodes.php:76
-#: include/./params/vc_grid_item/shortcodes.php:673
+#: include/./params/vc_grid_item/shortcodes.php:648
 msgid "Enter label to display before key value."
 msgstr "Введіть мітку, щоб відобразити перед ключовим значенням."
 
@@ -7979,7 +7908,7 @@ msgstr "по ширині"
 #: include/./classes/vendors/plugins/acf/grid-item-shortcodes.php:65
 #: include/./classes/vendors/plugins/acf/shortcode.php:63
 #: include/./classes/vendors/plugins/woocommerce/grid-item-shortcodes.php:89
-#: include/./params/vc_grid_item/shortcodes.php:685
+#: include/./params/vc_grid_item/shortcodes.php:660
 msgid "Select alignment."
 msgstr "Виберіть вирівнювання."
 
@@ -8079,70 +8008,64 @@ msgstr "Нове замовлення"
 msgid "Include"
 msgstr "Включати тільки"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:135
-#, fuzzy
-#| msgid "Custom links"
-msgid "Custom post__in"
-msgstr "Користувацьке посилання"
-
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:147
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:146
 msgid "Cart"
 msgstr "Кошик"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:150
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:166
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:182
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:200
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:229
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:284
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:339
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:361
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:424
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:456
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:483
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:519
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:574
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:644
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:697
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:732
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:794
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:889
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:149
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:165
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:181
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:199
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:228
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:283
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:338
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:360
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:423
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:455
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:482
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:518
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:573
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:643
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:696
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:731
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:793
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:888
 msgid "WooCommerce"
 msgstr "WooCommerce"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:151
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:150
 msgid "Displays the cart contents"
 msgstr "Відображати вміст кошика"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:163
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:162
 msgid "Checkout"
 msgstr "Оформлення замовлення"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:167
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:166
 msgid "Displays the checkout"
 msgstr "Відображати оформлення"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:179
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:178
 msgid "Order Tracking Form"
 msgstr "Форма відстеження замовлень"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:183
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:182
 msgid "Lets a user see the status of an order"
 msgstr "Дає користувачеві змогу побачити статус замовлення"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:197
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:196
 msgid "My Account"
 msgstr "Мій профіль"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:201
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:200
 msgid "Shows the \"my account\" section"
 msgstr "Показує розділ \"мій аккаунт\""
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:205
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:204
 msgid "Order count"
 msgstr "Число замовлень"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:209
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:208
 msgid ""
 "You can specify the number or order to show, it's set by default to 15 (use "
 "-1 to display all orders.)"
@@ -8150,43 +8073,48 @@ msgstr ""
 "Ви можете вказати номер або порядок показу, він за замовчуванням "
 "встановлений на 15 (використовуйте -1 для відображення всіх замовлень.)"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:226
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:225
 msgid "Recent products"
 msgstr "Найновіші товари"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:230
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:229
 msgid "Lists recent products"
 msgstr "Список останніх продуктів"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:234
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:289
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:894
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:233
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:288
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:523
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:648
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:701
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:736
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:798
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:893
 msgid "Per page"
 msgstr "На сторінку"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:238
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:293
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:237
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:292
 msgid ""
 "The \"per_page\" shortcode determines how many products to show on the page"
 msgstr ""
 "\"per_page\" шорткод визначає, скільки продуктів відображатимуться на "
 "сторінці"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:242
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:297
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:366
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:532
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:605
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:657
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:710
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:745
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:807
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:902
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:241
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:296
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:365
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:531
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:604
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:656
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:709
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:744
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:806
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:901
 msgid "Columns"
 msgstr "Колонки"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:246
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:301
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:245
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:300
 msgid ""
 "The columns attribute controls how many columns wide the products should be "
 "before wrapping."
@@ -8194,78 +8122,78 @@ msgstr ""
 "Атрибут \"Колонки\" визначає кількість стовпчиків, якими потрібно поширювати "
 "продукти перед їх обгорткою."
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:256
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:311
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:546
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:591
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:671
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:759
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:821
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:916
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:255
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:310
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:545
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:590
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:670
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:758
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:820
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:915
 #, php-format
 msgid "Select how to sort retrieved products. More at %s."
 msgstr "Виберіть спосіб сортування вибраного товару. Більше на % s."
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:266
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:321
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:556
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:601
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:681
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:769
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:831
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:926
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:265
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:320
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:555
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:600
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:680
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:768
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:830
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:925
 #, php-format
 msgid "Designates the ascending or descending order. More at %s."
 msgstr "Подання за зростанням або за спаданням. Більше на %s."
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:281
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:280
 msgid "Featured products"
 msgstr "Рекомендовані товари"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:285
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:284
 msgid "Display products set as \"featured\""
 msgstr "Відображати продукти, які встановлені як \"позначені\""
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:336
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:335
 #: include/./classes/vendors/plugins/woocommerce/grid-item-shortcodes.php:20
 msgid "Product"
 msgstr "Товар"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:340
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:339
 msgid "Show a single product by ID or SKU"
 msgstr "Показувати кожен товар за ID або номером артикулу"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:344
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:429
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:461
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:488
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:343
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:428
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:460
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:487
 msgid "Select identificator"
 msgstr "Вибрати ідентифікатор"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:346
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:431
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:463
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:490
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:345
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:430
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:462
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:489
 msgid "Input product ID or product SKU or product title to see suggestions"
 msgstr "Введіть ID, номер артикулу або назву товару, щоб побачити пропозиції"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:358
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:393
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:357
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:392
 msgid "Products"
 msgstr "Товари"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:362
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:361
 msgid "Show multiple products by ID or SKU."
 msgstr "Показувати кілька товарів за ID або номером артикулу."
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:379
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:378
 #, php-format
 msgid "Select how to sort retrieved products. More at %s. Default by Title"
 msgstr ""
 "Виберіть спосіб сортування знайдених товарів. Більше на % s. Стандартне "
 "сортування - за назвою"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:389
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:388
 #, php-format
 msgid ""
 "Designates the ascending or descending order. More at %s. Default by ASC"
@@ -8273,157 +8201,147 @@ msgstr ""
 "Подання за зростанням або за спаданням. Більше на %s. Стандартне сортування "
 "- за зростанням"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:402
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:401
 msgid "Enter List of Products"
 msgstr "Введіть перелік товарів"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:421
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:420
 msgid "Add to cart"
 msgstr "Додати у кошик"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:425
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:424
 msgid "Show multiple products by ID or SKU"
 msgstr "Показати кілька продуктів за ID або SKU"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:439
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:438
 msgid "Wrapper inline style"
 msgstr "Вбудований стиль врапера"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:453
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:452
 msgid "Add to cart URL"
 msgstr "Додати URL кошика"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:457
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:456
 msgid "Show URL on the add to cart button"
 msgstr "Показати URL та додати кнопку для кошика"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:480
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:479
 msgid "Product page"
 msgstr "Сторінка товару"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:484
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:483
 msgid "Show single product by ID or SKU"
 msgstr "Показувати кожен товар за ID або номером артикулу"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:516
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:515
 msgid "Product category"
 msgstr "Категорія продукту"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:520
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:519
 msgid "Show multiple products in a category"
 msgstr "Показати декілька товарів  в категорії"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:524
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:649
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:702
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:737
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:799
-msgid "Limit"
-msgstr ""
-
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:528
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:653
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:706
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:741
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:803
-#, fuzzy
-#| msgid "How much items per page to show"
-msgid "How much items to show"
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:527
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:652
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:705
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:740
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:802
+msgid "How much items per page to show"
 msgstr "Скільки елементів показувати на одній сторінці"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:536
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:609
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:661
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:714
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:749
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:811
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:906
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:535
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:608
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:660
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:713
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:748
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:810
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:905
 msgid "How much columns grid"
 msgstr "Скільки колнок в сітку"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:560
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:559
 msgid "Category"
 msgstr "Категорії"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:564
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:563
 msgid "Product category list"
 msgstr "Список категорії товару"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:571
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:570
 msgid "Product categories"
 msgstr "Категорії товарів"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:575
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:574
 msgid "Display product categories loop"
 msgstr "Відображати перегляд категорій товару"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:579
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:613
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:578
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:612
 msgid "Number"
 msgstr "Номер"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:581
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:580
 msgid "The `number` field is used to display the number of products."
 msgstr "Поле \"Номер\" використане для відображення номера товару."
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:615
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:614
 msgid "Hide empty"
 msgstr "Приховати порожні"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:626
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:625
 msgid "List of product categories"
 msgstr "Список категорії продуктів"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:641
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:640
 msgid "Sale products"
 msgstr "Товар на продаж"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:645
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:733
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:644
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:732
 msgid "List all products on sale"
 msgstr "Показати всі товари на продаж"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:694
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:693
 msgid "Best Selling Products"
 msgstr "Товари що найкраще продаются"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:698
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:697
 msgid "List best selling products on sale"
 msgstr "Спиок кращих товарів що продаются"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:729
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:728
 msgid "Top Rated Products"
 msgstr "Товари з найвищим рейтингом"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:791
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:790
 msgid "Product Attribute"
 msgstr "Атрибут товару"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:795
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:794
 msgid "List products with an attribute shortcode"
 msgstr "Список товарів з атрибутом шорткоду"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:835
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:834
 msgid "Attribute"
 msgstr "Атрибут"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:839
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:838
 msgid "List of product taxonomy attribute"
 msgstr "Список атрибутів класифікації товарів"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:847
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:846
 msgid "Taxonomy values"
 msgstr "Значення класифікації"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:884
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:883
 msgid "Related Products"
 msgstr "Пов'язані товари"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:890
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:889
 msgid "List related products"
 msgstr "Список схожих товарів"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:898
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:897
 msgid ""
 "Please note: the \"per_page\" shortcode argument will determine how many "
 "products are shown on a page. This will not add pagination to the shortcode. "
@@ -8432,119 +8350,119 @@ msgstr ""
 "продуктів, які відображаються на сторінці. Це не призведе до додавання "
 "сторінок до шорткоду. "
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1269
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1305
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1368
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1405
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1482
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1268
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1304
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1367
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1404
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1481
 msgid "Id"
 msgstr "Id"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1269
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1297
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1360
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1474
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1268
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1296
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1359
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1473
 msgid "Sku"
 msgstr "Sku"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1405
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1404
 msgid "Name"
 msgstr "Ім’я"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1405
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1404
 msgid "Slug"
 msgstr "Слаґ"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1499
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1498
 msgid "SKU"
 msgstr "Артикул"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1501
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1500
 msgid "Price"
 msgstr "Вартість"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1502
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1501
 msgid "Regular Price"
 msgstr "Звичайна ціна"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1503
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1502
 msgid "Sale Price"
 msgstr "Ціна зі знижкою"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1504
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1503
 msgid "Price html"
 msgstr "Ціна html"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1505
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1504
 msgid "Reviews count"
 msgstr "Число відгуків"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1506
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1505
 msgid "Short description"
 msgstr "Короткий опис"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1507
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1506
 msgid "Dimensions"
 msgstr "Розміри"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1508
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1507
 msgid "Rating count"
 msgstr "Рейтинг"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1509
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1508
 msgid "Weight"
 msgstr "Вага"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1510
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1509
 msgid "Is on sale"
 msgstr "Розпродаж"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1511
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1551
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1510
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1550
 msgid "Custom field"
 msgstr "Спеціальне поле"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1540
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1539
 msgid "Order number"
 msgstr "Номер замовлення"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1541
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1540
 msgid "Currency"
 msgstr "Валюта"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1542
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1541
 msgid "Total"
 msgstr "Загалом"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1543
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1542
 msgid "Status"
 msgstr "Стан"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1544
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1543
 msgid "Payment method"
 msgstr "Спосіб оплати"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1545
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1544
 msgid "Billing address city"
 msgstr "Платіжна адреса міста"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1546
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1545
 msgid "Billing address country"
 msgstr "Платіжна адреса країни"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1547
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1546
 msgid "Shipping address city"
 msgstr "Завантажити адресу доставки міста"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1548
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1547
 msgid "Shipping address country"
 msgstr "Завантажити адресу доставки країни"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1549
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1548
 msgid "Customer Note"
 msgstr "Примітка клієнта"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1550
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1549
 msgid "Customer API"
 msgstr "API клієнта"
 
@@ -8605,11 +8523,11 @@ msgstr "Виберіть поле з замовлення."
 msgid "Order custom key"
 msgstr "Користувацький ключ замовлення"
 
-#: include/./helpers/helpers.php:298
+#: include/./helpers/helpers.php:291
 msgid "Added"
 msgstr "Додано"
 
-#: include/./helpers/helpers.php:1230 include/./params/loop/loop.php:364
+#: include/./helpers/helpers.php:1223 include/./params/loop/loop.php:338
 msgid "Taxonomies"
 msgstr "Таксономії"
 
@@ -8617,31 +8535,31 @@ msgstr "Таксономії"
 msgid "Wrong vc_map object. Base attribute is required"
 msgstr "Невірний об'єкт vc_map. Базовий атрибут обов'язковий"
 
-#: include/./helpers/helpers_api.php:547
+#: include/./helpers/helpers_api.php:546
 msgid "CSS Animation"
 msgstr "Анімація CSS"
 
-#: include/./helpers/helpers_api.php:557
+#: include/./helpers/helpers_api.php:556
 msgid "Top to bottom"
 msgstr "Зверху вниз"
 
-#: include/./helpers/helpers_api.php:558
+#: include/./helpers/helpers_api.php:557
 msgid "Bottom to top"
 msgstr "Знизу догори"
 
-#: include/./helpers/helpers_api.php:559
+#: include/./helpers/helpers_api.php:558
 msgid "Left to right"
 msgstr "Зліва направо"
 
-#: include/./helpers/helpers_api.php:560
+#: include/./helpers/helpers_api.php:559
 msgid "Right to left"
 msgstr "Справа наліво"
 
-#: include/./helpers/helpers_api.php:561
+#: include/./helpers/helpers_api.php:560
 msgid "Appear from center"
 msgstr "З'являються з центру"
 
-#: include/./helpers/helpers_api.php:566
+#: include/./helpers/helpers_api.php:565
 msgid ""
 "Select type of animation for element to be animated when it \"enters\" the "
 "browsers viewport (Note: works only in modern browsers)."
@@ -9001,7 +8919,7 @@ msgstr "slideOutRight"
 msgid "slideOutUp"
 msgstr "slideOutUp"
 
-#: include/./params/animation_style/animation_style.php:504
+#: include/./params/animation_style/animation_style.php:499
 msgid "Animate it"
 msgstr "Анімувати"
 
@@ -9200,15 +9118,11 @@ msgstr "Без категорії"
 msgid "Build query"
 msgstr "Створити запит"
 
-#: include/./params/loop/loop.php:356
+#: include/./params/loop/loop.php:331
 msgid "Post count"
 msgstr "Лічильник записів"
 
-#: include/./params/loop/loop.php:360
-msgid "Ignore Sticky posts"
-msgstr ""
-
-#: include/./params/loop/loop.php:365
+#: include/./params/loop/loop.php:339
 msgid "Individual posts/pages"
 msgstr "Окремі повідомлення/сторінки"
 
@@ -9322,57 +9236,47 @@ msgstr "Шаблон у сітку"
 msgid "Custom Grid Templates"
 msgstr "Спеціальні шаблони сітки"
 
-#: include/./params/vc_grid_item/shortcodes.php:10
-#: include/./params/vc_grid_item/shortcodes.php:459
-#: include/./params/vc_grid_item/shortcodes.php:490
+#: include/./params/vc_grid_item/shortcodes.php:11
+#: include/./params/vc_grid_item/shortcodes.php:447
+#: include/./params/vc_grid_item/shortcodes.php:478
 msgid "Add link"
 msgstr "Додати посилання"
 
-#: include/./params/vc_grid_item/shortcodes.php:14
+#: include/./params/vc_grid_item/shortcodes.php:15
 msgid "Post link"
 msgstr "Запис Посилання"
 
-#: include/./params/vc_grid_item/shortcodes.php:15
+#: include/./params/vc_grid_item/shortcodes.php:16
 msgid "Post author"
 msgstr "Автор запису"
 
-#: include/./params/vc_grid_item/shortcodes.php:16
+#: include/./params/vc_grid_item/shortcodes.php:17
 msgid "Large image"
 msgstr "Велике зображення"
 
-#: include/./params/vc_grid_item/shortcodes.php:17
+#: include/./params/vc_grid_item/shortcodes.php:18
 msgid "Large image (prettyPhoto)"
 msgstr "Велике зображення(prettyPhoto)"
 
-#: include/./params/vc_grid_item/shortcodes.php:20
+#: include/./params/vc_grid_item/shortcodes.php:21
 msgid "Select link option."
 msgstr "Виберіть налаштування  посилання."
 
-#: include/./params/vc_grid_item/shortcodes.php:24
-msgid "Open link in a new tab"
-msgstr ""
-
-#: include/./params/vc_grid_item/shortcodes.php:27
-#, fuzzy
-#| msgid "Select link option."
-msgid "Select link target window."
-msgstr "Виберіть налаштування  посилання."
-
-#: include/./params/vc_grid_item/shortcodes.php:44
-#: include/./params/vc_grid_item/shortcodes.php:88
-#: include/./params/vc_grid_item/shortcodes.php:578
-#: include/./params/vc_grid_item/shortcodes.php:918
-#: include/./params/vc_grid_item/shortcodes.php:929
+#: include/./params/vc_grid_item/shortcodes.php:33
+#: include/./params/vc_grid_item/shortcodes.php:76
+#: include/./params/vc_grid_item/shortcodes.php:553
+#: include/./params/vc_grid_item/shortcodes.php:893
+#: include/./params/vc_grid_item/shortcodes.php:904
 msgid "Add custom link."
 msgstr "Додати власне посилання."
 
-#: include/./params/vc_grid_item/shortcodes.php:48
-#: include/./params/vc_grid_item/shortcodes.php:385
+#: include/./params/vc_grid_item/shortcodes.php:37
+#: include/./params/vc_grid_item/shortcodes.php:373
 msgid "Use featured image on background?"
 msgstr "Використати  рекомендоване зображення на фоні?"
 
-#: include/./params/vc_grid_item/shortcodes.php:51
-#: include/./params/vc_grid_item/shortcodes.php:388
+#: include/./params/vc_grid_item/shortcodes.php:40
+#: include/./params/vc_grid_item/shortcodes.php:376
 msgid ""
 "Note: Featured image overwrites background image and color from \"Design "
 "Options\"."
@@ -9380,53 +9284,53 @@ msgstr ""
 "Примітка: Обране зображення перезаписує фонове зображення та колір з "
 "\"Параметрів оформлення\"."
 
-#: include/./params/vc_grid_item/shortcodes.php:117
+#: include/./params/vc_grid_item/shortcodes.php:105
 msgid "Use custom fonts?"
 msgstr "Використовувати власні шрифти?"
 
+#: include/./params/vc_grid_item/shortcodes.php:126
 #: include/./params/vc_grid_item/shortcodes.php:138
-#: include/./params/vc_grid_item/shortcodes.php:150
-#: include/./params/vc_grid_item/shortcodes.php:168
+#: include/./params/vc_grid_item/shortcodes.php:156
 msgid "Custom fonts"
 msgstr "Користувацькі шрифти"
 
-#: include/./params/vc_grid_item/shortcodes.php:146
+#: include/./params/vc_grid_item/shortcodes.php:134
 msgid "Yes theme default font family?"
 msgstr "Так тип сімейства шрифтів за замовчуванням?"
 
-#: include/./params/vc_grid_item/shortcodes.php:149
+#: include/./params/vc_grid_item/shortcodes.php:137
 msgid "Yes font family from the theme."
 msgstr "Так сімейство шрифтів з теми."
 
-#: include/./params/vc_grid_item/shortcodes.php:177
+#: include/./params/vc_grid_item/shortcodes.php:165
 msgid "Grid Item"
 msgstr "Елемент в сітку"
 
-#: include/./params/vc_grid_item/shortcodes.php:184
+#: include/./params/vc_grid_item/shortcodes.php:172
 msgid "Main grid item"
 msgstr "Головний елемент в сітку"
 
-#: include/./params/vc_grid_item/shortcodes.php:203
+#: include/./params/vc_grid_item/shortcodes.php:191
 msgid "A/B block"
 msgstr "A/B блок"
 
-#: include/./params/vc_grid_item/shortcodes.php:228
+#: include/./params/vc_grid_item/shortcodes.php:216
 msgid "Zone"
 msgstr "Зона"
 
-#: include/./params/vc_grid_item/shortcodes.php:242
+#: include/./params/vc_grid_item/shortcodes.php:230
 msgid "Normal"
 msgstr "Звичайний"
 
-#: include/./params/vc_grid_item/shortcodes.php:255
+#: include/./params/vc_grid_item/shortcodes.php:243
 msgid "Height mode"
 msgstr "Режим вистоти"
 
-#: include/./params/vc_grid_item/shortcodes.php:259
+#: include/./params/vc_grid_item/shortcodes.php:247
 msgid "Original"
 msgstr "Оригінал"
 
-#: include/./params/vc_grid_item/shortcodes.php:266
+#: include/./params/vc_grid_item/shortcodes.php:254
 msgid ""
 "Sizing proportions for height and width. Select \"Original\" to scale image "
 "without cropping."
@@ -9434,97 +9338,97 @@ msgstr ""
 "Розмір пропорцій для висоти та ширини. Виберіть \"Оригінал\", щоб "
 "масштабувати зображення без обрізання."
 
-#: include/./params/vc_grid_item/shortcodes.php:276
+#: include/./params/vc_grid_item/shortcodes.php:264
 msgid "Enter custom height."
 msgstr "Введіть користувацьку висоту."
 
-#: include/./params/vc_grid_item/shortcodes.php:282
+#: include/./params/vc_grid_item/shortcodes.php:270
 msgid "Hover"
 msgstr "Наведення"
 
-#: include/./params/vc_grid_item/shortcodes.php:296
+#: include/./params/vc_grid_item/shortcodes.php:284
 msgid "Additional"
 msgstr "Додаткові"
 
-#: include/./params/vc_grid_item/shortcodes.php:418
+#: include/./params/vc_grid_item/shortcodes.php:406
 msgid "Post Title"
 msgstr "Назва запису"
 
-#: include/./params/vc_grid_item/shortcodes.php:421
-#: include/./params/vc_grid_item/shortcodes.php:437
-#: include/./params/vc_grid_item/shortcodes.php:454
-#: include/./params/vc_grid_item/shortcodes.php:485
-#: include/./params/vc_grid_item/shortcodes.php:565
-#: include/./params/vc_grid_item/shortcodes.php:642
+#: include/./params/vc_grid_item/shortcodes.php:409
+#: include/./params/vc_grid_item/shortcodes.php:425
+#: include/./params/vc_grid_item/shortcodes.php:442
+#: include/./params/vc_grid_item/shortcodes.php:473
+#: include/./params/vc_grid_item/shortcodes.php:541
+#: include/./params/vc_grid_item/shortcodes.php:617
 msgid "Post"
 msgstr "Запис"
 
-#: include/./params/vc_grid_item/shortcodes.php:422
+#: include/./params/vc_grid_item/shortcodes.php:410
 msgid "Title of current post"
 msgstr "Назва користувацького запису"
 
-#: include/./params/vc_grid_item/shortcodes.php:434
+#: include/./params/vc_grid_item/shortcodes.php:422
 msgid "Post Excerpt"
 msgstr "Уривок Поста"
 
-#: include/./params/vc_grid_item/shortcodes.php:438
+#: include/./params/vc_grid_item/shortcodes.php:426
 msgid "Excerpt or manual excerpt"
 msgstr "Уривок або виписка з керівництва"
 
-#: include/./params/vc_grid_item/shortcodes.php:450
+#: include/./params/vc_grid_item/shortcodes.php:438
 msgid "Post Author"
 msgstr "Автор публікації"
 
-#: include/./params/vc_grid_item/shortcodes.php:455
+#: include/./params/vc_grid_item/shortcodes.php:443
 msgid "Author of current post"
 msgstr "Автор поточного повідомлення"
 
-#: include/./params/vc_grid_item/shortcodes.php:462
+#: include/./params/vc_grid_item/shortcodes.php:450
 msgid "Add link to author?"
 msgstr "Додати посилання до автора?"
 
-#: include/./params/vc_grid_item/shortcodes.php:481
+#: include/./params/vc_grid_item/shortcodes.php:469
 msgid "Post Categories"
 msgstr "Категорія публікації"
 
-#: include/./params/vc_grid_item/shortcodes.php:486
+#: include/./params/vc_grid_item/shortcodes.php:474
 msgid "Categories of current post"
 msgstr "Категорії поточного повідомлення"
 
-#: include/./params/vc_grid_item/shortcodes.php:493
+#: include/./params/vc_grid_item/shortcodes.php:481
 msgid "Add link to category?"
 msgstr "Додати нову категорію посилань?"
 
-#: include/./params/vc_grid_item/shortcodes.php:513
+#: include/./params/vc_grid_item/shortcodes.php:489
 msgid "Comma"
 msgstr "Кома"
 
-#: include/./params/vc_grid_item/shortcodes.php:520
+#: include/./params/vc_grid_item/shortcodes.php:496
 msgid "Select category display style."
 msgstr "Виберіть стиль відображення категорії."
 
-#: include/./params/vc_grid_item/shortcodes.php:536
+#: include/./params/vc_grid_item/shortcodes.php:512
 msgid "Select category color."
 msgstr "Виберіть колір категорії."
 
-#: include/./params/vc_grid_item/shortcodes.php:540
+#: include/./params/vc_grid_item/shortcodes.php:516
 msgid "Category size"
 msgstr "Розмір категорії"
 
-#: include/./params/vc_grid_item/shortcodes.php:544
+#: include/./params/vc_grid_item/shortcodes.php:520
 msgid "Select category size."
 msgstr "Виберіть розмір категорії."
 
-#: include/./params/vc_grid_item/shortcodes.php:562
+#: include/./params/vc_grid_item/shortcodes.php:538
 msgid "Post Image"
 msgstr "Зображення запису"
 
-#: include/./params/vc_grid_item/shortcodes.php:566
+#: include/./params/vc_grid_item/shortcodes.php:542
 msgid "Featured image"
 msgstr "Рекомендовані зображення"
 
-#: include/./params/vc_grid_item/shortcodes.php:584
-#: include/./params/vc_grid_item/shortcodes.php:792
+#: include/./params/vc_grid_item/shortcodes.php:559
+#: include/./params/vc_grid_item/shortcodes.php:767
 msgid ""
 "Enter image size (Example: \"thumbnail\", \"medium\", \"large\", \"full\" or "
 "other sizes defined by theme). Alternatively enter size in pixels (Example: "
@@ -9536,37 +9440,37 @@ msgstr ""
 "розмір зображення в пікселях : 200x100 ( ширина х висота ) . Залиште "
 "порожнім , щоб використовувати \"thumbnail\" розмір за замовчуванням ."
 
-#: include/./params/vc_grid_item/shortcodes.php:639
+#: include/./params/vc_grid_item/shortcodes.php:614
 msgid "Post Date"
 msgstr "Дата публікації"
 
-#: include/./params/vc_grid_item/shortcodes.php:643
+#: include/./params/vc_grid_item/shortcodes.php:618
 msgid "Post publish date"
 msgstr "Опублікувати дату запису"
 
-#: include/./params/vc_grid_item/shortcodes.php:655
+#: include/./params/vc_grid_item/shortcodes.php:630
 msgid "Custom Field"
 msgstr "Спеціальне поле"
 
-#: include/./params/vc_grid_item/shortcodes.php:659
+#: include/./params/vc_grid_item/shortcodes.php:634
 #: include/./templates/pages/partials/vc-roles-parts/_shortcodes.tpl.php:35
 #: include/./templates/pages/partials/vc-roles-parts/_shortcodes.tpl.php:36
 msgid "Elements"
 msgstr "Елементи"
 
-#: include/./params/vc_grid_item/shortcodes.php:661
+#: include/./params/vc_grid_item/shortcodes.php:636
 msgid "Custom fields data from meta values of the post."
 msgstr "Дані користувацьких полів із мета-значень запису."
 
-#: include/./params/vc_grid_item/shortcodes.php:665
+#: include/./params/vc_grid_item/shortcodes.php:640
 msgid "Field key name"
 msgstr "Поле  ім'я ключа"
 
-#: include/./params/vc_grid_item/shortcodes.php:667
+#: include/./params/vc_grid_item/shortcodes.php:642
 msgid "Enter custom field name to retrieve meta data value."
 msgstr "Введіть ім'я користувацького поля, щоб отримати значення метаданих."
 
-#: include/./params/vc_grid_item/shortcodes.php:683
+#: include/./params/vc_grid_item/shortcodes.php:658
 msgid "Justify"
 msgstr "По ширині"
 
@@ -9751,14 +9655,14 @@ msgstr "Виберіть URL"
 msgid "URL"
 msgstr "Посилання"
 
-#: include/./templates/editors/backend_editor.tpl.php:60
+#: include/./templates/editors/backend_editor.tpl.php:56
 #: include/./templates/editors/vc_ui-template-preview.tpl.php:82
 #: include/./templates/params/vc_grid_item/editor/vc_grid_item_editor.tpl.php:18
 #: include/./templates/params/vc_grid_item/editor/vc_ui-template-preview.tpl.php:84
 msgid "Loading, please wait..."
 msgstr "Завантаження, будь ласка зачекайте..."
 
-#: include/./templates/editors/backend_editor.tpl.php:62
+#: include/./templates/editors/backend_editor.tpl.php:58
 #: include/./templates/editors/vc_ui-template-preview.tpl.php:83
 #: include/./templates/params/vc_grid_item/editor/vc_grid_item_editor.tpl.php:20
 #: include/./templates/params/vc_grid_item/editor/vc_ui-template-preview.tpl.php:85
@@ -9885,41 +9789,41 @@ msgstr "Пошук шаблона за назвою"
 msgid "Element Settings"
 msgstr "Налаштування елемента"
 
-#: include/./templates/editors/partials/vc_welcome_block.tpl.php:17
+#: include/./templates/editors/partials/vc_welcome_block.tpl.php:18
 msgid "You have blank page"
 msgstr ""
 
-#: include/./templates/editors/partials/vc_welcome_block.tpl.php:19
+#: include/./templates/editors/partials/vc_welcome_block.tpl.php:20
 #, fuzzy
 #| msgid "You have blank page <br> Start adding content or templates"
 msgid "Start adding content or templates"
 msgstr "У вас є порожня сторінка <br> Почніть додавати вміст або шаблони"
 
-#: include/./templates/editors/partials/vc_welcome_block.tpl.php:28
-#: include/./templates/editors/partials/vc_welcome_block.tpl.php:59
+#: include/./templates/editors/partials/vc_welcome_block.tpl.php:29
+#: include/./templates/editors/partials/vc_welcome_block.tpl.php:60
 #: include/./templates/editors/popups/vc_ui-panel-add-element.tpl.php:11
 msgid "Add Element"
 msgstr "Додати елемент"
 
-#: include/./templates/editors/partials/vc_welcome_block.tpl.php:31
+#: include/./templates/editors/partials/vc_welcome_block.tpl.php:32
 #: include/./templates/editors/popups/vc_ui-panel-preset.tpl.php:33
 msgid "Add element"
 msgstr "Додати елемент"
 
-#: include/./templates/editors/partials/vc_welcome_block.tpl.php:40
+#: include/./templates/editors/partials/vc_welcome_block.tpl.php:41
 msgid "Add text block"
 msgstr "Додати Текстовий блок"
 
-#: include/./templates/editors/partials/vc_welcome_block.tpl.php:42
+#: include/./templates/editors/partials/vc_welcome_block.tpl.php:43
 msgid "Add Text Block"
 msgstr "Додати текстовий блок"
 
-#: include/./templates/editors/partials/vc_welcome_block.tpl.php:65
+#: include/./templates/editors/partials/vc_welcome_block.tpl.php:66
 #, php-format
 msgid "Don't know where to start? Visit our %s."
 msgstr "Не знаеш звідки почати?Відвідай наш %s."
 
-#: include/./templates/editors/partials/vc_welcome_block.tpl.php:65
+#: include/./templates/editors/partials/vc_welcome_block.tpl.php:66
 msgid "knowledge base"
 msgstr "база знань"
 
@@ -10097,7 +10001,6 @@ msgstr "Відключити класичний редактор"
 #: include/./templates/pages/partials/vc-roles-parts/_frontend_editor.tpl.php:16
 #: include/./templates/pages/partials/vc-roles-parts/_grid_builder.tpl.php:14
 #: include/./templates/pages/partials/vc-roles-parts/_post_settings.tpl.php:11
-#: include/./templates/pages/partials/vc-roles-parts/_unfiltered_html.tpl.php:12
 msgid "Enabled"
 msgstr "Увімкнено"
 
@@ -10114,7 +10017,6 @@ msgstr "Увімкнено і за замовчуванням"
 #: include/./templates/pages/partials/vc-roles-parts/_presets.tpl.php:13
 #: include/./templates/pages/partials/vc-roles-parts/_settings.tpl.php:19
 #: include/./templates/pages/partials/vc-roles-parts/_templates.tpl.php:13
-#: include/./templates/pages/partials/vc-roles-parts/_unfiltered_html.tpl.php:13
 msgid "Disabled"
 msgstr "Вимкнено"
 
@@ -10220,16 +10122,6 @@ msgstr ""
 "Примітка: \"Застосування лише шаблонів\" забороняє користувачам зберігати "
 "нові шаблони та видаляти існуючі."
 
-#: include/./templates/pages/partials/vc-roles-parts/_unfiltered_html.tpl.php:15
-msgid "Unfiltered HTML"
-msgstr ""
-
-#: include/./templates/pages/partials/vc-roles-parts/_unfiltered_html.tpl.php:16
-#, fuzzy
-#| msgid "Welcome to WPBakery Page Builder"
-msgid "Allow to use Custom HTML in WPBakery Page Builder."
-msgstr "Ласкаво просимо до WPBakery Page Builder"
-
 #: include/./templates/pages/vc-settings/default-template-post-type.tpl.php:14
 msgid "Post type"
 msgstr "Тип запису"
@@ -10270,12 +10162,8 @@ msgid "Reset"
 msgstr "Скинути"
 
 #: include/./templates/pages/vc-settings/tab.php:47
-#, fuzzy
-#| msgid ""
-#| "Guide tours are shown in VC editors to help you to start working with "
-#| "editors. You can see them again by clicking button above."
 msgid ""
-"Guide tours are shown in WPBakery editors to help you to start working with "
+"Guide tours are shown in VC editors to help you to start working with "
 "editors. You can see them again by clicking button above."
 msgstr ""
 "Guide tours відображаються в редакторі VC, щоб допомогти вам розпочати "
@@ -10322,11 +10210,15 @@ msgstr ""
 "<strong>бібліотеки шаблонів</strong> і <strong>офіційну підтримку.</strong>"
 
 #: include/./templates/pages/vc-settings/tab.php:119
-#, php-format
+#, fuzzy, php-format
+#| msgid ""
+#| "Don't have direct license yet? <a href=\"%s\" target=\"_blank\">Purchase "
+#| "WPBakery Page Builder license</a>."
 msgid ""
 "Don't have direct license yet? %sPurchase WPBakery Page Builder license%s."
 msgstr ""
-"Ще немає прямої ліцензії? %sПридбайте ліцензію WPBakery Page Builder%s ."
+"Ще немає прямої ліцензії? <a href=\"%s\" target=\"_blank\">Придбайте "
+"ліцензію WPBakery Page Builder</a> ."
 
 #: include/./templates/pages/vc-welcome/index.php:9
 #, php-format
@@ -10352,15 +10244,21 @@ msgid "New to WPBakery Page Builder or Looking for More Information?"
 msgstr "Новинка для WPBakery Page Builder або шукає додаткову інформацію?"
 
 #: include/./templates/pages/vc-welcome/vc-faq.php:9
-#, php-format
+#, fuzzy, php-format
+#| msgid ""
+#| "WPBakery has complete documentation available at our knowledge base: <a "
+#| "target=\"_blank\" href=\"%s\">kb.wpbakery.com</a> which covers everything "
+#| "related to WPBakery Page Builder starting from Installation and up to "
+#| "more advanced features based on our Inner API."
 msgid ""
 "WPBakery has complete documentation available at our knowledge base: %s "
 "which covers everything related to WPBakery Page Builder starting from "
 "Installation and up to more advanced features based on our Inner API."
 msgstr ""
-"WPBakery має повну документацію, доступну на нашій базі знань: %s яка "
-"охоплює все, що пов'язано з WPBakery Page Builder, починаючи з установки і "
-"до більш розширених можливостей на основі Inner API."
+"WPBakery має повну документацію, доступну на нашій базі знань: <a target="
+"\"_blank\" href=\"%s\">kb.wpbakery.com,</a> яка охоплює все, що пов'язано з "
+"WPBakery Page Builder, починаючи з установки і до більш розширених "
+"можливостей на основі Inner API."
 
 #: include/./templates/pages/vc-welcome/vc-faq.php:13
 msgid "Preface"
@@ -10579,7 +10477,14 @@ msgid "Official Support"
 msgstr "Офіційна підтримка"
 
 #: include/./templates/pages/vc-welcome/vc-resources.php:27
-#, php-format
+#, fuzzy, php-format
+#| msgid ""
+#| "To get your support related question answered in the fastest timing, "
+#| "please head over to our <a href=\"%s\" target=\"_blank\">support page</a> "
+#| "and open Support ticket. To open a support ticket you should have a valid "
+#| "support subscription in case if your support has expired you can <a href="
+#| "\"%s\" target=\"_blank\">purchase support extension</a> on support."
+#| "wpbakery.com."
 msgid ""
 "To get your support related question answered in the fastest timing, please "
 "head over to our %ssupport page%s and open Support ticket. To open a support "
@@ -10587,45 +10492,55 @@ msgid ""
 "has expired you can %spurchase support extension%s on support.wpbakery.com."
 msgstr ""
 "Щоб отримати відповідь на відповідь на Вашу підтримку в найкоротші терміни, "
-"будь ласка, перейдіть на нашу %sсторінку підтримки%s та відкрийте квиток "
-"Support. Щоб відкрити квиток на підтримку, ви повинні мати дійсну підписку "
-"на підтримку, якщо термін дії вашої підтримки закінчився, ви можете "
-"%sпридбати розширення підтримки%s на support.wpbakery.com."
+"будь ласка, перейдіть на нашу <a href=\"%s\" target=\"_blank\">сторінку "
+"підтримки</a> та відкрийте квиток Support. Щоб відкрити квиток на підтримку, "
+"ви повинні мати дійсну підписку на підтримку, якщо термін дії вашої "
+"підтримки закінчився, ви можете <a href=\"%s\" target=\"_blank\">придбати "
+"розширення підтримки</a> на support.wpbakery.com."
 
 #: include/./templates/pages/vc-welcome/vc-resources.php:29
-#, php-format
+#, fuzzy, php-format
+#| msgid ""
+#| "Before applying for support please make sure you understand the rules of "
+#| "support and go through all steps described and listed in <a href=\"%s\" "
+#| "target=\"_blank\">Support Policy</a> in order to get your issues solved "
+#| "as soon as possible."
 msgid ""
 "Before applying for support please make sure you understand the rules of "
 "support and go through all steps described and listed in %sSupport Policy%s "
 "in order to get your issues solved as soon as possible."
 msgstr ""
 "Перш ніж подати заявку на підтримку, будь ласка, переконайтеся, що ви "
-"зрозуміли правила підтримки та пройшли всі кроки, описані та вказані в "
-"%sПолітиці підтримки%s, щоб вирішити проблеми  якомога швидше."
+"зрозуміли правила підтримки та пройшли всі кроки, описані та вказані в <a "
+"href=\"%s\" target=\"_blank\"> Політиці підтримки </a>, щоб вирішити "
+"проблеми  якомога швидше."
 
 #: include/./templates/pages/vc-welcome/vc-welcome.php:11
-#, fuzzy
-#| msgid "Activate WPBakery Page Builder"
-msgid "A Hassle-Free WordPress Page Builder"
-msgstr "Активуйте WPBakery Page Builder"
+msgid "WordPress 5.0 Compatible"
+msgstr ""
 
 #: include/./templates/pages/vc-welcome/vc-welcome.php:13
 msgid ""
-"Build complex, content-rich pages in minutes instead of weeks. No "
-"programming knowledge required. Use frontend or backend editor to design "
-"your layouts and manage content."
+"WPBakery Page Builder goes hand in hand with the latest releases of "
+"WordPress. Want to stay up to date with WordPress 5.0? No problem, WPBakery "
+"Page Builder is fully compatible with the latest WordPress version and the "
+"new editor."
 msgstr ""
 
 #: include/./templates/params/column_offset/template.tpl.php:21
-#, php-format
+#, fuzzy, php-format
+#| msgid ""
+#| "Responsive design settings are currently disabled. You can enable them in "
+#| "WPBakery Page Builder <a href=\"%s\">settings page</a> by unchecking "
+#| "\"Disable responsive content elements\"."
 msgid ""
 "Responsive design settings are currently disabled. You can enable them in "
 "WPBakery Page Builder %ssettings page%s by unchecking \"Disable responsive "
 "content elements\"."
 msgstr ""
 "Відповідні налаштування дизайну наразі вимкнено. Їх можна ввімкнути на "
-"сторінці %sналаштувань%s WPBakery Page Builder, знявши прапорець \"Вимкнути "
-"відповідні елементи вмісту\"."
+"сторінці <a href=\"%s\">налаштувань</a> WPBakery Page Builder, знявши "
+"прапорець \"Вимкнути відповідні елементи вмісту\"."
 
 #: include/./templates/params/column_offset/template.tpl.php:31
 msgid "Device"
@@ -10651,7 +10566,7 @@ msgstr "Перегляд шрифтів Google"
 msgid "Grumpy wizards make toxic brew for the evil Queen and Jack."
 msgstr "Жахливі чарівники роблять токсичну чавуну для злої королеви та Джека."
 
-#: include/./templates/params/vc_grid_item/attributes/post_categories.php:38
+#: include/./templates/params/vc_grid_item/attributes/post_categories.php:28
 #, php-format
 msgid "View all posts in %s"
 msgstr "Переглянути всі публікації в %s"
@@ -10665,10 +10580,6 @@ msgstr "Посилання до %s"
 #: include/./templates/shortcodes/vc_accordion_tab.php:26
 msgid "Empty section. Edit page to add content here."
 msgstr "Порожній розділ. Редагуйте сторінку, щоб додати контент тут."
-
-#: include/./templates/shortcodes/vc_flickr.php:68
-msgid "View stream on flickr"
-msgstr "Подивитись стрім на  flickr"
 
 #: include/./templates/shortcodes/vc_item.php:19
 msgid "Item"
@@ -10698,12 +10609,6 @@ msgstr "Твіт до"
 #: include/./templates/shortcodes/vc_tweetmeme.php:33
 msgid "Tweet"
 msgstr "Твітнути"
-
-#~ msgid "Select bar background color."
-#~ msgstr "Виберіть колір фону бару."
-
-#~ msgid "Open prettyPhoto"
-#~ msgstr "Відкрити prettyPhoto"
 
 #~ msgid ""
 #~ "Enter row ID (Note: make sure it is unique and valid according to <a href="

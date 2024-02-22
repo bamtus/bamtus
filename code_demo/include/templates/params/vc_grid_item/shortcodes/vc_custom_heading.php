@@ -5,7 +5,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /**
  * @var WPBakeryShortCode_Vc_Custom_heading $this
- * @var $atts
  */
 
 extract( $this->getAttributes( $atts ) );
@@ -31,10 +30,6 @@ if ( ! empty( $styles ) ) {
 	$style = 'style="' . esc_attr( implode( ';', $styles ) ) . '"';
 } else {
 	$style = '';
-}
-
-if ( 'post_title' === $atts['source'] ) {
-	$text = get_the_title( get_the_ID() );
 }
 
 $output = '';

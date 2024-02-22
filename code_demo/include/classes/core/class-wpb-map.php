@@ -206,7 +206,7 @@ class WPBMap {
 	 * Lazy method to map shortcode to VC.
 	 *
 	 * This method maps shortcode to VC.
-	 * You can map shortcode settings as you do in self::map method. But also you
+	 * You can shortcode settings as you do in self::map method. Bu also you
 	 * can pass function name or file, which will be used to add settings for
 	 * element. But this will be done only when element data is really required.
 	 *
@@ -712,7 +712,7 @@ class WPBMap {
 			) );
 		}
 		unset( self::$sc[ $name ] );
-		wpbakery()->removeShortCode( $name );
+		visual_composer()->removeShortCode( $name );
 
 		return true;
 	}
@@ -735,7 +735,7 @@ class WPBMap {
 			return false;
 		}
 		foreach ( self::$sc as $name => $data ) {
-			wpbakery()->removeShortCode( $name );
+			visual_composer()->removeShortCode( $name );
 		}
 		self::$sc = array();
 		self::$user_sc = false;
@@ -793,7 +793,7 @@ class WPBMap {
 				$value = array_merge( $value );
 			}
 			self::$sc[ $name ][ $setting_name ] = $value;
-			wpbakery()->updateShortcodeSetting( $name, $setting_name, $value );
+			visual_composer()->updateShortcodeSetting( $name, $setting_name, $value );
 		}
 
 		return self::$sc;
@@ -921,7 +921,6 @@ class WPBMap {
 		} elseif ( isset( $settings['__vc_settings_file'] ) ) {
 			self::$sc[ $tag ] = include $settings['__vc_settings_file'];
 		}
-		self::$sc[ $tag ] = apply_filters( 'vc_element_settings_filter', self::$sc[ $tag ], $tag );
 		self::$sc[ $tag ]['base'] = $tag;
 		self::$init_elements[ $tag ] = true;
 		vc_mapper()->callElementActivities( $tag );

@@ -12,7 +12,6 @@ class WPBakeryShortCode_Vc_Tabs extends WPBakeryShortCode {
 	protected $controls_list = array(
 		'edit',
 		'clone',
-		'copy',
 		'delete',
 	);
 

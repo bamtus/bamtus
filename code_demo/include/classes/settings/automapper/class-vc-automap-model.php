@@ -10,7 +10,6 @@ if ( ! class_exists( 'Vc_Automap_Model' ) ) {
 	 * @see Vc_Automapper
 	 * @since 4.1
 	 */
-	#[\AllowDynamicProperties]
 	class Vc_Automap_Model {
 		/**
 		 * @var string
@@ -163,7 +162,7 @@ if ( ! class_exists( 'Vc_Automap_Model' ) ) {
 		protected function deleteOption() {
 			unset( self::$option_data[ $this->id ] );
 
-			return update_option( self::$option_name, self::$option_data );
+			return delete_option( self::$option_name );
 		}
 	}
 }

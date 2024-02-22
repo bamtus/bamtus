@@ -38,7 +38,7 @@ class Vc_Updating_Manager {
 	 * Link to download VC.
 	 * @var string
 	 */
-	protected $url = 'https://go.wpbakery.com/wpb-buy';
+	protected $url = 'http://go.wpbakery.com/wpb-buy';
 
 	/**
 	 * Initialize a new instance of the WordPress Auto-Update class
@@ -96,7 +96,7 @@ class Vc_Updating_Manager {
 			$obj->plugin = $this->plugin_slug;
 			$obj->url = '';
 			$obj->package = vc_license()->isActivated();
-			$obj->name = 'WPBakery Page Builder';
+			$obj->name = vc_updater()->title;
 			$transient->response[ $this->plugin_slug ] = $obj;
 		}
 
@@ -125,7 +125,7 @@ class Vc_Updating_Manager {
 				'</div><div>',
 				'</div><div>',
 			);
-			$information->name = 'WPBakery Page Builder';
+			$information->name = vc_updater()->title;
 			$information->sections = (array) $information->sections;
 			$information->sections['changelog'] = '<div>' . preg_replace( $array_pattern, $array_replace, $information->sections['changelog'] ) . '</div>';
 
@@ -201,7 +201,7 @@ class Vc_Updating_Manager {
 		if ( ! $is_activated ) {
 			$url = vc_updater()->getUpdaterUrl();
 
-			echo sprintf( ' ' . esc_html__( 'To receive automatic updates license activation is required. Please visit %1$ssettings%2$s to activate your WPBakery Page Builder.', 'js_composer' ), '<a href="' . esc_url( $url ) . '" target="_blank">', '</a>' ) . sprintf( ' <a href="https://go.wpbakery.com/faq-update-in-theme" target="_blank">%s</a>', esc_html__( 'Got WPBakery Page Builder in theme?', 'js_composer' ) );
+			echo sprintf( ' ' . esc_html__( 'To receive automatic updates license activation is required. Please visit %ssettings%s to activate your WPBakery Page Builder.', 'js_composer' ), '<a href="' . esc_url( $url ) . '" target="_blank">', '</a>' ) . sprintf( ' <a href="https://go.wpbakery.com/faq-update-in-theme" target="_blank">%s</a>', esc_html__( 'Got WPBakery Page Builder in theme?', 'js_composer' ) );
 		}
 	}
 }

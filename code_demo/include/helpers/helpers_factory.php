@@ -24,19 +24,8 @@ if ( ! function_exists( 'visual_composer' ) ) {
 	 * WPBakery Page Builder instance.
 	 * @return Vc_Base
 	 * @since 4.2
-	 * @depreacted 5.8, use wpbakery() instead
 	 */
 	function visual_composer() {
-		return wpbakery();
-	}
-}
-if ( ! function_exists( 'wpbakery' ) ) {
-	/**
-	 * WPBakery Page Builder instance.
-	 * @return Vc_Base
-	 * @since 6.8
-	 */
-	function wpbakery() {
 		return vc_manager()->vc();
 	}
 }
@@ -184,7 +173,6 @@ if ( ! function_exists( 'vc_post_param' ) ) {
 			check_ajax_referer();
 		}
 
-        // phpcs:ignore
 		return isset( $_POST[ $param ] ) ? $_POST[ $param ] : $default;
 	}
 }
@@ -218,7 +206,7 @@ if ( ! function_exists( 'vc_request_param' ) ) {
 	 * @param $default
 	 *
 	 * @param bool $check
-	 * @return mixed - null for undefined param.
+	 * @return null|string - null for undefined param.
 	 * @since 4.4
 	 */
 	function vc_request_param( $param, $default = null, $check = false ) {
@@ -248,26 +236,6 @@ if ( ! function_exists( 'vc_is_page_editable' ) ) {
 	 */
 	function vc_is_page_editable() {
 		return 'page_editable' === vc_mode();
-	}
-}
-if ( ! function_exists( 'vc_is_gutenberg_editor' ) ) {
-	/**
-	 * Check if current screen is Gutenberg editor screen.
-	 *
-	 * @return bool
-	 * @since 7.0
-	 */
-	function vc_is_gutenberg_editor() {
-		if ( ! function_exists( 'get_current_screen' ) ) {
-			return false;
-		}
-
-		$current_screen = get_current_screen();
-		if ( ! method_exists( $current_screen, 'is_block_editor' ) ) {
-			return false;
-		}
-
-		return get_current_screen()->is_block_editor();
 	}
 }
 if ( ! function_exists( 'vc_action' ) ) {
@@ -329,15 +297,7 @@ function vc_value_from_safe( $value, $encode = false ) {
 		$value = htmlentities( $value, ENT_COMPAT, 'UTF-8' );
 	}
 
-	return str_replace( [
-		'`{`',
-		'`}`',
-		'``',
-	], [
-		'[',
-		']',
-		'"',
-	], $value );
+	return $value;
 }
 
 /**
@@ -518,7 +478,7 @@ function vc_user_roles_get_all() {
 	foreach ( $vc_roles->getParts() as $part ) {
 		$partObj = vc_user_access()->part( $part );
 		$capabilities[ $part ] = array(
-			'state' => ( is_multisite() && is_super_admin() ) ? true : $partObj->getState(),
+			'state' => $partObj->getState(),
 			'state_key' => $partObj->getStateKey(),
 			'capabilities' => $partObj->getAllCaps(),
 		);
@@ -599,22 +559,14 @@ function vc_check_post_type( $type = '' ) {
 		if ( is_multisite() && is_super_admin() ) {
 			return true;
 		}
-		$currentUser = wp_get_current_user();
-		$allCaps = $currentUser->get_role_caps();
-		$capKey = vc_user_access()->part( 'post_types' )->getStateKey();
-		$state = null;
-		if ( array_key_exists( $capKey, $allCaps ) ) {
-			$state = $allCaps[ $capKey ];
-		}
-		if ( false === $state ) {
-			return false;
-		}
-
+		$state = vc_user_access()->part( 'post_types' )->getState();
 		if ( null === $state ) {
 			return in_array( $type, vc_default_editor_post_types(), true );
+		} elseif ( true === $state && ! in_array( $type, vc_default_editor_post_types(), true ) ) {
+			$valid = false;
+		} else {
+			$valid = vc_user_access()->part( 'post_types' )->can( $type )->get();
 		}
-
-		return in_array( $type, vc_editor_post_types(), true );
 	}
 
 	return $valid;
@@ -626,9 +578,7 @@ function vc_check_post_type( $type = '' ) {
  */
 function vc_user_access_check_shortcode_edit( $shortcode ) {
 	$do_check = apply_filters( 'vc_user_access_check-shortcode_edit', null, $shortcode );
-	if ( is_multisite() && is_super_admin() ) {
-		return true;
-	}
+
 	if ( is_null( $do_check ) ) {
 		$state_check = vc_user_access()->part( 'shortcodes' )->checkStateAny( true, 'edit', null )->get();
 		if ( $state_check ) {
@@ -648,9 +598,7 @@ function vc_user_access_check_shortcode_edit( $shortcode ) {
  */
 function vc_user_access_check_shortcode_all( $shortcode ) {
 	$do_check = apply_filters( 'vc_user_access_check-shortcode_all', null, $shortcode );
-	if ( is_multisite() && is_super_admin() ) {
-		return true;
-	}
+
 	if ( is_null( $do_check ) ) {
 		return vc_user_access()->part( 'shortcodes' )->checkStateAny( true, 'custom', null )->can( $shortcode . '_all' )->get();
 	} else {
@@ -692,23 +640,4 @@ function vc_str_remove_protocol( $str ) {
 		'https://',
 		'http://',
 	), '//', $str );
-}
-
-if ( ! function_exists( 'wpb_get_current_theme_slug' ) ) {
-	/**
-	 * Get current theme slug (actually the directory name)
-	 *
-	 * When child theme is in use will return the parent's slug.
-	 *
-	 * @return string
-	 */
-	function wpb_get_current_theme_slug() {
-		$theme  = wp_get_theme();
-		$parent = $theme->parent();
-		if ( $parent instanceof WP_Theme ) {
-			return $parent->get_stylesheet();
-		}
-
-		return $theme->get_stylesheet();
-	}
 }

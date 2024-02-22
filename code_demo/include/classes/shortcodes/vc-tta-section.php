@@ -14,8 +14,6 @@ class WPBakeryShortCode_Vc_Tta_Section extends WPBakeryShortCode_Vc_Tta_Accordio
 		'add',
 		'edit',
 		'clone',
-		'copy',
-		'paste',
 		'delete',
 	);
 	protected $backened_editor_prepend_controls = false;
@@ -180,9 +178,7 @@ class WPBakeryShortCode_Vc_Tta_Section extends WPBakeryShortCode_Vc_Tta_Accordio
 		if ( is_object( self::$tta_base_shortcode ) ) {
 			if ( isset( self::$tta_base_shortcode->atts['c_icon'] ) && strlen( self::$tta_base_shortcode->atts['c_icon'] ) > 0 && isset( self::$tta_base_shortcode->atts['c_position'] ) && strlen( self::$tta_base_shortcode->atts['c_position'] ) > 0 ) {
 				$c_position = self::$tta_base_shortcode->atts['c_position'];
-				if ( 'default' === $c_position ) {
-					$c_position = is_rtl() ? 'right' : 'left';
-				}
+
 				return 'vc_tta-controls-icon-position-' . $c_position;
 			}
 		}
@@ -215,25 +211,21 @@ class WPBakeryShortCode_Vc_Tta_Section extends WPBakeryShortCode_Vc_Tta_Accordio
 	public function getParamHeading( $atts, $content ) {
 		$isPageEditable = vc_is_page_editable();
 
-		$headingAttributes = array();
-		$headingClasses = array(
+		$h4attributes = array();
+		$h4classes = array(
 			'vc_tta-panel-title',
 		);
 		if ( $isPageEditable ) {
-			$headingAttributes[] = 'data-vc-tta-controls-icon-position=""';
+			$h4attributes[] = 'data-vc-tta-controls-icon-position=""';
 		} else {
 			$controlIconPosition = $this->getTemplateVariable( 'control-icon-position' );
 			if ( $controlIconPosition ) {
-				$headingClasses[] = $controlIconPosition;
+				$h4classes[] = $controlIconPosition;
 			}
 		}
-		$headingAttributes[] = 'class="' . implode( ' ', $headingClasses ) . '"';
-		$headingTag = apply_filters( 'vc_tta_section_param_heading_tag', 'h4', $atts );
-		if ( ! empty( self::$tta_base_shortcode->atts['section_title_tag'] ) ) {
-			$headingTag = self::$tta_base_shortcode->atts['section_title_tag'];
-		}
+		$h4attributes[] = 'class="' . implode( ' ', $h4classes ) . '"';
 
-		$output = '<' . $headingTag . ' ' . implode( ' ', $headingAttributes ) . '>';
+		$output = '<h4 ' . implode( ' ', $h4attributes ) . '>'; // close h4
 
 		if ( $isPageEditable ) {
 			$output .= '<a href="javascript:;" data-vc-target=""';
@@ -246,15 +238,15 @@ class WPBakeryShortCode_Vc_Tta_Section extends WPBakeryShortCode_Vc_Tta_Accordio
 		$output .= ' data-vc-accordion';
 
 		$output .= ' data-vc-container=".vc_tta-container">';
-		$output .= empty( $atts['i_position'] ) ? '' : $this->getTemplateVariable( 'icon-left' );
-		$output .= '<span class="vc_tta-title-text">' . wp_kses_post( $this->getTemplateVariable( 'title' ) ) . '</span>';
-		$output .= empty( $atts['i_position'] ) ? '' : $this->getTemplateVariable( 'icon-right' );
+		$output .= $this->getTemplateVariable( 'icon-left' );
+		$output .= '<span class="vc_tta-title-text">' . $this->getTemplateVariable( 'title' ) . '</span>';
+		$output .= $this->getTemplateVariable( 'icon-right' );
 		if ( ! $isPageEditable ) {
 			$output .= $this->getTemplateVariable( 'control-icon' );
 		}
 
 		$output .= '</a>';
-		$output .= '</' . $headingTag . '>'; // close heading tag
+		$output .= '</h4>'; // close h4 fix #2229
 
 		return $output;
 	}
